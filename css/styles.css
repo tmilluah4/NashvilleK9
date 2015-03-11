@@ -66,6 +66,29 @@ body{
 .mainText{
 	background: #fff;
 }
+.hover-text{
+	border-radius: 3px 0px;
+	background:rgba(97,116,23,1);
+	margin-bottom:-10px; 
+	height:30px;
+	width:200px;
+	padding:10px;
+	margin-left:25px; 
+	color: white;
+	position:relative; 
+	z-index:9999999;
+}
+.hover-text-lower{
+background:red;
+	margin-top:5px;
+	margin-bottom:-44px; 
+	height:20px;
+	width:200px;
+	margin-left:20px; 
+	color: white;
+	position:relative; 
+	z-index:9999999;
+}
 .navbar-default .navbar-nav li:hover{
 	background: rgb(176,212,227);
 	background: -moz-linear-gradient(top,  rgba(176,212,227,1) 0%, rgba(184,168,79,1) 1%, rgba(168,151,58,1) 68%, rgba(168,151,58,1) 100%);

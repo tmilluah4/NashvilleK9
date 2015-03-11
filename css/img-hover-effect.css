@@ -5,7 +5,10 @@
     margin: 10px;
     float: left;
 	border-radius:0px 0px;
-    border:1px solid rgba(97,116,23,1);
+    border-top:2px solid rgba(97,116,23,1);
+	 border-left:2px solid rgba(97,116,23,1);
+	  border-right:2px solid rgba(97,116,23,1);
+	   border-bottom:2px solid rgba(97,116,23,1);
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -219,9 +222,7 @@
 
 
 
-.view-first .training {  
-	position:absolute;
-	margin-top:9px;
+.view-first .training {   
 	margin-left:21px;
 	z-index:9999;
 	color:white; 
