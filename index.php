@@ -12,7 +12,7 @@
 </head>
 <body>
 	 	
-    <?php include('header.html');?> 	
+    <?php include('partials/header.html');?> 	
      
     <div class="main">
         <div class="container">
@@ -33,8 +33,8 @@
         </div>
     </div>	
 	
-	<?php include('lower-main.html');?> 	
-	<?php include('footer.html');?> 	
+	<?php include('partials/lower-main.html');?> 	
+	<?php include('partials/footer.html');?> 	
    
 </body>
 </html>
