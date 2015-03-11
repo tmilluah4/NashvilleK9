@@ -1,0 +1,126 @@
+body{
+   background: url("../images/bkg-german-shepherd.jpg") bottom left no-repeat;	 
+   background-attachment:fixed; 
+   font-family: 'Open Sans', sans-serif;
+} 
+.navbar-default .navbar-brand .logo{
+	margin-left: 15px;
+}
+.navbar-fixed-bottom{
+	padding-top:10px;
+	background:#333; 
+	color:#fff; 
+	height:10px;
+}
+.navbar-fixed-bottom a{
+	color:#fff;  
+} 
+.navbar-fixed-bottom a:hover{
+	color:red;  
+}
+.footlink div{ 
+	height:20px;
+	padding: 5px 10px;
+	width:100%;
+}
+.main{
+    margin-top:50px;
+    background-color: none;
+}
+.lower-main{
+    margin-top:50px;
+	background-color: none;
+}
+.navbar-default {
+	background-color: none;
+	border-color: #fff;
+}
+.padTop{
+	background-color: none;
+    padding-top:40px;
+}
+.social{
+	float: right !important;
+	position:relative;
+	background-color: none;
+}
+.greenNavBar{
+	background: rgb(30,87,153);
+	background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(108,126,35,1) 2%, rgba(99,114,21,1) 51%, rgba(83,104,0,1) 99%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(2%,rgba(108,126,35,1)), color-stop(51%,rgba(99,114,21,1)), color-stop(99%,rgba(83,104,0,1)));
+	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(108,126,35,1) 2%,rgba(99,114,21,1) 51%,rgba(83,104,0,1) 99%); 
+	background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(108,126,35,1) 2%,rgba(99,114,21,1) 51%,rgba(83,104,0,1) 99%);
+	background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(108,126,35,1) 2%,rgba(99,114,21,1) 51%,rgba(83,104,0,1) 99%); 
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(108,126,35,1) 2%,rgba(99,114,21,1) 51%,rgba(83,104,0,1) 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#536800',GradientType=0 );
+	border-radius:2px 2px;
+	margin-top:-60px;
+}
+.navbar-default .navbar-nav li   {
+    border-right: 1px solid gray;
+}
+.navbar-default .navbar-nav li a {
+    color: white;
+    font-weight:bold;
+}
+.mainText{
+	background: #fff;
+}
+.navbar-default .navbar-nav li:hover{
+	background: rgb(176,212,227);
+	background: -moz-linear-gradient(top,  rgba(176,212,227,1) 0%, rgba(184,168,79,1) 1%, rgba(168,151,58,1) 68%, rgba(168,151,58,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(176,212,227,1)), color-stop(1%,rgba(184,168,79,1)), color-stop(68%,rgba(168,151,58,1)), color-stop(100%,rgba(168,151,58,1)));
+	background: -webkit-linear-gradient(top,  rgba(176,212,227,1) 0%,rgba(184,168,79,1) 1%,rgba(168,151,58,1) 68%,rgba(168,151,58,1) 100%);
+	background: -o-linear-gradient(top,  rgba(176,212,227,1) 0%,rgba(184,168,79,1) 1%,rgba(168,151,58,1) 68%,rgba(168,151,58,1) 100%); 
+	background: -ms-linear-gradient(top,  rgba(176,212,227,1) 0%,rgba(184,168,79,1) 1%,rgba(168,151,58,1) 68%,rgba(168,151,58,1) 100%); 
+	background: linear-gradient(to bottom,  rgba(176,212,227,1) 0%,rgba(184,168,79,1) 1%,rgba(168,151,58,1) 68%,rgba(168,151,58,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#a8973a',GradientType=0 ); 
+	border-radius:2px 2px;
+}
+.navbar-default .navbar-nav li a:hover { 
+	color: white;
+}  
+.tagline{
+	 font-weight:bold;
+	 font-size:16px;
+	 margin-left:0px;
+ }
+.logo{
+    background-image: url("../images/logo.png");		  
+	background-repeat: no-repeat;  
+	height: 122px;
+	width: 200px;
+	margin-right:-23px;
+}
+.round-corner{
+	 border-radius:0px 0px;
+	
+}
+.bg-success green{
+    padding:10px;
+    background: #6C7E23;
+    color:white; 
+} 
+.bg-success white{
+    padding:10px;
+    background: #fff; 
+}
+.facebook-iframe { 
+	 background:white;
+} 
+.video-box {
+	width: 573px;
+	height: 334px;
+	opacity: 0;
+	border-radius:5px 5px;
+	-moz-opacity: 0.50;
+	filter: alpha(opacity=40);
+	background: white;
+ }
+.video {
+	margin-top: -325px;
+	margin-left: -10px;
+	position: relative;
+	z-index: 900;
+	border-radius:5px 5px;
+}
