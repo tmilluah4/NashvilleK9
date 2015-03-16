@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <title>Nashville K-9</title>
-    <meta name="viewport" http-equiv="Content-Type" content="width=device-width, intitial-scale=1.0" />
-    <meta name="format-detection" content="telephone=no" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/overrides.css" rel="stylesheet">
-	<link href="/css/custom.css" rel="stylesheet"> 
-	<link href="/css/img-hover-effect.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
- 
-	 
+     <?php include('../partials/head.html');?> 	  
 </head>
 <body>  
     <?php include('../partials/header.html');?> 	
@@ -28,7 +19,7 @@
 						<div class="list-group">
 						  <a href="overview.php" class="list-group-item"> K-9 OVERVIEW </a> 
 						  <a href="meet-the-team.php" class="list-group-item">MEET THE TEAM</a>
-						  <a href="company-facts.php" class="list-group-item active"><img src="/images/dog-footer.png" style="padding-right:10px"/>COMPANY FACTS </a>
+						  <a href="company-facts.php" class="list-group-item active"><img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px"/>COMPANY FACTS </a>
 						  <a href="facility.php" class="list-group-item"> FACILITY</a>
 						  <a href="testimonials.php" class="list-group-item">TESTIMONIALS </a>
 						  <a href="press.php" class="list-group-item ">PRESS </a>
@@ -47,7 +38,7 @@
 					        the U.S. Insist on a REAL Professional. What has your dog trainer done?
 					    </p>
 
-					    <div class="title">Our Biography:  </div>
+					   	<span class="title">Our Biography </span> 
 					         <ul class="overview-list-items">
 					            <li><span class="text">Davidson County Rescue Squad K-9 Unit, K-9 Unit Director</li>
 					            <li><span class="text">Overton County Rescue Squad K-9 Unit, K-9 Unit Director</li>

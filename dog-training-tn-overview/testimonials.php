@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <title>Nashville K-9</title>
-    <meta name="viewport" http-equiv="Content-Type" content="width=device-width, intitial-scale=1.0" />
-    <meta name="format-detection" content="telephone=no" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/overrides.css" rel="stylesheet">
-	<link href="/css/custom.css" rel="stylesheet"> 
-	<link href="/css/img-hover-effect.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
- 
-	 
+     <?php include('../partials/head.html');?> 	  	  
 </head>
 <body>  
     <?php include('../partials/header.html');?> 	
@@ -30,7 +21,7 @@
 						  <a href="meet-the-team.php" class="list-group-item">MEET THE TEAM</a>
 						  <a href="company-facts.php" class="list-group-item">COMPANY FACTS </a>
 						  <a href="facility.php" class="list-group-item">FACILITY</a>
-						  <a href="testimonials.php" class="list-group-item active"><img src="/images/dog-footer.png" style="padding-right:10px"/>TESTIMONIALS </a>
+						  <a href="testimonials.php" class="list-group-item active"><img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px"/>TESTIMONIALS </a>
 						  <a href="press.php" class="list-group-item">PRESS </a>
 						  <a href="partners.php" class="list-group-item">PARTNERS </a> 
 						</div>
@@ -41,10 +32,10 @@
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
 				<div class="col-md-7"    > 
-				  <h3 >Testimonials</h3>
+				  <h3  class="red">Testimonials</h3>
 					    <div class="right-testimonials">
 					      <div class="image-wrap-right">
-					        <img  src="/images/dog_training_overview/testimonials/Erica-Protection-Dogs.jpg"/>
+					        <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Erica-Protection-Dogs.jpg"/>
 					      </div>
 
 					      <p>
@@ -62,7 +53,7 @@
 
 					    <div class="right-testimonials">
 					      <div class="image-wrap-right">
-					        <img  src="/images/dog_training_overview/testimonials/Jess-Search-and-Rescue.jpg"/>
+					        <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Jess-Search-and-Rescue.jpg"/>
 					      </div>
 
 					      <p>
@@ -81,7 +72,7 @@
 
 					    <div class="right-testimonials">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Jackie-Protection-Dogs.png"/>
+					       <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Jackie-Protection-Dogs.png"/>
 					      </div>
 
 					      <p>

@@ -1,152 +1,59 @@
-.padTop{
-background-color: none;
-padding-top:40px;
-}
-.social-icons {
-	margin-right:-60px;
-	 float:right;
-}
-.overview-list-items{
-	 list-style-type:square; line-height:1.8em
-}
-.social-icons img{ 
-	border:1px solid #ddd;
-	border-radius:2px;
-	width:32px;
-}
-.meet-the-team-head{
-	 font-weight:bold;  margin-bottom:20px;  margin-left:-20px; margin-top:20px;
-}
-.watch-video-box{
-	color:#586B07;background:#eee; border:1px solid #ddd;margin-bottom:10px;padding:10px; width: 120px;margin-top:10px;
-}
-.watch-video-play{
-	 margin-bottom:10px;padding:10px; width: 120px;margin-top:10px;
-}
-.mask-left {
-margin-bottom:-52px; 
-margin-left:-19px; 
-height: 48px
-}
-.mask-right {
-margin-top:-48px;
-float:right;
-margin-right:-19px;  
-height: 48px
-}
-.foot{
-	border-top:1px solid #ddd;
- 
-padding:20px 0px;
-}
-.mainText{
-background: #fff; 
-}
-.footlink a:hover { 
-color:rgb(90,108,9);
-font-weight: bold;
-}
-.title { font-weight:bold;
-}
-.footlink   a{  
-color: #586B07;
-}
-.right-testimonials {
-height:200px;
-display:block;
-}
-h3 {
- margin-top:-5px; margin-bottom:10px
-}
-.right-meet-the-team{
-	margin-top:-20px;
-}
- 
-.image-wrap-right {
-	 padding-left:20px;  padding-top:20px;  
-}
-.image-wrap-right img{
-display:block; float:right;  margin-left:20px; 	border-radius:3px 3px;
-}
-.image-wrap-left {
-	 padding-right:20px; padding-top:20px;
-}
-.image-wrap-left img{
-display:block; float:left;   margin-right:20px;    	border-radius:5px 5px;
-} 
-.image-random img{
-	 float:left; width:370px;   	border-radius:3px 3px;
-}
-.lower-main{
- margin-top:60px;
-background-color: none;
-}
-.facebook-background{
-margin-top:-20px;
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(225,225,225,1) 4%, rgba(211,214,167,1) 5%, rgba(246,246,246,1) 100%); /* FF3.6+ */
-}
-.facebook-header{
-border-radius: 3px 3px 0px 0px; 
-margin-bottom:5px; 
-height:30px;
-width:350px;
-padding:4px 10px 5px 20px; 
-margin-left:10px; 
-position:relative; 
-z-index:9999999;
-}  
-.facebook-header img{
-padding-right: 10px;
-margin-bottom:-5px;
-}
-.tagline{
-font-weight:bold;
-font-size:13px;
-margin-left:-15px;
-}
-.logo{
- background-image: url("../images/logo.png");		  
-background-repeat: no-repeat;
-background-color:none;  
-margin:-40px 0px;
-height: 200px;
-width: 200px;
-margin-left:23px;
-} 
 
-/* contact */
+body{ background: url("../images/bkg-german-shepherd.jpg") bottom left no-repeat;  background-attachment:fixed;  font-family: 'Open Sans', sans-serif;} 
+h3 {margin-top:-5px; margin-bottom:10px}
+.red { color:#5c563f}
+.padTop{background-color: none;padding-top:40px;} 
+.mainText{background: #fff; }
 
+.logo{ background-image: url("../images/logo.png"); background-repeat: no-repeat;background-color:none;  margin:-40px 0px;height: 200px;width: 200px;margin-left:23px;} 
+.tagline{font-weight:bold;font-size:13px;margin-left:-15px;}
+.social-icons {	margin-right:-60px;	float:right;}
+.social-icons img{ border:1px solid #ddd;border-radius:2px;	width:32px;}
+.contact-info a{ }
+.contact-info {	border:0px;margin-top:-13px;background:white;opacity:1;position:relative;border-radius: 2px 2px;	padding: 10px 20px 10px 10px;	text-decoration:none !important;	line-height: 1.6em;}
+.contact-column {	background:#000;	opacity:1;}
+.left-glyph span{	margin-left:-6px;}
+.left-glyph { 	border-radius:4px;	color:#586B07;		margin-left:15px;margin-right:-7px;margin-bottom:-1px;}
+.left-contact{   background:#fff;border-right:0px solid #ddd;   text-align:right;  }
+.right-contact{}
 
-.contact-info a{ 
-}
-.contact-info {
-	border:0px solid #ddd;
-margin-top:-13px;  
-background:white;
-opacity:1; 
-position:relative;
-border-radius: 2px 2px;
-padding: 10px 20px 10px 10px;
-text-decoration:none !important;
-line-height: 1.6em;
-}
-.contact-column {
-background:#000;
-opacity:1;
-}
-.left-glyph span{
-	margin-left:-6px;
-}
-.left-glyph {
+.mainNavBar li a{margin-top:-5px; font-size:15px;}
+.mainNavBar li:hover{background: #A0A0A0;}
+.mainNavBar li {color: #fff;background: #5c563f; border:1px solid #ddd;  height:40px;border-radius:3px 3px;margin-right:2px;}
+.mainNavBar{margin-top:-30px;color: #fff;}
  
-	border-radius:4px;
-	color:#586B07;
-	
-	margin-left:15px;margin-right:-7px;margin-bottom:-1px;
-}
-.left-contact{
-     background:#fff;border-right:0px solid #ddd;   text-align:right;  
-}
-.right-contact{
-   
-}
+
+.lower-main{ margin-top:60px;background-color: none;}
+.facebook-background{margin-top:-20px;background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(225,225,225,1) 4%, rgba(211,214,167,1) 5%, rgba(246,246,246,1) 100%); }
+.facebook-header{border-radius: 3px 3px 0px 0px; margin-bottom:5px; height:30px;width:350px;padding:4px 10px 5px 20px; margin-left:10px; position:relative; z-index:9999999;}  
+.facebook-header img{padding-right: 10px;margin-bottom:-5px;}
+
+.black-header-text img{margin-left:-22px;height:35px;	margin-top:-10px;	position:absolute;	z-index:9999999;	}
+.black-header-text{	color:white;	margin-left: 19px;	margin-top:-25px;	position:absolute;	z-index:9999999;	}
+.black-header{border-radius: 3px 3px 0px 0px;background:#586B07;margin-top:155px; 	margin-left:10px;	height:30px;width:180px;opacity:.9;	padding:5px 10px 5px 10px;	position:relative;z-index:999;} 
+  
+.image-wrap-right { padding-left:15px; margin-bottom:-15px;  padding-bottom:15px;}
+.image-wrap-right img{ display:block; float:right; padding-bottom:15px;  margin-left:20px; 	border-radius:3px 3px;}
+
+.image-wrap-left { padding-right:15px;  margin-bottom:-15px; padding-bottom:15px;}
+.image-wrap-left img{ display:block; float:left;   margin-right:20px;  padding-bottom:15px;  	border-radius:5px 5px;} 
+
+.image-random img{ float:left; width:370px; border-radius:3px 3px;}
+
+.watch-video-box{display:-inline-block; color:#586B07;background:#eee; border:1px solid #ddd;margin-bottom:10px;padding:10px; width: 120px;margin-top:10px;}
+.watch-video-play{display:-inline-block;  margin-bottom:10px;padding:10px; width: 120px;margin-top:10px;}  
+
+.overview-list-items{ list-style-type:square; line-height:1.8em} 
+.meet-the-team-head{ font-weight:bold;  margin-bottom:20px;  margin-left:-20px;  }
+.right-testimonials { height:200px;display:block;}
+.right-meet-the-team{ margin-top:-20px;}
+.title {display:inline-block;  background:#eee; border:1px solid #ddd;margin-bottom:5px;padding:2px 10px;  margin-top:5px;} 
+ 
+
+.photo-thumb{  width:214px;  height:214px;  float:left; border: 5px solid #d1d1d1; margin:0 1em 1em 0;border-radius: 3px 3px;    }
+div#blueimp-gallery div.modal {    overflow: visible;   }
+
+.foot{border-top:1px solid #ddd; padding:20px 0px;}
+.footlink   a{  color: #586B07;}
+.footlink a:hover { color:rgb(90,108,9);font-weight: bold;}
+.footer{background:white; opacity:1; border:0px; margin-bottom:-60px; margin-top:40px}

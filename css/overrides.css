@@ -1,134 +1,25 @@
-/* --------------------bootstrap overrides----------------------- */
-body{
-   background: url("../images/bkg-german-shepherd.jpg") bottom left no-repeat;	 
-   background-attachment:fixed; 
-   font-family: 'Open Sans', sans-serif;
-} 
-.thumbnail {
-	 background-color:  rgba(255,255,255,.9);
-	 border:1px solid  rgba(209,209,209,.9);
-}
-.list-group{  
-	padding-left:0px;
-	padding-right: 10px;
-	padding-bottom:40px;
-	padding-top:40px;
-}
- .list-group-item {
-	opacity:1;
-	margin-bottom: 2px; 
-	margin-right:10px; 
-	background:#fff; 
-		border:0px solid #ddd;
-}
-.list-group-item:first-child {
-  	border-radius: 2px 2px;
-} 
-.list-group-item:last-child {
-  	border-radius: 2px 2px;
-}
- .list-group-item.active, .list-group-item.active:focus { 
- border-radius: 2px 2px;
-  background:#333;
- 
-color: #fff;
-	border:0px solid #ddd; 
-}
- .list-group-item.active span, .list-group-item.active:focus span{
- 	margin-right:10px;
-  color:#333;
-}
-.list-group-item.active:hover{
-	background:#333;
-} 
-.caption a {
-	color:black;
-}
-.main{
-    margin-top:50px;
-    background-color: none;
-}
-.container {
-	background-color: none;
-}
-.row {
-background-color: none;
-}
-.bg-success green{
-    padding:10px;
-    background: #6C7E23;
-    color:white; 
-} 
-.bg-success white{
-    padding:10px;
-    background: #fff; 
-}
-/* ---navbar overrides--- 586B07 */
-.navbar-default {
-	background-color:#fff;
-}
- .navbar-brand .logo{
-	 background-color: none;
-}
+.thumbnail {	 background-color:  rgba(255,255,255,.9);	 border:1px solid  rgba(209,209,209,.9);}
+.caption a {	color:black;}
+.bg-success green{padding:10px; background: #6C7E23;color:white; } 
+.bg-success white{padding:10px;background: #fff; }
 
-.navbar-default .navbar-nav li   {
-    border-right: 1px solid gray;
-	 font-size:13px;
-}
-.navbar-default .navbar-nav li a {  
-	color: #fff;
-}
+/* --------------------GRID SYSTEM----------------------- */
+.main{ margin-top:50px;    background-color: none;}
+.container {	background-color: none;}
+.row {background-color: none;} 
 
-.navbar-default .navbar-nav li:hover{
-background: #333;
+/*---------------------LIST GROUP------------------*/
+.list-group{padding-left:0px;	padding-right: 10px;	padding-bottom:40px;	padding-top:40px;}
+.list-group-item {	opacity:1;	margin-bottom: 2px; 	margin-right:10px; 	background:#fff; 		border:0px solid #ddd;}
+.list-group-item:first-child {	border-radius: 2px 2px;} 
+.list-group-item:last-child {	border-radius: 2px 2px;}
+.list-group-item.active, .list-group-item.active:focus {  border-radius: 2px 2px;  background:#465C85; color: #fff;	border:0px solid #ddd; }
+.list-group-item.active span, .list-group-item.active:focus span{ 	margin-right:10px;  color:#333;}
+.list-group-item.active:hover{	background:#333;}  
 
-	border-radius:2px 2px;
-}
-
-.navbar-default .navbar-nav li a:hover { 
-	color: white;
-}  
-
-.navbar-fixed-bottom{
-	padding-top:10px;
-	background:#333; 
-	color:#fff; 
-	height:10px;
-}
-
-.navbar-fixed-bottom a{
-	color:#fff;  
-} 
-
-.navbar-fixed-bottom a:hover{
-	color:red;  
-}
-
-.navbar-default {
-	background-color: none;
-	border-color: #fff;
-}
+/*---------------------NAVIGATION BAR------------------*/ 
+.navbar-default .navbar-nav li a {color: #fff;} 
+.navbar-default .navbar-nav li a:hover { 	color: white;}    
 
 
-.greenNavBar li a{
-margin-top:-5px; 
-font-size:15px;
-color: #fff;
-}
-.greenNavBar li:hover{
-background: #666;
-}
-.greenNavBar li {
-	color: #fff;
-background: #333; 
-border-top:1px solid #ddd;
-border-right:1px solid #ddd;
-border-bottom:1px solid #ddd;
-border-left:1px solid #ddd;  
-height:40px;
-border-radius:3px 3px;
-margin-right:2px;
-}
-.greenNavBar{
-margin-top:-30px;
-}
+

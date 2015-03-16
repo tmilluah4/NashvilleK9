@@ -19,8 +19,7 @@
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
-	
+    left: 0	
 }
 .view img {
     display: block;
@@ -58,8 +57,7 @@
     box-shadow: 0 0 1px #000
 }
 .view a.info:hover {
-    box-shadow: 0 0 5px #000
-	
+    box-shadow: 0 0 5px #000	
 }
 	
 .view:hover{
@@ -219,33 +217,6 @@
     opacity: 1;
 }
 
-.black-header-text img{
-	margin-left:-22px;
-	height:35px;
-	margin-top:-10px;
-	position:absolute;
-	z-index:9999999;
-	}
-   .black-header-text{
-	color:white;
-	margin-left: 19px;
-	margin-top:-25px;
-	position:absolute;
-	z-index:9999999;
-	}
- .black-header{
-	border-radius: 3px 3px 0px 0px;
-	background:#586B07;
-	margin-top:155px;  
-	margin-left:10px;
-	height:30px;
-	width:180px;
-	opacity:.9;
-	padding:5px 10px 5px 10px;  
-	position:relative; 
-	z-index:999;
-} 
-  
  
 .view-tenth .initial-left {  
 	position:absolute;

@@ -1,7 +1,13 @@
 
 <!DOCTYPE html>
 <html>
-<?php include('partials/head.html');?> 
+<head> 
+     <?php include('partials/head.html');?>  
+	  <!-- blue imp gallery -->
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="Bootstrap-Image-Gallery-3.1.1/css/bootstrap-image-gallery.min.css"> 
+	
+</head>  
 	<body>
 	   <?php include('partials/header.html');?> 
 		<div class="main">	
@@ -47,15 +53,7 @@
 					}
 				?>
 			</div>
-		</div>
-	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
- 
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
- 
+		</div> 
 	</body>
+
 </html>

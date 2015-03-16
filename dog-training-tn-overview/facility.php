@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <title>Nashville K-9</title>
-    <meta name="viewport" http-equiv="Content-Type" content="width=device-width, intitial-scale=1.0" />
-    <meta name="format-detection" content="telephone=no" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/overrides.css" rel="stylesheet">
-	<link href="/css/custom.css" rel="stylesheet"> 
-	<link href="/css/img-hover-effect.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
- 
-	 
+     <?php include('../partials/head.html');?> 	   
 </head>
 <body>  
     <?php include('../partials/header.html');?> 	
@@ -29,7 +20,7 @@
 						  <a href="overview.php" class="list-group-item"> K-9 OVERVIEW </a> 
 						  <a href="meet-the-team.php" class="list-group-item">MEET THE TEAM</a>
 						  <a href="company-facts.php" class="list-group-item">COMPANY FACTS </a>
-						  <a href="facility.php" class="list-group-item active"><img src="/images/dog-footer.png" style="padding-right:10px"/> FACILITY</a>
+						  <a href="facility.php" class="list-group-item active"><img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px"/> FACILITY</a>
 						  <a href="testimonials.php" class="list-group-item">TESTIMONIALS </a>
 						  <a href="press.php" class="list-group-item">PRESS </a>
 						  <a href="partners.php" class="list-group-item">PARTNERS </a> 
@@ -41,11 +32,11 @@
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
 				<div class="col-md-7"    >  
-					    	<h3 style="  color:#666; font-weight:bold" >Dog Training Facility</h3>
+					    	<h3  class="red">Dog Training Facility</h3>
 						
 					    <div class="right">
 					     		<div class="image-wrap-right" width="250px">
-							        <img  width="270px" src="/images/dog_training_overview/facility/dog-training-facility-1.jpg"/>
+							        <img  width="270px" src="/NashvilleK9/images/dog_training_overview/facility/dog-training-facility-1.jpg"/>
 							</div>
 
 					      <p>
@@ -57,7 +48,7 @@
 
 					    <div class="left">
 					      		<div class="image-wrap-left" width="250px">
-							        <img  width="270px" src="/images/dog_training_overview/facility/nashville-dog-training-facility-2.jpg"/>
+							        <img  width="270px" src="/NashvilleK9/images/dog_training_overview/facility/nashville-dog-training-facility-2.jpg"/>
 							</div>
 
 					      <p>
@@ -67,7 +58,7 @@
 
 					    <div class="right">
 					      		<div class="image-wrap-right" width="250px">
-							        <img  width="270px" src="/images/dog_training_overview/facility/nashville-dog-training-facility-3.jpg"/>
+							        <img  width="270px" src="/NashvilleK9/images/dog_training_overview/facility/nashville-dog-training-facility-3.jpg"/>
 							</div>
 
 					      <p>

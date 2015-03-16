@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> 
-    <title>Nashville K-9</title>
-    <meta name="viewport" http-equiv="Content-Type" content="width=device-width, intitial-scale=1.0" />
-    <meta name="format-detection" content="telephone=no" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/overrides.css" rel="stylesheet">
-	<link href="/css/custom.css" rel="stylesheet"> 
-	<link href="/css/img-hover-effect.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
- 
-	 
+     <?php include('../partials/head.html');?> 	  
 </head>
 <body>  
     <?php include('../partials/header.html');?> 	
@@ -31,7 +22,7 @@
 						  <a href="company-facts.php" class="list-group-item">COMPANY FACTS </a>
 						  <a href="facility.php" class="list-group-item"> FACILITY</a>
 						  <a href="testimonials.php" class="list-group-item">TESTIMONIALS </a>
-						  <a href="press.php" class="list-group-item active"><img src="/images/dog-footer.png" style="padding-right:10px"/>PRESS </a>
+						  <a href="press.php" class="list-group-item active"><img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px"/>PRESS </a>
 						  <a href="partners.php" class="list-group-item">PARTNERS </a> 
 						</div>
 					 </div>
