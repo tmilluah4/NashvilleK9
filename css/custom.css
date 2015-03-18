@@ -2,8 +2,7 @@
 body{ background: url("../images/bkg-german-shepherd.jpg") bottom left no-repeat;  background-attachment:fixed;  font-family: 'Open Sans', sans-serif;} 
 h3 {margin-top:-5px; margin-bottom:10px;text-transform:uppercase;}
  .side-column {margin-left:10px;margin-right:40px;}
-.page-section-title {font-size:19px; background: #fff;  border-radius:8px 0px 8px 0px;
-
+.page-section-title {  background: #fff;   
  padding:15px 15px;display:inline-block;   margin-bottom:-35px;} 
 .blue { color:#465C85}
 .padTop{background-color: none;padding-top:40px;} 
@@ -12,32 +11,33 @@ h3 {margin-top:-5px; margin-bottom:10px;text-transform:uppercase;}
 .logo{ background-image: url("../images/logo.png"); width:200px; height:122px; } 
 .tagline{font-weight:bold;font-size:13px;margin-left:-15px;}
 .social-icons {	margin-right:-60px;	float:right;}
-.social-icons img{  border-radius:0px;	width:32px;-moz-box-shadow: 0 0 1px #000; -webkit-box-shadow: 0 0 1px #000; box-shadow: 0 0 2px #000;}
+.social-icons img{  border-radius:0px;	width:32px; -webkit-box-shadow: 1px 1px 3px #666; }
 .contact-info a{ }
 .contact-info {	border:0px;margin-top:-13px;background:white;opacity:1;position:relative;border-radius: 2px 2px;	padding: 10px 20px 10px 10px;	text-decoration:none !important;	line-height: 1.6em;}
 .contact-column {	background:#000;	opacity:1;}
 .left-glyph span{	margin-left:-6px;}
 .left-glyph { 	border-radius:4px;	color:#586B07;		margin-left:15px;margin-right:-7px;margin-bottom:-1px;}
 .left-contact{   background:#fff;border-right:0px solid #ddd;   text-align:right;  } 
-.section{-webkit-box-shadow: 0px 0px 4px #000;background:#fff; border-radius:1px; box-shadow: 0px  0px 2px #000; margin-bottom:10px;margin-top:-10px; padding:30px 30px 20px 30px;  margin-left:-40px;margin-right:-40px  }
+.section{-webkit-box-shadow: 0px 0px 4px #000;background:#fff; border-radius:1px; box-shadow: 0px  0px 4px #000; margin-bottom:10px;margin-top:-10px; padding:30px 30px 20px 30px;  margin-left:-40px;margin-right:-40px  }
 
 .mainNavBar li a{margin-top:-5px; font-size:15px;}
 .mainNavBar li:hover{ }
 .mainNavBar li {color: #000; background: rgb(244,244,244); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(244,244,244,1) 1%, rgba(234,234,234,1) 2%, rgba(225,225,225,1) 49%, rgba(206,206,206,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(244,244,244,1)), color-stop(2%,rgba(234,234,234,1)), color-stop(49%,rgba(225,225,225,1)), color-stop(100%,rgba(206,206,206,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(206,206,206,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(206,206,206,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(206,206,206,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(206,206,206,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#cecece',GradientType=0 ); /* IE6-9 */
+background: -moz-linear-gradient(top,  rgba(244,244,244,1) 1%, rgba(234,234,234,1) 2%, rgba(225,225,225,1) 49%, rgba(221,221,221,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(244,244,244,1)), color-stop(2%,rgba(234,234,234,1)), color-stop(49%,rgba(225,225,225,1)), color-stop(100%,rgba(221,221,221,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(221,221,221,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(221,221,221,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(221,221,221,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(244,244,244,1) 1%,rgba(234,234,234,1) 2%,rgba(225,225,225,1) 49%,rgba(221,221,221,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
 
 
 
 
 
 
- border:0px solid #333; -webkit-box-shadow: 1px 1px 1px #666; height:40px;border-radius:0px;margin-right:5px;}
+
+ border:0px solid #333; -webkit-box-shadow: 1px 1px 3px #666; height:40px;border-radius:0px;margin-right:5px;}
 .mainNavBar{margin-top:-30px;color: #333;}
 /*#9D9487;AD1A1E*/
 .video-box {position: relative; z-index: 1; }
@@ -56,8 +56,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
 .black-header{border-radius: 0px;background:#AD1A1E;margin-top:155px;  -moz-box-shadow: 0 0 5px #000; -webkit-box-shadow: 0 0 5px #000; box-shadow: 0 0 5px #000;	margin-left:10px;	height:30px;width:180px;opacity:.9;	padding:5px 10px 5px 10px;	position:relative;z-index:999;} 
  
  .title-header-text img{margin-left:-54px;height:35px;	margin-top:-10px;	position:absolute;	z-index:9999999;	}
-.title-header-text{ 	color:#fff;	margin-left: 8px;	margin-top:-30px;	position:absolute;	z-index:9999999;	}
-.title-header{border-radius: 0px;background:#666;  margin-left:-50px; -moz-box-shadow: 0 0 5px #000; -webkit-box-shadow: 0 0 5px #000; box-shadow: 0 0 5px #000;	 	height:30px;display:inline-block; opacity:.9; width:173px;	padding:5px 10px 5px 10px;	position:relative;z-index:999;} 
+.title-header-text{ 	color:#AD1A1E;	margin-left: 8px;	margin-top:-30px;	position:absolute;	z-index:9999999;	}
+.title-header{border-radius: 0px;background:#e1e1e1;  margin-left:-50px; -moz-box-shadow: 0 0 5px #000; -webkit-box-shadow: 0 0 5px #000; box-shadow: 0 0 5px #000;	 	height:30px;display:inline-block; opacity:.9; width:173px;	padding:5px 10px 5px 10px;	position:relative;z-index:999;} 
  
  
 .autofit-container{ height: 206px; width: 206px; display:inline-block; margin:5px;  }
