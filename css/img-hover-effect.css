@@ -3,8 +3,7 @@
     width: 320px;
     height: 186px;
     margin: 10px 10px 60px 10px;
-    float: left;
-	 border-radius:3px 3px;
+    float: left; 
     border:0px solid rgba(0, 0, 0, 0.6);
     overflow: hidden;
     position: relative;
@@ -12,6 +11,7 @@
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center;
+	 -moz-box-shadow: 0 0 11px #000; -webkit-box-shadow: 0 0 11px #333; box-shadow: 0 0 11px #333;
 }
 .view .mask, .view .content {
     width: 320px;
@@ -23,6 +23,7 @@
 }
 .view img {
     display: block;
+	 
     position: relative
 }
 .view h2 {

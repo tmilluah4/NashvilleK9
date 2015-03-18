@@ -1,19 +1,13 @@
-
 <!DOCTYPE html>
 <html>
 <head> 
      <?php include('partials/head.html');?>  
-	  <!-- blue imp gallery -->
-    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="Bootstrap-Image-Gallery-3.1.1/css/bootstrap-image-gallery.min.css"> 
-	
 </head>  
 	<body>
 	   <?php include('partials/header.html');?> 
 		<div class="main">	
 			<div class="container">
-				 <?php  
-			
+				 <?php  			
 					$fb_page_id = "283654260595"; 
 					$json_link = "http://graph.facebook.com/283654260595/albums?fields=id,name,description,link,cover_photo,count";
 					$json = file_get_contents($json_link);
@@ -34,26 +28,17 @@
 					        $name!="Profile Pictures" &&
 					        $name!="Cover Photos" &&
 					        $name!="Timeline Photos"
-					    ){
-			
+					    ){			
 					        $show_pictures_link = "photos.php?album_id={$id}&album_name={$name}";
-
-					        echo "<div class='col-md-3'  >";
-								echo "<div class='thumbnail' >";
+					        echo "<div class='autofit-container'  >"; 
 					            	echo "<a href='{$show_pictures_link}'  >";
-					                	echo "<img class='img-responsive' src='https://graph.facebook.com/{$cover_photo}/picture' alt=''>";
-					            		echo "</a>"; 
-			
-									echo "<div class='caption'  >";
-					            		echo "<a  href='{$show_pictures_link}'>{$name}</a>"; 
-					 				echo "</div>";
-								echo "</div>";
+					                	echo "<img class='photo-thumb'  src='https://graph.facebook.com/{$cover_photo}/picture' alt=''>";
+					            	echo "</a>";  
 					        echo "</div>";
 					    }
 					}
 				?>
 			</div>
-		</div> 
+		</div> 		
 	</body>
-
 </html>

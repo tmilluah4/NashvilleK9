@@ -9,7 +9,7 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column"  >
 					<div class="row"> 
 				 			<div class="image-random">
 						       <img src="../images/random-3.jpg" class="random"/> 
@@ -31,10 +31,10 @@
 					 </div> 
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-7"    > 
-				  <h3  class="red">Testimonials</h3>
-					    <div class="right-testimonials">
-					      <div class="image-wrap-right">
+				<div class="col-md-8"    > 
+				  <h3 style="text-transform:uppercase" class="page-section-title">Erica R. Nashville, TN</h3>
+					    <div class="section">
+					      <div class="image-wrap-right" >
 					        <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Erica-Protection-Dogs.jpg"/>
 					      </div>
 
@@ -44,14 +44,14 @@
 					        and going the extra mile and for all the times we”ve called you for advice.”
 					      </p>
 					      <p>
-					        Erica R. Nashville, TN
-					      </p>
+					          
+					      </p></br></br></br>
 					    </div>
 
 
 
-
-					    <div class="right-testimonials">
+ <h3 style="text-transform:uppercase" class="page-section-title">     Jessica B. Nashville, TN</h3>
+					 <div class="section">
 					      <div class="image-wrap-right">
 					        <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Jess-Search-and-Rescue.jpg"/>
 					      </div>
@@ -61,8 +61,8 @@
 					        I was able to increase my area searches and tracking. Thanks for giving us the extra push when we needed it!!”
 					      </p>
 					      <p>
-					        Jessica B. Nashville, TN
-					      </p>
+					   
+					      </p></br></br></br></br>
 					    </div>
 
 
@@ -70,7 +70,7 @@
 
 
 
-					    <div class="right-testimonials">
+					     <div class="section">
 					      <div class="image-wrap-right">
 					       <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Jackie-Protection-Dogs.png"/>
 					      </div>
@@ -80,7 +80,7 @@
 					      </p>
 					      <p>
 					        Jackie C., Nashville, TN
-					      </p>
+					      </p></br></br></br></br> 
 					    </div>
 
 
@@ -88,9 +88,9 @@
 
 
 
-					    <div class="right-testimonials">
+					     <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Paisley-Nashville-Dog-Training.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Paisley-Nashville-Dog-Training.jpg"/>
 					      </div>
 
 					      <p>
@@ -98,15 +98,15 @@
 					      </p>
 					      <p>
 					        Kati P. Nashville, TN
-					      </p>
+					      </p></br></br></br></br>
 					    </div>
 
 
 
 
-					    <div class="right-testimonials" style="height:280px">
+					    <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Drew-German-Shephard-Obedience.png"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Drew-German-Shephard-Obedience.png"/>
 					      </div>
 
 					      <p>
@@ -122,9 +122,9 @@
 
 
 
-					    <div class="right-testimonials">
+					    <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Sam-Basic-Obedience-Training.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Sam-Basic-Obedience-Training.jpg"/>
 					      </div>
 
 					      <p>
@@ -132,7 +132,7 @@
 					      </p>
 					      <p>
 					        Sam E. Nashville, TN
-					      </p>
+					      </p></br></br></br> 
 					    </div>
 
 
@@ -140,9 +140,9 @@
 
 
 
-					    <div class="right-testimonials">
+					   <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/MikeL-Hunting-Dogs-Minnesota.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/MikeL-Hunting-Dogs-Minnesota.jpg"/>
 					      </div>
 
 					      <p>
@@ -150,7 +150,7 @@
 					      </p>
 					      <p>
 					        Mike L. Minneapolis, MN
-					      </p>
+					      </p></br></br></br></br></br>
 					    </div>
 
 
@@ -158,9 +158,9 @@
 
 
 
-					    <div class="right-testimonials">
+					    <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Mike-Doberman-Pinscher-Obedience-Nashville.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Mike-Doberman-Pinscher-Obedience-Nashville.jpg"/>
 					      </div>
 
 					      <p>
@@ -168,7 +168,7 @@
 					      </p>
 					      <p>
 					        Mike S. Nashville, TN
-					      </p>
+					      </p></br></br></br></br></br>
 					    </div>
 
 
@@ -176,9 +176,9 @@
 
 
 
-					    <div class="right-testimonials" style="height:320px">
+					   <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Deborah-Pomeranian-Obedience-Training.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Deborah-Pomeranian-Obedience-Training.jpg"/>
 					      </div>
 
 					      <p>
@@ -192,9 +192,9 @@
 					    </div>
 
 
-					    <div class="right-testimonials">
+					    <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Alex-Pit-Bull-Obedience.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Alex-Pit-Bull-Obedience.jpg"/>
 					      </div>
 
 					      <p>
@@ -202,13 +202,13 @@
 					      </p>
 					      <p>
 					        Alex J. Nashville, TN
-					      </p>
+					      </p></br></br></br></br></br>
 					    </div>
 
 
-					    <div class="right-testimonials" style="height:290px">
+					  <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/KochCedar-Rottweiler-Obedience-Training.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/KochCedar-Rottweiler-Obedience-Training.jpg"/>
 					      </div>
 
 					      <p>
@@ -223,9 +223,9 @@
 
 
 
-					    <div class="right-testimonials" style="height:350px">
+					    <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Crystal-Doberman-Pinscher-Obedience-Phoenix.jpg"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Crystal-Doberman-Pinscher-Obedience-Phoenix.jpg"/>
 					      </div>
 
 					      <p>
@@ -239,14 +239,14 @@
 
 
 
-					    <div class="right-testimonials">
+					    <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/Julie-California-Protection-Dogs.png"/>
+					       <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Julie-California-Protection-Dogs.png"/>
 					      </div>
 
 					      <p>
 					        “Special thanks to Julie K. from California for the purchase of two protection dogs!”
-					      </p>
+					      </p></br></br></br></br></br></br></br>
 
 					    </div>
 
@@ -257,14 +257,14 @@
 					     
 
 
-					    <div class="right-testimonials">
+					    <div class="section">
 					      <div class="image-wrap-right">
-					       <img  src="/images/dog_training_overview/testimonials/malakouti.jpg"/>
+					       <img  src="/Nashvillek9//images/dog_training_overview/testimonials/malakouti.jpg"/>
 					      </div>
 
 					      <p>
 					        “Special thanks to the Malakouti family for their purchase of two Doberman Pinscher Protection companions.”
-					      </p>
+					      </p></br></br></br></br></br></br></br>
 
 					    </div>
 

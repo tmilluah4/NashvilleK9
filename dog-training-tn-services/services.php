@@ -9,11 +9,13 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column"  >
 					<div class="row"> 
 				 		<div class="image-random">
-					       <img src="../images/random-3.jpg" class="random"/> 
-					      </div>					
+					       <script type="text/javascript">
+								  showImage();
+							 </script>  
+					    </div>					
 					 </div> 
 				  	 <div class="row" style="margin-top:0px"> 
 						<div class="list-group"  >
@@ -27,14 +29,12 @@
 						<a href="pet-first-aid.php" class="list-group-item">PET FIRST AID </a> 
 						<a href="hunting-dogs.php" class="list-group-item">HUNTING DOGS</a> 
 						</div>
-					 </div>
-					 <div class="row" > 
-							<?php include('../partials/contact.html');?> 
 					 </div> 
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-7"    > 
-					<h3 class="red">Our Services</h3>
+				<div class="col-md-8"    > 
+						<h3 style="text-transform:uppercase" class="page-section-title">Our Services</h3>
+							<div class="section"> 
 					<div class="image-wrap-right">
 					  <img width="310px" src="/NashvilleK9/images/services-1.jpg"/>
 					</div>
@@ -46,13 +46,14 @@
 
 				 <div class="left">
 					<div class="image-wrap-left">
-					  <img width="310px" src="/NashvilleK9/images/random-two.jpg"/>
+					 <img width="310px" src="/NashvilleK9/images/services-2.jpg"/>
 					</div>
 
 					<p>
 					  For Police K-9, Fire, SAR, or Office of Emergency Management training, we can provide custom K-9 seminars teaching everything from scent detection to S.W.A.T. methods. We are the only civilian trainers certified in S.W.A.T/S.R.T. by the National Tactical Officer’s Association standards in the State of Tennessee. We are also the only civilian K-9 instructors certified by the State of Tennessee Department of Health in Narcotics detection in Nashville. Our passion is to change the old, traditional training methods
 					  and create new, progressive methods. This is the basis of our working relationship with several municipalities. We will increase your potential and decrease liability.
 					</p> 
+				</div>
 				</div>
 			</div> 
         </div>

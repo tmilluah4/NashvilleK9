@@ -2,29 +2,10 @@
 	$album_id = isset($_GET['album_id']) ? $_GET['album_id'] : die('Album ID not specified.');
 	$album_name = isset($_GET['album_name']) ? $_GET['album_name'] : die('Album name not specified.'); 
 	$page_title = "{$album_name} Photos";
-?>
-<!DOCTYPE html>
+?> 
 <html lang="en">
 <head> 
-     <?php include('partials/head.html');?> 	  
-	   <style>
-	  .photo-thumb{ 
-	  width:214px;  height:214px;  float:left; border: 5px solid #d1d1d1; margin:0 1em 1em 0;border-radius: 3px 3px;  
-	  }
-div#blueimp-gallery div.modal {   
- overflow: visible;  
- }
-	<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="Bootstrap-Image-Gallery-3.1.1/css/bootstrap-image-gallery.min.css"> 
-	 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
-	 <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-	 <script src="Bootstrap-Image-Gallery-3.1.1/js/bootstrap-image-gallery.min.js"></script>
-
-	 <!--[if lt IE 9]>
-	 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	 <![endif]--> 
-</style>
+     <?php include('partials/head.html');?> 	   
 </head>
 <body>
     <?php include('partials/header.html');?> 
@@ -42,7 +23,7 @@ div#blueimp-gallery div.modal {
 
 				    $source = $obj['data'][$x]['source'];
 
-				    echo "<a href='{$source}' data-gallery>";
+				    echo "<a href='{$source}'   rel='gallery1'  class='fancybox' data-gallery>";
 				        echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat;'>";
 
 				        echo "</div>";
@@ -51,7 +32,10 @@ div#blueimp-gallery div.modal {
 			?>
 		</div>
   	</div>
-<?php include('partials/footer.html');?> 
-<?php include('partials/lightbox.html');?> 
+ 
+ 
+<?php include('partials/footer.html');?>  
+
+ 
 </body>
 </html>

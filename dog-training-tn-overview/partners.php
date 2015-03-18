@@ -9,7 +9,7 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column" >
 					<div class="row"> 
 				 			<div class="image-random">
 						       <img src="/NashvilleK9/images/random-3.jpg" class="random"/> 
@@ -31,7 +31,7 @@
 					 </div> 
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-7"    > 
+				<div class="col-md-8"    > 
 				 	<table style="background-color: white; width: 610px; " >
 					          <tbody>
 

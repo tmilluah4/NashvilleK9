@@ -9,7 +9,7 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column" >
 					<div class="row"> 
 				 			<div class="image-random">
 						       <img src="../images/random-3.jpg" class="random"/> 
@@ -31,14 +31,13 @@
 					 </div> 
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-7"    > 
-				 	<p>
+				<div class="col-md-8"    >  
+	 <h3 class="page-section-title">Our Biography  </h3><div class="section"> 
+					   	  	<p>
 					      Here’s what sets us apart from our competitors: We are Professional K-9 Instructors on various K-9 teams, and experts
 					        in dog training. We have trained in various K-9 sports across the globe, and competed in several canine trials across
 					        the U.S. Insist on a REAL Professional. What has your dog trainer done?
 					    </p>
-
-					   	<span class="title">Our Biography </span> 
 					         <ul class="overview-list-items">
 					            <li><span class="text">Davidson County Rescue Squad K-9 Unit, K-9 Unit Director</li>
 					            <li><span class="text">Overton County Rescue Squad K-9 Unit, K-9 Unit Director</li>
@@ -70,9 +69,9 @@
 
 					          <li><span class="text">Certified Helper, United Schutzhund Clubs of America </li>
 					        </ul>
-
-
-					    <div class="title">Crossed Trained With: </div>
+</div>
+ <h4 class="page-section-title">Crossed Trained With: </h4><div class="section">
+					  
 					         <ul class="overview-list-items">
 					            <li><span class="text">FEMA Tennessee Urban Search and Rescue (USAR) Task Force 1 </li>
 					            <li><span class="text">Tennessee Urban Search and Rescue (USAR) Task Force 2   </li>
@@ -86,8 +85,9 @@
 					            <li><span class="text">KPD Special Operations Squad (S.O.S. SWAT)  </li>
 
 					        </ul>
-
-					    <div class="title">Affiliations </div>
+</div>
+ <h4 class="page-section-title">Affiliations</h4><div class="section">
+					    
 					         <ul class="overview-list-items">
 					            <li><span class="text">USA Schutzhund </li>
 					            <li><span class="text">National Narcotics Detector Dog Association </li>
@@ -99,8 +99,9 @@
 					              <li><span class="text">Police Benevolent Association</li>
 					               <li><span class="text">The American Kennel Club </li>
 					        </ul>
-
-					    <div class="title">Demonstrations/Classes/Seminars:</div>
+</div>
+ <h4 class="page-section-title">Demonstrations/Classes/Seminars:</h4><div class="section">
+					    
 					         <ul class="overview-list-items">
 
 
@@ -167,8 +168,9 @@
 					                  <li><span class="text">2014 MARS Pet Care, Obedience Demonstration </li>
 
 					        </ul>
-					  
-					     <div class="title">Deployed:Search & Recovery</div>
+</div>
+  <h4 class="page-section-title">Deployed:Search & Recovery</h4><div class="section">					  
+					    
 					          <ul class="overview-list-items">
 
 					            <li><span class="text">Fairview, TN Feb ‘08            </li>

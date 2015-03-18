@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ 
 <html>
 <head> 
      <?php include('partials/head.html');?> 	  
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row"> 
                <div class="col-md-6 pull-left ">  
-						<div class="embed-responsive embed-responsive-16by9">
+						<div class="embed-responsive embed-responsive-16by9" style=" -moz-box-shadow: 0 0 10px #000; -webkit-box-shadow: 0 0 10px #000; box-shadow: 0 0 10px #000; ">
 						  <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/21218268?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1"></iframe>
 						</div>  
                </div>

@@ -9,7 +9,7 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column"  >
 					<div class="row"> 
 						<div class="image-random">
 							 <img src="/NashvilleK9/images/random-3.jpg" class="random"/> 
@@ -31,25 +31,32 @@
 					 </div> 
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div> 
-				<div class="col-md-7"    >  
+				<div class="col-md-8"    >  
  <!-- ALI -->
-					<div class="image-wrap-right"  >
+					
+					<h3 style="text-transform:uppercase" class="page-section-title">Ali Hemyari</h3>
+					  <div class="section"> </br>
+					  <div class="image-wrap-right"  >
 					   <img src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-ali.jpg"/>
 					</div> 
-					<h3  class="red">Ali Hemyari</h3>
-					<span class="title">	Position: </span> 
+					<div class="title-header"   ></div> 
+					<div class="title-header-text"><img src="/Nashvillek9/images/tests/mask.png"/> Position</div>  
+					 
 					<ul class="overview-list-items"> 													        
 							<li ><span class="text">Police Officer in the State of Tennessee (K-9)</span></li>
 							<li><span class="text">Department of Homeland Security (DHS/FEMA) certified is 100, 200, 700, 800b</span></li>
 							<li><span class="text">Airman, Federal Aviation Administration</span></li>
 							<li><span class="text">2nd Lieutenant, United States Air Force CAP</span></li> 
 					</ul>
-					<span class="title">	Education: </span> 
+						<div class="title-header"   ></div> 
+					<div class="title-header-text"><img src="/Nashvillek9/images/tests/mask.png"/> Education</div>  
+					 
 					<ul class="overview-list-items"> 
 							<li><span class="text">University of Tennessee Knoxville – Marketing/Finance</span></li>
 							<li><span class="text">Certified Professional Sales Trainer & Speaker – The Southwestern Company</span> </li> 
 					</ul>
-					<span class="title">	Certifications: </span> 
+					<div class="title-header"   ></div> 
+					<div class="title-header-text"><img src="/Nashvillek9/images/tests/mask.png"/>Certifications: </div> 
 					<ul class="overview-list-items"> 
 							<li><span class="text">Aircraft Pilot, Federal Aviation Administration </span> </li> 
 							<li><span class="text">S.W.A.T School, Tennessee Law Enforcement Training Academy</span> </li>  
@@ -74,7 +81,8 @@
 							<li><span class="text">Certified SCUBA Diver, PADI</span></li>
 							<li><span class="text">Authorized Pet First Aid Instructor, American Red Cross</span></li> 
 						</ul>
-						<span class="title">	Member of: </span> 
+						<div class="title-header"   ></div> 
+					<div class="title-header-text"><img src="/Nashvillek9/images/tests/mask.png"/>	Member of: </div> 
 						<ul class="overview-list-items"> 
 							<li><span class="text">Member, PBA Police Capitol Hill Chapter</span></li>
 							<li><span class="text">Member, Fraternal Order of Police</span></li>
@@ -88,37 +96,42 @@
 					<p class="meet-the-team">
 					  Ali Hemyari is the only civilian K-9 trainer in the state of Tennessee that has completed and graduated a police mandated S.W.A.T. K-9 School that is recognized by the National Tactical Officers’ Association (NTOA K-9). As a tenured Police Officer, he commands two Police Department K-9 teams and two Rescue Rquad K-9 teams with a total of 9 handlers under his direction at no charge to tax payers. His vast experience and knowledge comes from the discipline of a Schutzhund and KNPV background with the integration of government K-9 applications. He has trained all across the United States with various dogs stemming from small Chihuahuas to large Mastiffs. His participation in several Trials and Trainings across the world has led him to be considered one of the best trainers in the Southeast United States and his affiliations quench his thirst for ongoing knowledge and learning. Ali is a certified AKC Evaluator.
 					</p> 
-
+					</div>
+					</br>
 					</br>
  <!-- DAMON -->
-					<div class="image-wrap-right">
-						 <img   width="250px" src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-damon.jpg"/>
-					</div>					 
+										 
 					<div class="right-meet-the-team">
-					<h3 class="red">Damon McCook </h3> 
-					<span class="title">	Position: </span>  
-					<ul class="overview-list-items">  
-							<li><span class="text">Trainer</span></li> 
-							<li><span class="text"> Combat Engineer, United States Marine Corps 1999-2003 </li>
-							<li><span class="text"> Jungle Warfare, 2000</li>
-							<li><span class="text">  Marine Corps Rifle Instructor 2000</li>
-							<li><span class="text">  Sappers School 2001</li>
-							<li><span class="text"> Non-Lethal weapons/Riot Control 2002</li>
-							<li><span class="text"> Cold Weather Training 2002</li>
-							<li><span class="text"> Operation Enduring Freedom 2002</li>
-							<li><span class="text"> Operation Iraqi Freedom 2003</li>
-							<li><span class="text">  Certified Helper, United Schutzhund Clubs of America </li>
-					</ul>
+						<h3 style="text-transform:uppercase" class="blue">Damon McCook </h3> 
+						<div class="section">
+							<div class="image-wrap-right">
+								 <img   width="250px" src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-damon.jpg"/>
+							</div>
+							<span class="title">	Position: </span>  
+							<ul class="overview-list-items">  
+									<li><span class="text">Trainer</span></li> 
+									<li><span class="text"> Combat Engineer, United States Marine Corps 1999-2003 </li>
+									<li><span class="text"> Jungle Warfare, 2000</li>
+									<li><span class="text">  Marine Corps Rifle Instructor 2000</li>
+									<li><span class="text">  Sappers School 2001</li>
+									<li><span class="text"> Non-Lethal weapons/Riot Control 2002</li>
+									<li><span class="text"> Cold Weather Training 2002</li>
+									<li><span class="text"> Operation Enduring Freedom 2002</li>
+									<li><span class="text"> Operation Iraqi Freedom 2003</li>
+									<li><span class="text">  Certified Helper, United Schutzhund Clubs of America </li>
+							</ul>	</br>	</br>
+						</div>
 					</div>
-
 					</br>
-
+	</br> 
 <!-- JOHN POLAND -->
-					<div class="image-wrap-right" width="250px">
-					  <img width="250px" src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-john.jpg"/>
-					</div>
+					
 					<div class="right-meet-the-team">
-						<h3 class="red">John Poland</h3>
+						<h3 style="text-transform:uppercase" class="blue">John Poland</h3>
+						<div class="section">
+						<div class="image-wrap-right" width="250px">
+						  <img width="250px" src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-john.jpg"/>
+						</div>
 						<span class="title">	Position: </span>
 						<ul class="overview-list-items"> 
 							<li><span class="text">Obedience Trainer, Decoy, Helper</span></li>
@@ -143,7 +156,7 @@
 						  or training and she would love to have you pet her.
 						</p>
 					</div> 
-
+</div> 
 					</br> 
 
 <!-- JESSICA BABA -->
@@ -151,7 +164,7 @@
 						 <img   width="250px" src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-jessica.jpg"/>
 					</div>
 					<div class="right-meet-the-team">
-						<h3 class="red">Jessica Baba</h3>
+						<h3 style="text-transform:uppercase" class="blue">Jessica Baba</h3>
 						<span class="title">	Position: </span> 
 						<ul class="overview-list-items"> 
 							<li><span class="text">Attorney, K-9 SAR Instructor, Denia (black/tan GSD, Air Scent Live Find, Area/Wilderness)</span></li>
@@ -184,7 +197,7 @@
 							 <img   width="250px" src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-nick.jpg"/>
 					 </div>
 					 <div class="right-meet-the-team">
-						<h3 class="red">Nick Wolkonsky</h3> 
+						<h3 style="text-transform:uppercase" class="blue">Nick Wolkonsky</h3> 
 						<span class="title">	Position: </span>  
 						<ul class="overview-list-items">
 							<li><span class="text">American Red Cross PFA Instructor</span></li>
@@ -231,7 +244,7 @@
 						  <img  width="250px"  src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-sandy.jpg"/>
 					</div>
 					 <div class="right-meet-the-team">
-						<h3 class="red">Sandy Pope</h3>					    
+						<h3 style="text-transform:uppercase" class="blue">Sandy Pope</h3>					    
 						<span class="title">	Position: </span> 
 						<ul class="overview-list-items">  
 							<li><span class="text">Mentor</span></li>
@@ -259,7 +272,7 @@
 						  <img   width="250px" src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-joey.jpg"/>
 					</div>
 					<div class="right-meet-the-team">
-						<h3 class="red">Joey Leigh</h3> 
+						<h3 style="text-transform:uppercase" class="blue">Joey Leigh</h3> 
 						<span class="title">	Position: </span>  
 						<ul class="overview-list-items">  
 							<li><span class="text">Schutzhund Mentor</span></li>

@@ -9,7 +9,7 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column"  >
 					<div class="row"> 
 				 			<div class="image-random">
 						       <img src="../images/random-3.jpg" class="random"/> 
@@ -31,8 +31,8 @@
 					 </div> 
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-7"    >  
-					    	<h3  class="red">Dog Training Facility</h3>
+				<div class="col-md-8"    > <h3 style="text-transform:uppercase" class="page-section-title">Dog Training Facility</h3> <div class="section">
+					    	
 						
 					    <div class="right">
 					     		<div class="image-wrap-right" width="250px">
@@ -56,17 +56,13 @@
 					      </p>
 					    </div>
 
-					    <div class="right">
-					      		<div class="image-wrap-right" width="250px">
-							        <img  width="270px" src="/NashvilleK9/images/dog_training_overview/facility/nashville-dog-training-facility-3.jpg"/>
-							</div>
-
+					    
 					      <p>
 					        With authorized Pet First Aid instructors for the American Red Cross at the head of the training team, you can rest assured that your companion is in good hands. Janet Grace, DVM with Five Points Animal Hospital, is on call 24/7 to handle any potential emergency.
 					      </p>
 					    </div>
 
-
+</div>
 
 					  </div>
 					</div>

@@ -9,7 +9,7 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column" >
 					<div class="row"> 
 				 			<div class="image-random">
 						       <img src="../images/random-3.jpg" class="random"/> 
@@ -31,7 +31,7 @@
 					 </div> 
 				</div>
 				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-7"    > 
+				<div class="col-md-8"    > 
 				 	<p>CHECK  OUT OUR FOX NEWS VIDEO (Pet First Aid 1) : <a href="http://www.youtube.com/watch?v=1yMnuBBiMS0" rel="shadowbox[sbpost-156];player=swf;width=640;height=385;" target="_blank">Fox News Clip</a></p>
 					        <p>CHECK  OUT OUR FOX NEWS VIDEO (Pet First Aid 2) : <a href="http://vimeo.com/17102786" target="_blank">Fox News Clip</a></p>
 					        <p>CHECK  OUT OUR VIDEO (Pet First Aid 3) :  <a href="http://mix929.com/content/pet-first-aid-and-safety" target="_blank">Mix 92.9 Clip</a></p>

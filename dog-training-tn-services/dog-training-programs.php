@@ -9,7 +9,7 @@
     <div class="main" >
         <div class="container"> 
 			<div class="row">   
-				<div class="col-md-4" style="margin-left:30px;margin-right:40px" >
+				<div class="col-md-3" class="side-column" >
 					<div class="row"> 
 						<div class="image-random">
 					       <img src="../images/random-3.jpg" class="random"/> 
@@ -29,13 +29,13 @@
 						<a href="hunting-dogs.php" class="list-group-item">HUNTING DOGS</a> 
 						</div>
 					 </div>
-					 <div class="row" > 
-							<?php include('../partials/contact.html');?> 
-					 </div> 
+					 
 				</div>
-				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-7"    >
-					<h3 class="red">K-9 Training Programs</h3> 
+				<div class="col-md-1" style="margin-left:-40px" ></div>
+				<div class="col-md-8"    >
+					<h3 style="text-transform:uppercase" class="page-section-title">K-9 Training Programs</h3> 
+					  <div class="section">
+						 
 					<div class="right">
 					      <div class="image-wrap-right">
 					        <img width="310px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-programs-1.jpg"/>
@@ -48,58 +48,56 @@
 					      </p>
 					</div>
 					 
-					<div style="margin:20px 0px">	 
-						<span class="watch-video-box">	WATCH VIDEOS: </span>  
-						<span class="watch-video-play ">		Long Jump
-							<span class="glyphicon glyphicon-play " aria-hidden="true"></span>
-							 <a class="video"  title="" href="http://player.vimeo.com/video/12878427?fs=1&amp;autoplay=1">
-									1
+					<div style="margin:10px 0px">	 
+						
+						<span class="watch-video-play ">		
+							<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+							 <a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/12878427?fs=1&amp;autoplay=1">
+									Long Jump 1
 							 </a>
 						</span>
 						<span class="watch-video-play ">	
-							<span class="glyphicon glyphicon-play " aria-hidden="true"></span>	
-							<a class="video"  title="" href="http://player.vimeo.com/video/12878501?fs=1&amp;autoplay=1">
-									  2
+							<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+							<a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/12878501?fs=1&amp;autoplay=1">
+									 Long Jump 2
 							</a>
 						</span>
 						<span class="watch-video-play ">	
-							<span class="glyphicon glyphicon-play " aria-hidden="true"></span>	
-							<a class="video"  title="" href="http://player.vimeo.com/video/12877744?fs=1&amp;autoplay=1">
+						<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+							<a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/12877744?fs=1&amp;autoplay=1">
 								 Agility-Ball Training
 								</a>
 						</span>
 						<span class="watch-video-play ">	
-							<span class="glyphicon glyphicon-play " aria-hidden="true"></span>	
-							<a class="video"  title="" href="http://player.vimeo.com/video/12878712?fs=1&amp;autoplay=1">
+							<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+							<a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/12878712?fs=1&amp;autoplay=1">
 								 Heel-Sit-Recall
 								</a>
 						</span>
 					 </div>
 					    
-					      
+					  </div>
+					</br>
+					<div class="section">   
 					<h4>
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span> Train The Trainer
 					 </h4>
-					<div class="programs">
 						<div class="image-wrap-right">
-						  <img width="310px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/train-the-trainer.jpg"/>
+						  <img width="220px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-programs-2.jpg"/>
 						</div>
-
+ 
 						<p>
 						  Our Train the Trainer™ program is a custom tailored, one-on-one training session that trains you to train your dog. You’ll meet with one of our training experts who will teach you motivating and high energy methods of training that will take you to the next level. Our program works through advanced dog obedience and dog agility and is suitable for puppies and older dogs of any age. Each session lasts a 1.5 hour maximum, depending on the dog. This is open to the public and will help you put the right paw forward!
 						</p>
-					</div>
-					</br> 
-					
-					<span class="title"><h4>Board & Train – Leave your dog with us and let us do all the hard work!  </h4></span>  
-						         
+						</div>  
+					 
 					</br>
-					<div class="programs">
-						
-						<p>
+				 
+					
+						 <div class="section">    
+						 	<p>
 							 <h4> <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span> Two week Board and Train</h4> <i>(For dogs aged 4 months and up)</i>
 						</p>
-						</br>
 					   Here’s what’s included: 
 						<div class="image-wrap-right" >
 				        <img width="310px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-2-weeks.jpg"/>
@@ -124,11 +122,12 @@
 							<p>
 					        Our Board and Train program includes daily training three times/day, behavioral training twice/day, and exercise five times/day.
 							</p>
-					   </div>
+							</div>
+					   
 
 						</br>
-						 <h4 style="margin:5px 10px"> <span class="glyphicon glyphicon-bookmark red" aria-hidden="true"></span> Four Week Board & Train</h4>					     
-					    <div class="programs">
+						 
+						<div class="section">     <h4 style="margin:5px 10px"> <span class="glyphicon glyphicon-bookmark red" aria-hidden="true"></span> Four Week Board & Train</h4>	
 								<div class="image-wrap-right" >
 								  <img width="310px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-4-weeks.jpg"/>
 								</div>
@@ -155,18 +154,19 @@
 								  Our Board and Train program includes daily training three times/day, behavioral training twice/day, and exercise five times/day.  </span></li>
 								  </li>
 								</ul>
-					   </div>
-
+					   
+						</div>
 						</br>
 					
-						<p>
-						 <h4> <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span> Competition or Trial Training</h4>  
-					  </p>
+						
 				  
 						 
-					   <div class="programs">
+					  <div class="section" style="height:260px">   
+					  <p>
+						 <h4> <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span> Competition or Trial Training</h4>  
+					  </p>
 					      <div class="image-wrap-right">
-					        <img  src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-programs-5.jpg"/>
+					        <img width="270px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-programs-5.jpg"/>
 					      </div>
 
 					      <p>
@@ -175,7 +175,7 @@
 					        *Each dog must be continuously trained by the owner upon departure on average of four times/week, after the handler course.
 					      </p>
 					   </div>
-						</br></br></br></br>
+						</br> 
 					    <p>
 					   <h4 class="red">ASK US ABOUT OUR AKC CANINE GOOD CITIZEN PROGRAM!</h4>
 					    </p>

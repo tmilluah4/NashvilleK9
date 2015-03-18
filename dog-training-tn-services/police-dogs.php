@@ -9,11 +9,132 @@
     <div class="main">
         <div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					<?php include('../partials/overview-sidebar.html');?> 	
+					<div class="col-md-3" class="side-column" >
+					<div class="row"> 
+						<div class="image-random">
+					       <img src="../images/random-3.jpg" class="random"/> 
+					      </div>
+					 </div> 
+				  	 <div class="row" style="margin-top:0px"> 
+						<div class="list-group"  >
+						  <a class="list-group-item"  href="services.php">  K-9 SERVICES </a> 
+						  <a href="dog-training-programs.php" class="list-group-item">DOG TRAINING PROGRAMS</a>
+						  <a href="executive-protection-dogs.php" class="list-group-item "> EXECUTIVE PROTECTION DOGS</a>
+						  <a href="detection-dogs.php" class="list-group-item">DETECTION DOGS</a>
+						  <a href="police-dogs.php" class="list-group-item active"><img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px">POLICE DOGS</a>
+						  <a href="working-dogs.php" class="list-group-item">WORKING DOGS</a>
+						  <a href="search-and-rescue.php" class="list-group-item">SEARCH AND RESCUE </a> 
+						<a href="pet-first-aid.php" class="list-group-item">PET FIRST AID </a> 
+						<a href="hunting-dogs.php" class="list-group-item">HUNTING DOGS</a> 
+						</div>
+					 </div>
 				</div>
+				<div class="col-md-1" style="margin-left:-20px" ></div>
 				<div class="col-md-8">
-				 
+				<h3 style="text-transform:uppercase" class="page-section-title">POLICE SERVICE DOGS</h3> 
+					  <div class="section">
+	 	 <div >
+    <h4><span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" style="padding-right:10px"></span>Our Police K-9 Program covers:</h4>
+    </div>
+      <div class="image-wrap-right">
+        <img width="270px" src="/NashvilleK9/images/police-dogs.png"/>
+      </div>
+      <ul class="overview-list-items" style="padding-top:10px">
+        <li><span class="text"> Dog obedience and practical dog agility  </span></li>
+        <li><span class="text"> Handler Protection </span></li>
+        <li><span class="text"> Building Search  </span></li>
+        <li><span class="text"> Area search  </span></li>
+        <li><span class="text"> Scent Discrimination Trailing   </span></li>
+        <li><span class="text"> Evidence Search   </span></li>
+        <li><span class="text"> Narcotics/Drug Detection (w/ Weapons Detection) </span></li>
+        <li><span class="text"> Explosives Detection </span></li>
+        <li><span class="text"> Criminal Apprehension (including passive apprehensions,transports, multiple subjects, redirected bites, call-offs, in scenario based situations).     </span></li>
+        <li><span class="text"> SAR (Wilderness/FEMA Urban Disaster/Cadaver Recovery/Fire Rescue)  </span></li>
+      </ul>
+    </div>
+ 
+	
+    </br>
+    <div class="section">
+	 
+<h4>
+	<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span>   Dual Purpose K-9 (Narcotics or Explosives):
+ </h4>
+      <p>
+        This K-9 is trained in dog obedience and practical dog agility, criminal apprehension, handler protection, area search, tactical building search, felony vehicle stops, scent discrimination trailing, drug detection or explosives detection.
+      </p>
+    </div>
+  </br>
+
+
+	
+       <div class="section">
+		 	<h4>
+	<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span>   S.W.A.T Purpose K-9 (Apprehension Only):
+ </h4> 
+        <div class="image-wrap-right"  >
+        <img width="240px" src="/NashvilleK9/images/dog_training_services/police_dogs/police-protection-dog-2.jpg"/>
+      </div>
+      <p>
+        This K-9 is trained in S.W.A.T. or SRT applications for suspect apprehension only. These dogs endure machine gun tests, vehicle apprehensions, attic and crawlspace apprehensions, large building searches/apprehensions (dormitories, office, residential, etc.), and wilderness apprehension searches. These dogs are conditioned to tear gas, flash bangs, Tactical equipment, S.W.A.T. shields, etc. Stealth and Bark/Hold available.
+      </p>
+			<span class="watch-video-play ">	
+			<span class="glyphicon glyphicon-film " aria-hidden="true"></span>	
+			 <a class="video"  title="" href="http://player.vimeo.com/video/12874123?fs=1&amp;autoplay=1">
+        SWAT 1
+			</a>
+		</span> 
+<span class="watch-video-play ">	
+			<span class="glyphicon glyphicon-film " aria-hidden="true"></span>	
+		 <a class="video"  title="" href="http://player.vimeo.com/video/12874096?fs=1&amp;autoplay=1">
+        SWAT 2
+      </a>
+		</span> 
+		</br>
+    </div>
+  </br>
+       <div class="section">
+		 
+<h4>
+	<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span>    Patrol K-9 (Patrol & Trailing):
+ </h4>  
+      <p>
+        This K-9 is trained in dog obedience, dog agility, apprehension, handler protection, tactical building searches, felony vehicle stops, area and woods searches, and scent discrimination trailing.
+      </p>
+    </div>
+  </br> 
+     <div class="section">
+	  
+<h4>
+	<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span>    Detection Dogs (With or Without Trailing):
+ </h4>  
+      <p>
+        This K-9 is trained in either aggressive or passive narcotics detection or Explosives Detection and basic practical dog obedience. This dog can also be trained to perform man trailing as well.
+    </div>
+	  </br>
+       <div class="section">
+	
+<h4>
+	<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span>    Search and Rescue K-9:
+ </h4>   
+      <div class="image-wrap-right">
+        <img width="300px" src="/NashvilleK9/images/dog_training_services/police_dogs/police-protection-dog-3.jpg"/>
+      </div>
+      <p>
+        We offer several programs, which include scent discrimination trailing, wilderness air scenting (bark or re-find alert), Bark Alert, and Cadaver Recovery . Some of these areas can be cross-trained. Please visit the Search and Rescue Page.
+        Our SWAT K-9 training is based on National Tactical Officer’s Association standards, as well as the Tennessee Tactical Officer’s Association.
+        We have one S.W.A.T. K-9 Police Dog, and she is the only one of six S.W.A.T. canines to complete the NTOA recognized course in the State of Tennessee. She is also the ONLY canine that’s not municipality owned and ready for S.W.A.T. deployment. She was raised, trained, and titled by Nashville K-9.
+      </p>
+		<span class="watch-video-play ">	
+			<span class="glyphicon glyphicon-film " aria-hidden="true"></span>	
+			 <a class="video"  title="" href="http://player.vimeo.com/video/12879062?fs=1&amp;autoplay=1">
+        Roxy on Rubble – USAR
+      </a>
+		</span>  
+    </div>
+	 
+		
+    
 				</div>
             </div>
         </div>
