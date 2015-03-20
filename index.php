@@ -5,6 +5,7 @@
 	 
 </head>
 <body>
+  
 	<!-- Facebook Likebox SDK -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
@@ -15,9 +16,16 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script> 	
 	<!-- end -->
-	
+	 <script type="text/javascript">  
+	function setActive()
+	{ 
+		 document.getElementById('homeli').className='active'; 
+	}
+	window.onload = setActive;
+</script>
     <?php include('partials/header.html');?> 	 
-    <div class="main">
+	 
+    <div class="main" >
         <div class="container">
             <div class="row"> 
                <div class="col-md-6 pull-left ">  

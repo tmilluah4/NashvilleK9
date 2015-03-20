@@ -4,6 +4,11 @@
      <?php include('partials/head.html');?> 	  
 </head>
 <body> 
+ <script type="text/javascript">  
+		function setActive()
+		{  document.getElementById('contactli').className='active'; }
+		window.onload = setActive;
+	</script>
     <?php include('partials/header.html');?> 	
      
     <div class="main">

@@ -3,7 +3,12 @@
 <head> 
      <?php include('partials/head.html');?>  
 </head>
-<body> 
+<body   > 
+	<script type="text/javascript">  
+		function setActive()
+		{  document.getElementById('dogsli').className='active'; }
+		window.onload = setActive;
+	</script>
     <?php include('partials/header.html');?> 	
      
     <div class="main">

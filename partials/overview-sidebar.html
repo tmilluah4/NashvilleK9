@@ -1,14 +1,26 @@
+ <script type="text/javascript">  
+	function setActive()
+	{
+		 aObj1 =   document.getElementById('overview-sidebar').getElementsByTagName('a'); 
+		 document.getElementById('overviewli').className='active';
+		 for(i=0;i<aObj1.length;i++)
+		 { 
+			  if(document.location.href.indexOf(aObj1[i] )>=0){
+					aObj1[i].className='list-group-item active';
+			  }
+		 }
+	}
+	window.onload = setActive;
+</script>
  
-  
- 	
-	 
-	  
-		
-	 
-		
- 
-
- 
-
-
- 
+<div class="row"  >   
+	<div id="overview-sidebar" class="list-group">
+	  <a   href="overview.php" class="list-group-item" ><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span> K-9 OVERVIEW </a> 
+	  <a   href="meet-the-team.php" class="list-group-item" ><span class="glyphicon glyphicon-th-large " aria-hidden="true" ></span>MEET THE TEAM</a>
+	  <a   href="company-facts.php" class="list-group-item" ><span class="glyphicon glyphicon-th-large " aria-hidden="true" ></span>COMPANY FACTS </a>
+	  <a   href="facility.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true" ></span> FACILITY</a>
+	  <a   href="testimonials.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>TESTIMONIALS </a>
+	  <a   href="press.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>PRESS </a>
+	  <a   href="partners.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true" ></span>PARTNERS </a> 
+	</div>
+ </div>

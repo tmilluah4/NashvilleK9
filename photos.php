@@ -9,33 +9,26 @@
 </head>
 <body>
     <?php include('partials/header.html');?> 
-	<div class="main">
-		<div class="container">
-		 	<?php 
-				$json_link = "http://graph.facebook.com/{$album_id}/photos?fields=source";
-				$json = file_get_contents($json_link);
-
-				$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
-
-				$photo_count = count($obj['data']);
-	
-				for($x=0; $x<$photo_count; $x++){
-
-				    $source = $obj['data'][$x]['source'];
-
-				    echo "<a href='{$source}'   rel='gallery1'  class='fancybox' data-gallery>";
-				        echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat;'>";
-
-				        echo "</div>";
-				    echo "</a>"; 
-				}
-			?>
-		</div>
-  	</div>
+		<div class="main">
+			<div class="container">
+				<?php 
+					$json_link = "http://graph.facebook.com/{$album_id}/photos?fields=source";
+					$json = file_get_contents($json_link);
+					$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
+					$photo_count = count($obj['data']);		
+					
+					for($x=0; $x<$photo_count; $x++){
+						 $source = $obj['data'][$x]['source'];
+						 echo "<a href='{$source}'   rel='gallery1'  class='fancybox' data-gallery>";
+							  echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat;'>";
+							  echo "</div>";
+						 echo "</a>"; 
+					}
+				?>
+			</div>
+		</div> 
  
- 
-<?php include('partials/footer.html');?>  
-
+	<?php include('partials/footer.html');?>   
  
 </body>
 </html>

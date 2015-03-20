@@ -11,67 +11,61 @@
 			<div class="row">   
 				<div class="col-md-3" class="side-column" >
 					<div class="row"> 
-				 			<div class="image-random">
-						       <img src="../images/random-3.jpg" class="random"/> 
-						      </div>
-					 </div> 
-				  	 <div class="row" style="margin-top:0px"> 
-						<div class="list-group">
-						  <a href="overview.php" class="list-group-item"> K-9 OVERVIEW </a> 
-						  <a href="meet-the-team.php" class="list-group-item">MEET THE TEAM</a>
-						  <a href="company-facts.php" class="list-group-item active"><img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px"/>COMPANY FACTS </a>
-						  <a href="facility.php" class="list-group-item"> FACILITY</a>
-						  <a href="testimonials.php" class="list-group-item">TESTIMONIALS </a>
-						  <a href="press.php" class="list-group-item ">PRESS </a>
-						  <a href="partners.php" class="list-group-item">PARTNERS </a> 
+						<div class="image-random">
+							 <img src="../images/random-3.jpg" class="random"/> 
 						</div>
-					 </div>
-					 <div class="row" > 
-							<?php include('../partials/contact.html');?> 
 					 </div> 
+				  	 <?php include('../partials/overview-sidebar.html');?> 
 				</div>
-				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-8"    >  
-	 <h3 class="page-section-title">Our Biography  </h3><div class="section"> 
-					   	  	<p>
-					      Here’s what sets us apart from our competitors: We are Professional K-9 Instructors on various K-9 teams, and experts
-					        in dog training. We have trained in various K-9 sports across the globe, and competed in several canine trials across
-					        the U.S. Insist on a REAL Professional. What has your dog trainer done?
-					    </p>
-					         <ul class="overview-list-items">
-					            <li><span class="text">Davidson County Rescue Squad K-9 Unit, K-9 Unit Director</li>
-					            <li><span class="text">Overton County Rescue Squad K-9 Unit, K-9 Unit Director</li>
-					            <li><span class="text">Millersville Police Department, K-9 Unit Director </li>
-					            <li><span class="text">Livingston Police Department, K-9 Unit Director </li>
-					          <li><span class="text"> S.W.A.T School, Tennessee Law Enforcement Training Academy </span> </li>
-
-					          <li><span class="text">S.W.A.T. and S.O.R.T. K-9 School, Knoxville, TN Police Dept. (S.O.S.)   </li>
-					            <li><span class="text">S.W.A.T. and S.O.R.T. K-9 School, Southaven, MS Police Dept. (S.W.A.T.)   </li>
-					            <li><span class="text">Canine Tactical School, West Covina, CA Police Dept. (CATS)     </li>
-					            <li><span class="text">S.W.A.T. and K-9s Interacting During Deployment School, West Covina, CA Police Dept. (SKIDDS)   </li>
-					            <li><span class="text">K-9 Handler, National Police Canine Association  </li>
-					            <li><span class="text">K-9 Handler, International Police Working Dog Association  </li>
-					            <li><span class="text">Search and Rescue, United States Air Force CAP</span></li>
-					            <li><span class="text">Homeland Security Task Force 4               </li>
-					            <li><span class="text">Tennessee Association of Rescue Squads, Member   </li>
-					            <li><span class="text">Police Benevolent Association (PBA), Member – Capitol Hill Chapter  </li>
-					            <li><span class="text">Tennessee Tactical Officers Association (TTOA K-9), Member      </li>
-					            <li><span class="text">Fraternal Order of Police, Member                     </li>
-					            <li><span class="text">National Association for Search and Rescue (NASAR), Member  </li>
-
-					            <li><span class="text">Nashville Working Dogs, A USA Schutzhund Club - Training Director       </li>
-					            <li><span class="text">USA Schutzhund, Member  </li>
-
-
-					            <li><span class="text">AKC Certified Evaluator                      </li>
-					            <li><span class="text">Tennessee Task Force II US&R, former Handler   </li>
-					            <li><span class="text">Authorized Pet First Aid Insructor, American Red Cross  </li>
-
-					          <li><span class="text">Certified Helper, United Schutzhund Clubs of America </li>
-					        </ul>
-</div>
- <h4 class="page-section-title">Crossed Trained With: </h4><div class="section">
-					  
+				
+				<div class="col-md-9"    > 
+				
+					<div class="page-section-title-no-pic " >
+						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>our biography
+					</div> 
+	 
+					<div class="section-with-header" > 	 
+						<p>
+							Here’s what sets us apart from our competitors: We are Professional K-9 Instructors on various K-9 teams, and experts
+							  in dog training. We have trained in various K-9 sports across the globe, and competed in several canine trials across
+							  the U.S. Insist on a REAL Professional. What has your dog trainer done?
+						</p>
+						 
+						<ul class="overview-list-items">
+							<li><span class="text">Davidson County Rescue Squad K-9 Unit, K-9 Unit Director</li>
+							<li><span class="text">Overton County Rescue Squad K-9 Unit, K-9 Unit Director</li>
+							<li><span class="text">Millersville Police Department, K-9 Unit Director </li>
+							<li><span class="text">Livingston Police Department, K-9 Unit Director </li>
+							<li><span class="text"> S.W.A.T School, Tennessee Law Enforcement Training Academy </span> </li>
+							<li><span class="text">S.W.A.T. and S.O.R.T. K-9 School, Knoxville, TN Police Dept. (S.O.S.)   </li>
+							<li><span class="text">S.W.A.T. and S.O.R.T. K-9 School, Southaven, MS Police Dept. (S.W.A.T.)   </li>
+							<li><span class="text">Canine Tactical School, West Covina, CA Police Dept. (CATS)     </li>
+							<li><span class="text">S.W.A.T. and K-9s Interacting During Deployment School, West Covina, CA Police Dept. (SKIDDS)   </li>
+							<li><span class="text">K-9 Handler, National Police Canine Association  </li>
+							<li><span class="text">K-9 Handler, International Police Working Dog Association  </li>
+							<li><span class="text">Search and Rescue, United States Air Force CAP</span></li>
+							<li><span class="text">Homeland Security Task Force 4               </li>
+							<li><span class="text">Tennessee Association of Rescue Squads, Member   </li>
+							<li><span class="text">Police Benevolent Association (PBA), Member – Capitol Hill Chapter  </li>
+							<li><span class="text">Tennessee Tactical Officers Association (TTOA K-9), Member      </li>
+							<li><span class="text">Fraternal Order of Police, Member                     </li>
+							<li><span class="text">National Association for Search and Rescue (NASAR), Member  </li> 
+							<li><span class="text">Nashville Working Dogs, A USA Schutzhund Club - Training Director       </li>
+							<li><span class="text">USA Schutzhund, Member  </li> 
+							<li><span class="text">AKC Certified Evaluator                      </li>
+							<li><span class="text">Tennessee Task Force II US&R, former Handler   </li>
+							<li><span class="text">Authorized Pet First Aid Insructor, American Red Cross  </li> 
+							<li><span class="text">Certified Helper, United Schutzhund Clubs of America </li>
+					  </ul>
+					</div>
+					
+					</br>
+					 
+					<div class="page-sub-title" >
+						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Crossed Trained With:
+					</div> 
+					
+					<div class="section-with-header">   					  
 					         <ul class="overview-list-items">
 					            <li><span class="text">FEMA Tennessee Urban Search and Rescue (USAR) Task Force 1 </li>
 					            <li><span class="text">Tennessee Urban Search and Rescue (USAR) Task Force 2   </li>
@@ -80,14 +74,17 @@
 					            <li><span class="text">ILL/WIS SAR TEAM (K-9) (Illinois/Wisconsin)   </li>
 					            <li><span class="text">Service Dogs of America (SDA)            </li>
 					            <li><span class="text">Marseille France Naval Marins de Pompier ’07 (K-9 SAR, FRANCE)  </li>
-
 					            <li><span class="text">KPD K-9 Unit             </li>
 					            <li><span class="text">KPD Special Operations Squad (S.O.S. SWAT)  </li>
-
 					        </ul>
-</div>
- <h4 class="page-section-title">Affiliations</h4><div class="section">
-					    
+					</div>
+					
+					</br>
+					 
+					<div class="page-sub-title" >
+						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Affiliations:
+					</div> 
+					<div class="section-with-header">    
 					         <ul class="overview-list-items">
 					            <li><span class="text">USA Schutzhund </li>
 					            <li><span class="text">National Narcotics Detector Dog Association </li>
@@ -99,12 +96,16 @@
 					              <li><span class="text">Police Benevolent Association</li>
 					               <li><span class="text">The American Kennel Club </li>
 					        </ul>
-</div>
- <h4 class="page-section-title">Demonstrations/Classes/Seminars:</h4><div class="section">
-					    
-					         <ul class="overview-list-items">
-
-
+					</div>
+					
+					</br>
+					 
+					<div class="page-sub-title" >
+						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Demonstrations/Classes/Seminars:
+					</div> 
+					
+					<div class="section-with-header">    
+					         <ul class="overview-list-items 
 					            <li><span class="text">2003 Knoxville Univ. of TN Vet School – Schutzhund/ Police Dog Demo  </li>
 					            <li><span class="text">2005 Dog Day Nashville Humane – Nashville K-9 Police Dog Demo  </li>
 					            <li><span class="text">2006 Dog Day Nashville Humane – TN-TF2 NFD, Nashville K-9 Police Dog Demo   </li>
@@ -154,25 +155,29 @@
 					            <li><span class=”text”>2013 Kenrose Elementary School (Williamson Cty) Demonstration </span></li>
 					            <li><span class=”text”>2013 Adventure Science Center Nashville  </span></li>
 					            <li><span class=”text”>2013 Critter Camp, Nashville Humane Association </span></li>
-					          <li><span class=”text”>2014 Nashville Humane Association's Unleashed Dinner with your Dog   </span></li>
-					          <li><span class="text">2014 McKendree Village Retirement Community Obedience Demonstration  </li>
+					            <li><span class=”text”>2014 Nashville Humane Association's Unleashed Dinner with your Dog   </span></li>
+					            <li><span class="text">2014 McKendree Village Retirement Community Obedience Demonstration  </li>
 					            <li><span class="text">2014 Tusculum Elementary School Demonstration </li>
-					              <li><span class="text">2014 St. Puppy's Day, Clearchannel Media </li>
-					              <li><span class="text">2014 Beech High School Hendersonville, K-9 Demonstration  </li>
-					              <li><span class="text">2014 Remington College, Criminal Justice Demonstration </li>
-					              <li><span class="text">2014 Musician's Corner, Police Dog Demonstration </li>
-					               <li><span class="text">2014 Critter Camp, Nashville Humane Association</li>
-					                <li><span class="text">2014 Adventure Science Center, Police Dog Demonstration </li>
-					                 <li><span class="text">2014 Accelerant, Protection Dog Demonstration </li>
-					                  <li><span class="text">2014 Nashville Humane's Dog Day, Police Dog/SAR Demonstration </li>
-					                  <li><span class="text">2014 MARS Pet Care, Obedience Demonstration </li>
-
+					            <li><span class="text">2014 St. Puppy's Day, Clearchannel Media </li>
+					            <li><span class="text">2014 Beech High School Hendersonville, K-9 Demonstration  </li>
+					            <li><span class="text">2014 Remington College, Criminal Justice Demonstration </li>
+					            <li><span class="text">2014 Musician's Corner, Police Dog Demonstration </li>
+					            <li><span class="text">2014 Critter Camp, Nashville Humane Association</li>
+					            <li><span class="text">2014 Adventure Science Center, Police Dog Demonstration </li>
+					            <li><span class="text">2014 Accelerant, Protection Dog Demonstration </li>
+					            <li><span class="text">2014 Nashville Humane's Dog Day, Police Dog/SAR Demonstration </li>
+					            <li><span class="text">2014 MARS Pet Care, Obedience Demonstration </li>
 					        </ul>
-</div>
-  <h4 class="page-section-title">Deployed:Search & Recovery</h4><div class="section">					  
-					    
-					          <ul class="overview-list-items">
-
+						</div>
+						
+						</br>
+						
+						<div class="page-sub-title" >
+							<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Deployed:Search & Recovery:
+						</div> 
+					 
+						<div class="section-with-header">     
+					          <ul class="overview-list-items"> 
 					            <li><span class="text">Fairview, TN Feb ‘08            </li>
 					            <li><span class="text">Coffee County, TN Missing Persons ‘08  </li>
 					            <li><span class="text">Franklin, TN Tornadoes Feb ‘08      </li>
@@ -185,22 +190,23 @@
 					            <li><span class="text">Nashville,TN Flood Cadaver Mill’s Creek’10  </li>
 					            <li><span class="text">2011 Suicidal Person, Nashville, TN    </li>
 					            <li><span class="text">2012 Overton County Tornadoes   </li>
-					             <li><span class="text">2014 White County Homicide </li>
-					              <li><span class="text">2014 White County Cadaver  </li>
-					               <li><span class="text">2014 TBI/Warren County Cadaver   </li>
+					            <li><span class="text">2014 White County Homicide </li>
+					            <li><span class="text">2014 White County Cadaver  </li>
+					            <li><span class="text">2014 TBI/Warren County Cadaver   </li>
 					        </ul>
 					    <p>
 					      Several for: K-9 SAR cases with Metro Nashville Emergency Management, TEMA, Maury Cty Sheriff, Tennessee
 					      Association of Rescue Squads, TWRA, and many local law enforcement and rescue agencies.
 					    </p>
 					  </div>
-					 </div>
+					</div>
 				</div>
 			</div> 
-        </div>
-    </div>	 
-	  
+      </div>
+   </div>	 
+	
 	<?php include('../partials/footer.html');?> 	
    
 </body>
 </html>
+	   

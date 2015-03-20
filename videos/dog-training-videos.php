@@ -19,11 +19,16 @@
 		</script> 
 </head> 	
 <body>  
+	<script type="text/javascript">  
+		function setActive()
+		{  document.getElementById('videosli').className='active'; }
+		window.onload = setActive;
+	</script>
     <?php include('../partials/header.html');?> 	 
     <div class="main" >
         <div class="container"> 
 				<div class="row">   
-					<div class="col-md-3" style="margin-left:30px;margin-right:40px" >
+					<div class="col-md-3" class="side-column"  >
 						 <div class="row"> 
 							<div class="image-random">
 								 <img src="/Nashvillek9/images/random-3.jpg" class="random"/> 
@@ -32,26 +37,30 @@
 						<!--<img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px">  -->
 						 <div class="row" style="margin-top:0px"> 
 						 <ul  class="list-group" style="cursor: pointer;">
-							  <li id="content1" class="list-group-item switcher active"> WHY WE ARE BETTER! </li>
-							  <li id="content2" class="list-group-item switcher">WHAT ARE CLIENTS ARE SAYING</li>
-							  <li id="content3" class="list-group-item switcher">SOME OF OUR DOGS</li>
-							  <li id="content4" class="list-group-item switcher">DOG OBEDIENCE</li>
-							  <li id="content5" class="list-group-item switcher">4 WEEK BOARD AND TRAIN</li>
-							  <li id="content6" class="list-group-item switcher">DOG PROTECTION </li>
-							  <li id="content7" class="list-group-item switcher">SEARCH AND RESCUE </li>
-							  <li id="content8" class="list-group-item switcher">DOG AGILITY</li>
-							  <li id="content9" class="list-group-item switcher">DEMONSTRATIONS</li>
-							  <li id="content10" class="list-group-item switcher">PET FIRST AID</li>
-							  <li id="content11" class="list-group-item switcher">RING SPORT</li>
-							  <li id="content12" class="list-group-item switcher">COMMERCIALS</li>
+							  <li id="content1" class="list-group-item switcher active"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span> WHY WE ARE BETTER! </li>
+							  <li id="content2" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>WHAT ARE CLIENTS ARE SAYING</li>
+							  <li id="content3" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>SOME OF OUR DOGS</li>
+							  <li id="content4" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>DOG OBEDIENCE</li>
+							  <li id="content5" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>4 WEEK BOARD AND TRAIN</li>
+							  <li id="content6" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>DOG PROTECTION </li>
+							  <li id="content7" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>SEARCH AND RESCUE </li>
+							  <li id="content8" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>DOG AGILITY</li>
+							  <li id="content9" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>DEMONSTRATIONS</li>
+							  <li id="content10" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>PET FIRST AID</li>
+							  <li id="content11" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>RING SPORT</li>
+							  <li id="content12" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>COMMERCIALS</li>
 							</div>
 					 
-					</div>
-					<div class="col-md-1" style="margin-left:-20px" ></div>
-					<div class="col-md-8"    > 
-						<h3>DOG TRAINING VIDEOS</h3>
-						<div id="switcher-panel" style="padding-top:20px;">
+					</div> 
+					<div class="col-md-9"    > 
+						
+						<div id="switcher-panel"  >
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Why we are better
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -75,6 +84,11 @@
 						<!-- WHY WE ARE BETTER -->
 						<div id="content1-content" class="switcher-content ">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Why we are better
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -98,6 +112,11 @@
 						<!-- CLIENTS -->
 						<div id="content2-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>What are clients are saying
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -171,6 +190,11 @@
 						<!-- SOME OF OUR DOGS -->
 						<div id="content3-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>some of our dogs
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -251,6 +275,11 @@
 						<!-- DOG OBEDIENCE -->
 						<div id="content4-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>dog obedience
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -266,6 +295,11 @@
 						<!-- 4 WEEK BOARD AND TRAIN -->
 						<div id="content5-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>4 week board and train
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -328,6 +362,11 @@
 						<!-- DOG PROTECTION -->
 						<div id="content6-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>dog protection
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -382,6 +421,11 @@
 						<!-- SEARCH AND RESCUE -->
 						<div id="content7-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>search and rescue
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -424,6 +468,11 @@
 						<!-- DOG AGILITY -->
 						<div id="content8-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>dog agility
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -440,6 +489,11 @@
 						<!-- DEMONSTRATIONS -->
 						<div id="content9-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>demonstrations
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -520,6 +574,11 @@
 						<!-- PET FIRST AID -->
 						<div id="content10-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>pet first aid
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										<div class="video-box"> 
@@ -545,6 +604,11 @@
 							<!-- RING SPORT -->
 						<div id="content11-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Ring sport
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										 <ul class="overview-list-items">
@@ -561,6 +625,11 @@
 						<!-- COMMERCIALS -->
 						<div id="content12-content" class="switcher-content">
 							<div class="container">
+								<div class="row">
+									<div class="video-section-title" >
+										 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>commercials
+									</div> 
+								</div>
 								<div class="row">    
 									<div class="col-md-4"> 
 										 <ul class="overview-list-items">

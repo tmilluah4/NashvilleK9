@@ -1,0 +1,28 @@
+ <script type="text/javascript">  
+	function setActive()
+	{
+		 aObj1 =   document.getElementById('overview-sidebar').getElementsByTagName('a'); 
+		 document.getElementById('servicesli').className='active';
+		 for(i=0;i<aObj1.length;i++)
+		 { 
+			  if(document.location.href.indexOf(aObj1[i] )>=0){
+					aObj1[i].className='list-group-item active';
+			  }
+		 }
+	}
+	window.onload = setActive;
+</script>
+ 
+<div class="row" > 
+	<div class="list-group" id="overview-sidebar" >
+	  <a href="services.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"  ></span>   K-9 SERVICES </a> 
+	  <a href="dog-training-programs.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span> DOG TRAINING PROGRAMS</a>
+	  <a href="executive-protection-dogs.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span>EXECUTIVE PROTECTION DOGS</a>
+	  <a href="detection-dogs.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span>DETECTION DOGS</a>
+	  <a href="police-dogs.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span>POLICE DOGS</a>
+	  <a href="working-dogs.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span>WORKING DOGS</a>
+	  <a href="search-and-rescue.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span>SEARCH AND RESCUE </a> 
+	  <a href="pet-first-aid.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span>PET FIRST AID </a> 
+	  <a href="hunting-dogs.php" class="list-group-item"><span class="glyphicon glyphicon-th-large " aria-hidden="true"   ></span>HUNTING DOGS</a> 
+	</div>
+</div> 

@@ -7,104 +7,92 @@
     <?php include('../partials/header.html');?> 	
      
     <div class="main">
-        <div class="container">
-		<div class="row">
-					<div class="col-md-3" class="side-column"  >
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-md-3" class="side-column"  >
 					<div class="row"> 
 						<div class="image-random">
-					       <img src="../images/random-3.jpg" class="random"/> 
-					      </div>
-				 	
-					 </div> 
-				  	 <div class="row" style="margin-top:0px"> 
-						<div class="list-group"  >
-						  <a class="list-group-item"  href="services.php">  K-9 SERVICES </a> 
-						  <a href="dog-training-programs.php" class="list-group-item">DOG TRAINING PROGRAMS</a>
-						  <a href="executive-protection-dogs.php" class="list-group-item "> EXECUTIVE PROTECTION DOGS</a>
-						  <a href="detection-dogs.php" class="list-group-item">DETECTION DOGS</a>
-						  <a href="police-dogs.php" class="list-group-item">POLICE DOGS</a>
-						  <a href="working-dogs.php" class="list-group-item">WORKING DOGS</a>
-						  <a href="search-and-rescue.php" class="list-group-item">SEARCH AND RESCUE </a> 
-						<a href="pet-first-aid.php" class="list-group-item">PET FIRST AID </a> 
-						<a href="hunting-dogs.php" class="list-group-item active"><img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px">HUNTING DOGS</a> 
+							 <img src="../images/random-3.jpg" class="random"/> 
 						</div>
-					 </div>
-					 
+					</div> 
+					<?php include('../partials/services-sidebar.html');?>  
 				</div>
-				<div class="col-md-1" style="margin-left:-20px" ></div>
-				<div class="col-md-8">
+				
+				<div class="col-md-9"    > 
 			 
-				  <h3 style="text-transform:uppercase" class="page-section-title">HUNTING DOGS</h3> 
-</br>
-   
-    <div class="section">
-	 <h4>
-      <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span> Basic Retriever Training
-    </h4>
-      	 <div class="image-wrap-right">
-        <img width="270px" src="/NashvilleK9/images/dog_training_services/hunting_dogs/hunting-dog-big-catch.jpg"/>
-      </div>
-      <p>
-        A dog that completes our basic retriever training program will be a dog that will be a productive partner in the field. This dog should be capable of quartering for the gun in the uplands, proficient at trailing cripples, and should deliver game to your hand without delay. This dog should be capable of marking and retrieving single birds down for the duck hunter. In addition he/she should be obedience trained and obey the commands Sit, Kennel, Here, Quiet, Down, and Leave It.
+					<div class="image-wrap-right">
+						 <img width="270px" src="/NashvilleK9/images/dog_training_services/hunting_dogs/hunting-dog-big-catch.jpg"/>
+					</div>
+					
+					<div class="page-section-title" >
+						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" style="padding-right:10px"></span>Basic Retriever Training 
+					</div> 			
+					
+					<div class="section-with-header">   
+						<p>
+						  A dog that completes our basic retriever training program will be a dog that will be a productive partner in the field. This dog should be capable of quartering for the gun in the uplands, proficient at trailing cripples, and should deliver game to your hand without delay. This dog should be capable of marking and retrieving single birds down for the duck hunter. In addition he/she should be obedience trained and obey the commands Sit, Kennel, Here, Quiet, Down, and Leave It.
 
-        The dog will be properly introduced to the electronic collar during obedience training and will accordingly obey commands quickly, but at the same time retain a good working attitude. This level of training usually takes 3 - 4 months to complete, depending on the dogs natural ability.
-      </p>
-    </div>
+						  The dog will be properly introduced to the electronic collar during obedience training and will accordingly obey commands quickly, but at the same time retain a good working attitude. This level of training usually takes 3 - 4 months to complete, depending on the dogs natural ability.
+						</p>
+					</div>
 
-</br>
- 
-    <div class="section">
-         <h4>
-     <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span> Intermediate Retriever Training (Seasoned-UKC), (Senior-AKC)
-    </h4>
-      <p>
-        Retriever breeds are eligible for our Advanced Retriever Training Program upon completion of our Basic Retriever Program. A dog at this level should be capable of completing double retrieves on land and water and should be fully steady. At this time handling and lining drills are introduced, as well as more advanced marking concepts. Dogs that complete this program will be able to run simple cold blinds and compete in mid level UKC and AKC hunt tests. If the dog is to be used for upland hunting, steady to flush and shot can also be completed at this point. A dog that completes this level of training is a true hunting companion and is a dog that anyone would be proud to own. This training usually takes 4-6 months to complete.
-      </p>
+					</br>
+					
+				
+					<div class="page-sub-title" >
+						 <span class="glyphicon glyphicon-bookmark red" aria-hidden="true" style="padding-right:10px"></span>Intermediate Retriever Training (Seasoned-UKC), (Senior-AKC) 
+					</div> 	
+					
+					<div class="section-with-header">   
+						<p>
+						  Retriever breeds are eligible for our Advanced Retriever Training Program upon completion of our Basic Retriever Program. A dog at this level should be capable of completing double retrieves on land and water and should be fully steady. At this time handling and lining drills are introduced, as well as more advanced marking concepts. Dogs that complete this program will be able to run simple cold blinds and compete in mid level UKC and AKC hunt tests. If the dog is to be used for upland hunting, steady to flush and shot can also be completed at this point. A dog that completes this level of training is a true hunting companion and is a dog that anyone would be proud to own. This training usually takes 4-6 months to complete.
+						</p>
+					</div>
+					
+					</br>
+  
+					<div class="page-sub-title" >
+						 <span class="glyphicon glyphicon-bookmark red" aria-hidden="true" style="padding-right:10px"></span>Advanced Retriever Training (Finished-UKC), (Master-AKC), (QAA)
+					</div>
+					<div class="section-with-header">
+						<p>
+						  A dog that completes this program is an elite hunting machine. This dog has all of the skills of an intermediate retriever plus the ability to complete complicated triple marks, blinds with hazards and poison birds, honoring, and advanced water concepts. This dog should also be steady to flush and shot in the uplands and be adept at trailing cripples. Dogs that complete this program are usually 2-3 years of age and would compete in the Finished/Master/QAA level. Not all dogs have the natural skills to complete this level of training. Total training time required to achieve this level of performance is usually 12-18 months. Dogs at this level should possess exceptional intelligence, bidability, drive, and water attitude.
+						</p> 
+					</div>
 
-    </div>
-
-
-</br>
- 
-    
-   <div class="section"> 
-  <h4>
-      <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"></span>Advanced Retriever Training (Finished-UKC), (Master-AKC), (QAA)
-    </h4>
-      <p>
-        A dog that completes this program is an elite hunting machine. This dog has all of the skills of an intermediate retriever plus the ability to complete complicated triple marks, blinds with hazards and poison birds, honoring, and advanced water concepts. This dog should also be steady to flush and shot in the uplands and be adept at trailing cripples. Dogs that complete this program are usually 2-3 years of age and would compete in the Finished/Master/QAA level. Not all dogs have the natural skills to complete this level of training. Total training time required to achieve this level of performance is usually 12-18 months. Dogs at this level should possess exceptional intelligence, bidability, drive, and water attitude.
-      </p>
-
-    </div>
-	 </br>
- <div class="section">
-    <table style="line-height: 2em;">
-      <tr>
-        <td style="width:100px; font-weight: bold;">Level 1</td>
-        <td>Introduced to birds, water, decoys, play retrieving</td>
-      </tr>
-      <tr>
-        <td style="width:100px; font-weight: bold;">Level 2</td>
-        <td>Introduced to gunfire, collar conditioned, basic obedience, simple single retrieves on land/water, quartering to the gun</td>
-      </tr>
-      <tr>
-        <td style="width:100px; font-weight: bold;">Level 3</td>
-        <td>Force fetch</td>
-      </tr>
-      <tr>
-        <td style="width:100px; font-weight: bold;">Level 4</td>
-        <td>Line steady, Doubles on land/water, line steady, pile work, double T, swim by, simple cold blind retrieves</td>
-      </tr>
-      <tr>
-        <td style="width:100px; font-weight: bold;">Level 5</td>
-        <td>Triples on land/water, advanced handling drills, complex marking scenarios, Master level blind retrieves</td>
-      </tr>
-    </table>
+					</br>
+					
+					<div class="section">   
+						<table style="line-height: 2em;">
+							<tr>
+							  <td style="width:100px; font-weight: bold;">Level 1</td>
+							  <td>Introduced to birds, water, decoys, play retrieving</td>
+							</tr>
+							<tr>
+							  <td style="width:100px; font-weight: bold;">Level 2</td>
+							  <td>Introduced to gunfire, collar conditioned, basic obedience, simple single retrieves on land/water, quartering to the gun</td>
+							</tr>
+							<tr>
+							  <td style="width:100px; font-weight: bold;">Level 3</td>
+							  <td>Force fetch</td>
+							</tr>
+							<tr>
+							  <td style="width:100px; font-weight: bold;">Level 4</td>
+							  <td>Line steady, Doubles on land/water, line steady, pile work, double T, swim by, simple cold blind retrieves</td>
+							</tr>
+							<tr>
+							  <td style="width:100px; font-weight: bold;">Level 5</td>
+							  <td>Triples on land/water, advanced handling drills, complex marking scenarios, Master level blind retrieves</td>
+							</tr>
+						</table>
+					</div>
+					
 				</div>
-            </div>
-        </div>
-    </div>	
-	
+				
+			</div>
+		</div>	
+	</div>
 	  
 	<?php include('../partials/footer.html');?> 	
    

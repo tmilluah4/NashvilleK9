@@ -33,13 +33,29 @@
 					closeEffect	: 'none'
 				});
 			});	
-			  
-				 $(function() {
-				  $('ul li').click( function() {
-					 $(this).addClass('active').siblings().removeClass('active');
-				  });
-				});
+			  function setMainNav(page)
+		{ alert(page);
+			 mainli =   document.getElementById('mainNav').getElementsByTagName('li');
+			 maina =   document.getElementById('mainNav').getElementsByTagName('a');
+			 for(i=0;i<mainli.length;i++)
+			 {
+			 alert(document.location.href)
+			 alert(mainli)
+				  if(document.location.href.indexOf(mainli )>=0)
+				  {
+						mainli.className='active';
+
+				  }
+			 }
+		}
 		 
+				 <!--   $(function() {-->
+				 <!--    $('ul li').click( function() {-->
+				 <!--  	 $(this).addClass('active').siblings().removeClass('active');-->
+				 <!--    });-->
+			 <!--  	});-->
+	 
 		</script>
-		
+		 
  	
+ 
