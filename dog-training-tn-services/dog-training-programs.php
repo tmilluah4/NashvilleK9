@@ -24,7 +24,7 @@
 				<div class="col-md-9">
 				
 					<div class="image-wrap-right ">
-					  <img width="350px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-programs-1.jpg"/>
+					  <img width="350px" src="/images/dog_training_services/dog_training_programs/dog-training-programs-1.jpg"/>
 					</div>	
 					
 					<div class="page-section-title" >
@@ -70,7 +70,7 @@
 					</div> 	
 					<div class="section-sub-header"> 
 						<div class="image-wrap-right">
-						  <img width="310px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-programs-2.jpg"/>
+						  <img width="310px" src="/images/dog_training_services/dog_training_programs/dog-training-programs-2.jpg"/>
 						</div> 
 						<p>
 						  Our Train the Trainer™ program is a custom tailored, one-on-one training session that trains you to train your dog. You’ll meet with one of our training experts who will teach you motivating and high energy methods of training that will take you to the next level. Our program works through advanced dog obedience and dog agility and is suitable for puppies and older dogs of any age. Each session lasts a 1.5 hour maximum, depending on the dog. This is open to the public and will help you put the right paw forward!
@@ -88,7 +88,7 @@
 					 
 					<div class="section-with-header">  
 						<div class="image-wrap-right" >
-						  <img width="310px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-2-weeks.jpg"/>
+						  <img width="310px" src="/images/dog_training_services/dog_training_programs/dog-training-2-weeks.jpg"/>
 						</div>
 						<p> <i>(For dogs aged 4 months and up)</i></p>								 
 						Here’s what’s included: 					
@@ -121,7 +121,7 @@
 					
 					<div class="section-with-header">  					 
 							<div class="image-wrap-right" >
-							  <img width="310px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-4-weeks.jpg"/>
+							  <img width="310px" src="/images/dog_training_services/dog_training_programs/dog-training-4-weeks.jpg"/>
 							</div>
 							<ul class="overview-list-items"> 
 							  <li><span class="text">  Sit </span></li>
@@ -158,7 +158,7 @@
 					
 				   <div class="section-with-header" style="height:260px">  
 							<div class="image-wrap-right">
-								  <img width="270px" src="/NashvilleK9/images/dog_training_services/dog_training_programs/dog-training-programs-5.jpg"/>
+								  <img width="270px" src="/images/dog_training_services/dog_training_programs/dog-training-programs-5.jpg"/>
 							</div>
 						  <p>
 							  Schutzhund, Police K-9, AKC Agility, Ring- French or Mondio, S.W.A.T. K-9, etc.

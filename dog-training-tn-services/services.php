@@ -20,7 +20,7 @@
 				</div>			 
 				<div class="col-md-9"> 					
 					<div class="image-wrap-right " >
-					    <img width="310px" src="/NashvilleK9/images/services-1.jpg"/>
+					    <img width="310px" src="/images/services-1.jpg"/>
 					</div>
 					<div class="page-section-title" >
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Our Services 
@@ -31,7 +31,7 @@
 						  With this in mind, it is our firm belief that optimal training is best accomplished in a private setting. In group training sessions, your dog will spend more time paying attention to other dogs instead of you. So, we’ve put together a Train the Trainer™ package where we will personally teach you, one on one, how to train your dog. You’ll then be armed with an arsenal of tools to practice what you’ve learned at home. We will gradually increase the level each time we meet. This process is fun and exciting for both you and your dog!
 						</p>  
 						<div class="image-wrap-left">
-							<img width="310px" src="/NashvilleK9/images/services-2.jpg"/>
+							<img width="310px" src="/images/services-2.jpg"/>
 						</div> 
 						<p>
 						  For Police K-9, Fire, SAR, or Office of Emergency Management training, we can provide custom K-9 seminars teaching everything from scent detection to S.W.A.T. methods. We are the only civilian trainers certified in S.W.A.T/S.R.T. by the National Tactical Officer’s Association standards in the State of Tennessee. We are also the only civilian K-9 instructors certified by the State of Tennessee Department of Health in Narcotics detection in Nashville. Our passion is to change the old, traditional training methods

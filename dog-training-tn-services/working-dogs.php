@@ -23,7 +23,7 @@
 				<div class="col-md-9"    > 
 				
 					<div class="image-wrap-right">
-					  <img width="250px" src="/NashvilleK9/images/dog_training_services/working_dogs/micahmain.jpg"/>
+					  <img width="250px" src="/images/dog_training_services/working_dogs/micahmain.jpg"/>
 					</div>
 					
 					<div class="page-section-title" >
@@ -36,7 +36,7 @@
 						</p> 
 					 
 						<div class="image-wrap-left">
-						  <img width="250px" src="/NashvilleK9/images/dog_training_services/working_dogs/Nashville K-9 Field.jpg"/>
+						  <img width="250px" src="/images/dog_training_services/working_dogs/Nashville K-9 Field.jpg"/>
 						</div>
 
 						<p>
@@ -50,7 +50,7 @@
 						  All candidates are welcome to attend a training. If interested, please contact us.
 						</p>
 						<div class="image-full">
-							<img   src="/NashvilleK9/images/dog_training_services/working_dogs/nashville-working-dog.jpg" width="750px"/>
+							<img   src="/images/dog_training_services/working_dogs/nashville-working-dog.jpg" width="750px"/>
 						 </div>
 					</div>
 	 

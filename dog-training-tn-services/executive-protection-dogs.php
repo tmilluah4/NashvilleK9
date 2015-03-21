@@ -22,7 +22,7 @@
 				<div class="col-md-9"    > 
 			
 						<div class="image-wrap-right">
-						  <img  width="360" src="/Nashvillek9/images/dog_training_services/executive_protection_dogs/personal-protection-2.jpg"/>
+						  <img  width="360" src="images/dog_training_services/executive_protection_dogs/personal-protection-2.jpg"/>
 						</div>
 						<div class="page-section-title" >
 							 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>EXECUTIVE PROTECTION DOGS
@@ -67,13 +67,13 @@
 							</div> 
 							
 							<div class="image-wrap-left">
-							  <img   width="230"  src="/Nashvillek9/images/dog_training_services/executive_protection_dogs/personal-protection-3.jpg"/>	
+							  <img   width="230"  src="/images/dog_training_services/executive_protection_dogs/personal-protection-3.jpg"/>	
 							</div>
 							<p>
 							  Some people think a  titled sport dog is always enough to protect their home. They also think because a trainer has gone to a dog behavior school  or titled several sport dogs that he or she is capable of handling the task of trainng a pesonal protection dog. In our experience, this is simply not a fact. While there are titled dogs capable of personal protection, not all titled dogs are, and that's where we come into play. As law enforcement officers, we have seen and know how to recognize key points of vulnerability in a home, business, or travel situation and are trained to neutralize those weaknesses. We train upwards of five hundred dogs each year, logging multple thousands of hours in training. We are one of the primary resources in middle Tennessee for police departments and rescue squads, overseeing and directing all training and national certifications for several different departments. 
 							</p> 
 							<div class="image-wrap-right">
-								<img  width="320px" src="/Nashvillek9/images/dog_training_services/executive_protection_dogs/personal-protection-1.jpg"/>
+								<img  width="320px" src="/images/dog_training_services/executive_protection_dogs/personal-protection-1.jpg"/>
 							</div>
 						 
 							<span class="watch-video-play ">	

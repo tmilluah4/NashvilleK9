@@ -22,7 +22,7 @@
 					<div class="col-md-9"    > 
 				 
 						<div class="image-wrap-right">
-						  <img style="height: 100px;" src="/NashvilleK9/images/dog_training_services/pet_first_aid/pet_first_aid1.jpg"/>
+						  <img style="height: 100px;" src="/images/dog_training_services/pet_first_aid/pet_first_aid1.jpg"/>
 						</div>
 							
 						<div class="page-section-title" >

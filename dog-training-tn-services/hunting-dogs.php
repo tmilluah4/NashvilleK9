@@ -22,7 +22,7 @@
 				<div class="col-md-9"    > 
 			 
 					<div class="image-wrap-right">
-						 <img width="270px" src="/NashvilleK9/images/dog_training_services/hunting_dogs/hunting-dog-big-catch.jpg"/>
+						 <img width="270px" src="/images/dog_training_services/hunting_dogs/hunting-dog-big-catch.jpg"/>
 					</div>
 					
 					<div class="page-section-title" >

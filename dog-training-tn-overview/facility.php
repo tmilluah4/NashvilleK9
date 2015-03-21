@@ -23,7 +23,7 @@
 				
 				<div class="col-md-9"    >  
 					<div class="image-wrap-right " width="250px">
-						  <img  width="270px" src="/NashvilleK9/images/dog_training_overview/facility/nashville-dog-training-facility-2.jpg"/>
+						  <img  width="270px" src="/images/dog_training_overview/facility/nashville-dog-training-facility-2.jpg"/>
 					</div>
 					<div class="page-section-title" >
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Our Facility
@@ -36,7 +36,7 @@
 						</p>  
 						 
 						<div class="image-wrap-left" width="250px">
-						  <img  width="270px" src="/NashvilleK9/images/dog_training_overview/facility/dog-training-facility-1.jpg"/>
+						  <img  width="270px" src="/images/dog_training_overview/facility/dog-training-facility-1.jpg"/>
 						</div>
 
 						<p>

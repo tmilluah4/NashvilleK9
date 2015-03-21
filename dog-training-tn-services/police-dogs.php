@@ -24,7 +24,7 @@
 				<div class="col-md-9" > 
 				
 					<div class="image-wrap-right">
-						  <img width="300px" src="/NashvilleK9/images/police-dogs.png"/>
+						  <img width="300px" src="/images/police-dogs.png"/>
 					</div>
 					<div class="page-section-title" >
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Our Police K-9 Program covers: 
@@ -64,7 +64,7 @@
 					</div> 
 					<div class="section-with-header">  
 						<div class="image-wrap-right"  >
-						  <img width="240px" src="/NashvilleK9/images/dog_training_services/police_dogs/police-protection-dog-2.jpg"/>
+						  <img width="240px" src="/images/dog_training_services/police_dogs/police-protection-dog-2.jpg"/>
 						</div>
 						<p>
 						  This K-9 is trained in S.W.A.T. or SRT applications for suspect apprehension only. These dogs endure machine gun tests, vehicle apprehensions, attic and crawlspace apprehensions, large building searches/apprehensions (dormitories, office, residential, etc.), and wilderness apprehension searches. These dogs are conditioned to tear gas, flash bangs, Tactical equipment, S.W.A.T. shields, etc. Stealth and Bark/Hold available.
@@ -119,7 +119,7 @@
 					<div class="section-with-header">  
 						 
 						<div class="image-wrap-right">
-						  <img width="300px" src="/NashvilleK9/images/dog_training_services/police_dogs/police-protection-dog-3.jpg"/>
+						  <img width="300px" src="/images/dog_training_services/police_dogs/police-protection-dog-3.jpg"/>
 						</div>
 						
 						<p>

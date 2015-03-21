@@ -21,7 +21,7 @@
 					<div class="col-md-9" > 
 					 
 						<div class="image-wrap-right">
-							  <img width="300px" src="/Nashvillek9/images/dog_training_services/search_and_rescue/search-and-rescue-dog-1.jpg"/>
+							  <img width="300px" src="/images/dog_training_services/search_and_rescue/search-and-rescue-dog-1.jpg"/>
 						</div>
 						
 						<div class="page-section-title" >
@@ -35,7 +35,7 @@
 							</p>
 							 
 							<div class="image-wrap-left">
-							  <img width="300px" src="/Nashvillek9/images/dog_training_services/search_and_rescue/search-and-rescue-dog-2.jpg"/>
+							  <img width="300px" src="/images/dog_training_services/search_and_rescue/search-and-rescue-dog-2.jpg"/>
 							</div>
 
 							<p>
@@ -44,7 +44,7 @@
 							</p>
 						 
 							<div class="image-full ">
-								 <img  src="/Nashvillek9/images/dog_training_services/search_and_rescue/rescue-map.png"/>
+								 <img  src="/images/dog_training_services/search_and_rescue/rescue-map.png"/>
 							</div>
 						</div>
 					</div>
