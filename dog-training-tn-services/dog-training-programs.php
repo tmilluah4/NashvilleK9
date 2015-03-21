@@ -12,8 +12,10 @@
 				
 					<div class="row"> 
 						<div class="image-random">
-					       <img src="../images/random-3.jpg" class="random"/> 
-					   </div>				 	
+					       <script type="text/javascript">
+								  showImage();
+							 </script>  
+					    </div>				 	
 					</div> 
 					
 				   <?php include('../partials/services-sidebar.html');?> 
@@ -29,7 +31,7 @@
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>K-9 Training Programs
 					</div> 	
 				 
-					<div class="section-with-header" style="box-shadow:0px 0px 0px #fff">  
+					<div class="section-with-header"  >  
 						<p>
 						  Our dog trainers have extensive experience with rescues, strays, and other dogs who may have faced challenges early in life. We are one of Tennessee’s premier facilities for obedience training and behavior problem management. We offer on-leash and off-leash training programs to fit your lifestyle and canine companion. Puppies and senior dogs alike are welcome.
 						  Our dog behavior management programs address problems such as housetraining, aggression, shyness, hyperactivity, and more. Our programs are designed to help you communicate effectively with your pet and integrate him or her into your family’s daily routine. They also address basic obedience commands such as sit, down, stay, come, and heel, and how to use these commands to your advantage whether at home or on a walk.

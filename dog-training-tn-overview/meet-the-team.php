@@ -13,32 +13,34 @@
 				<div class="col-md-3" class="side-column"  >
 					<div class="row"> 
 						<div class="image-random">
-							 <img src="/NashvilleK9/images/random-3.jpg" class="random"/> 
-						</div>
+					       <script type="text/javascript">
+								  showImage();
+							 </script>  
+					    </div>
 					 </div> 
 				  	  <?php include('../partials/overview-sidebar.html');?>  
 				</div>
 				
 				<div class="col-md-9"    >  
-					 <?php include('/team-members/ali.html');?> 
+					 <?php include('team-members/ali.html');?> 
 					</br>
 					</br>
-					<?php include('/team-members/damon.html');?> 
+					<?php include('team-members/damon.html');?> 
 					</br>
 					</br>
-					<?php include('/team-members/jessica.html');?> 
+					<?php include('team-members/jessica.html');?> 
 					</br>
 					</br>
-					<?php include('/team-members/john.html');?> 
+					<?php include('team-members/john.html');?> 
 					</br>
 					</br>
-					 <?php include('/team-members/nick.html');?> 
+					 <?php include('team-members/nick.html');?> 
 					</br>
 					</br>
-					<?php include('/team-members/sandy.html');?> 
+					<?php include('team-members/sandy.html');?> 
 					</br>
 					</br>
-					<?php include('/team-members/joey.html');?> 
+					<?php include('team-members/joey.html');?> 
 				</div> 
 			</div> 
       </div>

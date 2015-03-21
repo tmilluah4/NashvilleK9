@@ -2,6 +2,15 @@
 <html>
 <head> 
      <?php include('partials/head.html');?>  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+
+	<script src="js/imgLiquid-min.js"></script>
+		<script type="text/javascript"> 
+			jQuery(document).ready(function($){
+					  $(".imgLiquid").imgLiquid();
+
+					});
+		</script>
 </head>  
 	<body>
 	 <script type="text/javascript">  
@@ -35,9 +44,10 @@
 					        $name!="Timeline Photos"
 					    ){			
 					        $show_pictures_link = "photos.php?album_id={$id}&album_name={$name}";
-					        echo "<div class='autofit-container'  >"; 
+							 
+					        echo "<div class='imgLiquid'  style='-moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000;display: inline-block; margin: 10px;width:206px; height:206px'>"; 
 					            	echo "<a href='{$show_pictures_link}'  >";
-					                	echo "<img class='photo-thumb'  src='https://graph.facebook.com/{$cover_photo}/picture' alt=''>";
+					                	echo "<img class='photo-thumb'  src='https://graph.facebook.com/{$cover_photo}/picture' alt='{$description}'>";
 					            	echo "</a>";  
 					        echo "</div>";
 					    }

@@ -6,6 +6,15 @@
 <html lang="en">
 <head> 
      <?php include('partials/head.html');?> 	   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+
+	<script src="js/imgLiquid-min.js"></script>
+		<script type="text/javascript"> 
+			jQuery(document).ready(function($){
+					  $(".imgLiquid").imgLiquid();
+
+					});
+		</script>
 </head>
 <body>
     <?php include('partials/header.html');?> 
@@ -19,10 +28,16 @@
 					
 					for($x=0; $x<$photo_count; $x++){
 						 $source = $obj['data'][$x]['source'];
-						 echo "<a href='{$source}'   rel='gallery1'  class='fancybox' data-gallery>";
-							  echo "<div class='photo-thumb' style='background: url({$source}) 50% 50% no-repeat;'>";
-							  echo "</div>";
-						 echo "</a>"; 
+						
+						 echo "<div class='imgLiquid'  style='-moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000;display: inline-block; margin: 10px;width:206px; height:206px'>"; 
+					            	echo "<a href='{$source}' rel='gallery1'  class='fancybox' data-gallery>";
+										echo "<img   class='photo-thumb' src='{$source}'   alt=''>"; 
+					                 
+					            	echo "</a>";  
+					        echo "</div>";
+						
+						
+						 
 					}
 				?>
 			</div>
@@ -32,3 +47,6 @@
  
 </body>
 </html>
+						
+						 
+  

@@ -13,8 +13,10 @@
 				
 					<div class="row"> 
 						<div class="image-random">
-					       <img src="../images/random-3.jpg" class="random"/> 
-					   </div> 
+					       <script type="text/javascript">
+								  showImage();
+							 </script>  
+					    </div>
 					</div> 
 					
 				  	<?php include('../partials/services-sidebar.html');?> 	

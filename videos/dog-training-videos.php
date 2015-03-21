@@ -30,15 +30,17 @@
 				<div class="row">   
 					<div class="col-md-3" class="side-column"  >
 						 <div class="row"> 
-							<div class="image-random">
-								 <img src="/Nashvillek9/images/random-3.jpg" class="random"/> 
-							</div> 
+								<div class="image-random">
+							       <script type="text/javascript">
+										  showImage();
+									 </script>  
+							    </div>
 						 </div> 
 						<!--<img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px">  -->
 						 <div class="row" style="margin-top:0px"> 
 						 <ul  class="list-group" style="cursor: pointer;">
 							  <li id="content1" class="list-group-item switcher active"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span> WHY WE ARE BETTER! </li>
-							  <li id="content2" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>WHAT ARE CLIENTS ARE SAYING</li>
+							  <li id="content2" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>ARE CLIENTS ARE SAYING</li>
 							  <li id="content3" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>SOME OF OUR DOGS</li>
 							  <li id="content4" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>DOG OBEDIENCE</li>
 							  <li id="content5" class="list-group-item switcher"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span>4 WEEK BOARD AND TRAIN</li>

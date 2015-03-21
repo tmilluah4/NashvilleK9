@@ -11,9 +11,11 @@
 			 <div class="row">   
 				 <div class="col-md-3" class="side-column" >
 					 <div class="row"> 
-				 			<div class="image-random">
-						       <img src="../images/random-3.jpg" class="random"/> 
-						   </div>
+				 		<div class="image-random">
+					       <script type="text/javascript">
+								  showImage();
+							 </script>  
+					    </div>
 					  </div> 
 				  	  <?php include('../partials/overview-sidebar.html');?> 
 				 </div>
