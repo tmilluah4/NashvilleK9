@@ -63,18 +63,18 @@
 								</a>
 						</span> 
 				  </div>
-				   
+				   </br>
 					 
 					<div class="page-sub-title" >
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Train The Trainer
 					</div> 	
-					<div class="section-sub-header"> 
+					<div class="section-with-header"> 
 						<div class="image-wrap-right">
 						  <img width="310px" src="/images/dog_training_services/dog_training_programs/dog-training-programs-2.jpg"/>
 						</div> 
-						<p>
+						<p></br>
 						  Our Train the Trainer™ program is a custom tailored, one-on-one training session that trains you to train your dog. You’ll meet with one of our training experts who will teach you motivating and high energy methods of training that will take you to the next level. Our program works through advanced dog obedience and dog agility and is suitable for puppies and older dogs of any age. Each session lasts a 1.5 hour maximum, depending on the dog. This is open to the public and will help you put the right paw forward!
-						</p></br>	</br>	</br>	
+						</p></br>	 	
 					</div>  
 				
 					</br>	

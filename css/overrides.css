@@ -5,10 +5,10 @@
 .row {background-color: none;} 
 
 /*---------------------LIST GROUP------------------*/
-.list-group {padding-left:0px;	padding-right: 10px;	padding-bottom:40px;	padding-top:40px; }
-.list-group-item {	opacity:.9;	margin-bottom: 5px; 	margin-right:10px; 	  padding:13px 20px ;margin-bottom:3px;}
-.list-group-item a {	color:#000;}
-.list-group-item span { 	 	margin-right:10px;}
+.list-group {padding-left:0px;	padding-right: 10px;	padding-bottom:40px; padding-top:40px; }
+.list-group-item {	opacity:1;	margin-bottom: 5px; background:whitesmoke;  margin-right:10px; 	  padding:13px 20px ;margin-bottom:3px;}
+.list-group-item a { }
+.list-group-item span { color:whitesmoke; 	margin-right:10px;}
 .list-group-item:first-child {	border-radius: 2px 2px;} 
 .list-group-item:last-child {	border-radius: 2px 2px;}
 .list-group-item.active, 
@@ -16,7 +16,7 @@
 .list-group-item.active span, 
 .list-group-item.active:focus span{ 	margin-right:10px; color:#AD1A1E;}
 .list-group-item.active:hover{background:#fff;	 }  
- 
+ a.list-group-item { }
 /*---------------------NAVIGATION BAR------------------*/ 
 .navbar-default .navbar-nav li   { border-right:1px dotted #ccc; 
 background: rgb(255,255,255); /* Old browsers */
