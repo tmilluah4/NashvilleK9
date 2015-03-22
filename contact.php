@@ -35,22 +35,22 @@
 					<div class="row" class="side-column-contact" > 
 					  
 						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-ali.jpg">
+		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-ali.jpg">
 				         </div>
 						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-damon.jpg">
+		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-damon.jpg">
 				         </div>
 						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-john.jpg">
+		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-john.jpg">
 				         </div>
 						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-jessica.jpg">
+		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-jessica.jpg">
 				         </div>
 						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-nick.jpg">
+		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-nick.jpg">
 				         </div>
 					 	 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/NashvilleK9/images/dog_training_overview/meet_the_team/nashville-dog-trainer-sandy.jpg">
+		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-sandy.jpg">
 				         </div>
 					 </div> 
 				</div>

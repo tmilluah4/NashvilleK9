@@ -6,7 +6,7 @@
 		<style> 
 			.switcher-content { display: none;}
 		</style>
-		<script type="text/javascript" src="/Nashvillek9/js/jquery.content-panel-switcher.js"></script> 
+		<script type="text/javascript" src="/js/jquery.content-panel-switcher.js"></script> 
 		<script type="text/javascript">
 			$(document).ready(function() {
 				jcps.fader(300, '#switcher-panel');
@@ -36,7 +36,7 @@
 									 </script>  
 							    </div>
 						 </div> 
-						<!--<img src="/NashvilleK9/images/dog-footer.png" style="padding-right:10px">  -->
+						<!--<img src="/images/dog-footer.png" style="padding-right:10px">  -->
 						 <div class="row" style="margin-top:0px"> 
 						 <ul  class="list-group" style="cursor: pointer;">
 							  <li id="content1" class="list-group-item switcher active"><span class="glyphicon glyphicon-th-large " aria-hidden="true"></span> WHY WE ARE BETTER! </li>
@@ -67,17 +67,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/90429741?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="200px" class="video-background" src="/Nashvillek9/images/training_videos/new.png">							
+											<img height="200px" class="video-background" src="/images/training_videos/new.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"   href="http://player.vimeo.com/video/111309544?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="200px" class="video-background" src="/Nashvillek9/images/training_videos/WhyWereBetter.png"> 
+											<img height="200px" class="video-background" src="/images/training_videos/WhyWereBetter.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -95,17 +95,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/90429741?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="200px" class="video-background" src="/Nashvillek9/images/training_videos/new.png">							
+											<img height="200px" class="video-background" src="/images/training_videos/new.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"   href="http://player.vimeo.com/video/111309544?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="200px" class="video-background" src="/Nashvillek9/images/training_videos/WhyWereBetter.png"> 
+											<img height="200px" class="video-background" src="/images/training_videos/WhyWereBetter.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -123,17 +123,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/39101759?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/client-1.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/client-1.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/24117768?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/client-2.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/client-2.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -142,17 +142,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/37906485?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/client-3.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/client-3.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/37906770?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/client-4.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/client-4.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -161,17 +161,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/37906769?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/client-5.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/client-5.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/37906486?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/client-6.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/client-6.png"> 
 										</div>  
 									</div>
 								</div> 
@@ -180,9 +180,9 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/37906488?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/client-7.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/client-7.png">							
 										</div>  
 									</div>
 									 
@@ -201,17 +201,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/35155573?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-1.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-1.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/35486063?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-2.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-2.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -220,17 +220,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe"  href="http://player.vimeo.com/video/34060120?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-3.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-3.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/36014594?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-4.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-4.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -239,17 +239,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/36014621?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-5.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-5.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/34436397?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-6.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-6.png"> 
 										</div>  
 									</div>
 								</div> 
@@ -258,17 +258,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/36014621?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-7.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-7.png">							
 										</div>  
 									</div>
 									 <div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/34436397?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/dogs-8.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/dogs-8.png">							
 										</div>  
 									</div>
 								</div>  
@@ -286,9 +286,9 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/19304189?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="200px" class="video-background" src="/Nashvillek9/images/training_videos/obedience-1.png">							
+											<img height="200px" class="video-background" src="/images/training_videos/obedience-1.png">							
 										</div>  
 									</div> 
 								</div>  
@@ -306,17 +306,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe"  href="http://player.vimeo.com/video/16292500?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/ammo2.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/ammo2.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/75062264?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/ammo3.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/ammo3.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -325,17 +325,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/75062264?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/ammo4.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/ammo4.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/16293303?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/ammo5.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/ammo5.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -344,17 +344,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/83517858?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/ammo6.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/ammo6.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/83517107?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/ammo7.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/ammo7.png"> 
 										</div>  
 									</div>
 								</div> 
@@ -373,17 +373,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/90429741?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/protection-1.png"> 							
+											<img height="230px" class="video-background" src="/images/training_videos/protection-1.png"> 							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/23885197?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/protection-2.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/protection-2.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -392,17 +392,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/23885159?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/protection-3.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/protection-3.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/23885064?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/protection-4.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/protection-4.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -411,9 +411,9 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/23885094?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/protection-5.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/protection-5.png">							
 										</div>  
 									</div>
 								 
@@ -432,17 +432,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/19303955?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/rescue-1.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/rescue-1.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/12879147?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/rescue-2.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/rescue-2.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -451,17 +451,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/12877190?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/rescue-3.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/rescue-3.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe" href="http://player.vimeo.com/video/12877441?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/rescue-4.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/rescue-4.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -479,9 +479,9 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/19283538?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="200px" class="video-background" src="/Nashvillek9/images/training_videos/agility.png">							
+											<img height="200px" class="video-background" src="/images/training_videos/agility.png">							
 										</div>  
 									</div>
 									 
@@ -500,17 +500,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/29877188?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-1.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-1.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/12877596?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-2.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-2.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -519,17 +519,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/12877551?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-3.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-3.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/12877744?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-4.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-4.png"> 
 										</div>  
 									</div>
 								</div>  
@@ -538,17 +538,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/12878501?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-5.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-5.png">							
 										</div>  
 									</div>
 									<div class="col-md-4">
 										<div class="video-box"> 
 											<a class="various fancybox.iframe"  href="http://player.vimeo.com/video/12878501?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-6.png"> 
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-6.png"> 
 										</div>  
 									</div>
 								</div> 
@@ -557,17 +557,17 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe"  href="http://player.vimeo.com/video/12878254?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-7.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-7.png">							
 										</div>  
 									</div>
 									 <div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/12878568?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="230px" class="video-background" src="/Nashvillek9/images/training_videos/demonstration-8.png">							
+											<img height="230px" class="video-background" src="/images/training_videos/demonstration-8.png">							
 										</div>  
 									</div>
 								</div>  
@@ -585,9 +585,9 @@
 									<div class="col-md-4"> 
 										<div class="video-box"> 
 											<a class="various  fancybox.iframe" href="http://player.vimeo.com/video/75864879?fs=1&amp;autoplay=1">
-												<img src="/Nashvillek9/images/play-icon.png" class="playOverlay" />  
+												<img src="/images/play-icon.png" class="playOverlay" />  
 											</a> 
-											<img height="200px" class="video-background" src="/Nashvillek9/images/training_videos/first-aid.png">							
+											<img height="200px" class="video-background" src="/images/training_videos/first-aid.png">							
 										</div>  
 										</br>
 										<ul class="overview-list-items">

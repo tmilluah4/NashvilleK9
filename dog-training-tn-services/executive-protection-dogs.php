@@ -22,7 +22,7 @@
 				<div class="col-md-9"    > 
 			
 						<div class="image-wrap-right">
-						  <img  width="360" src="images/dog_training_services/executive_protection_dogs/personal-protection-2.jpg"/>
+						  <img  width="360" src="/images/dog_training_services/executive_protection_dogs/personal-protection-2.jpg"/>
 						</div>
 						<div class="page-section-title" >
 							 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>EXECUTIVE PROTECTION DOGS

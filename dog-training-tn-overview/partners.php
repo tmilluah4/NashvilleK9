@@ -21,31 +21,31 @@
 				</div>
 				<div class="col-md-9"    > 
 				<div class="section-partners">
-					<a   href="http://www.mysecondhome.com"><img src="/NashvilleK9/images/partners/Logonopets.jpg" alt="" height="100" align="middle" /></a>
+					<a   href="http://www.mysecondhome.com"><img src="/images/partners/Logonopets.jpg" alt="" height="100" align="middle" /></a>
 				</div>
 				<div class="section-partners">
-					<a   href="http://nashvillehumane.org"><img src="/NashvilleK9/images/partners/NHA.jpg" alt="" height="100" align="middle" /></a>
+					<a   href="http://nashvillehumane.org"><img src="/images/partners/NHA.jpg" alt="" height="100" align="middle" /></a>
 				</div>
 				<div class="section-partners">
-					<a   href="http://5pointsanimalhospital.net"><img src="/NashvilleK9/images/partners/5points.jpg" alt="" height="100" align="middle" /></a>
+					<a   href="http://5pointsanimalhospital.net"><img src="/images/partners/5points.jpg" alt="" height="100" align="middle" /></a>
 				</div> 
 				<div class="section-partners">
-					<a   href="http://nashredcross.org"><img src="/NashvilleK9/images/partners/pfa.jpg" alt="" height="100" align="middle" /></a>
+					<a   href="http://nashredcross.org"><img src="/images/partners/pfa.jpg" alt="" height="100" align="middle" /></a>
 				</div> 
 				<div class="section-partners">
-					<a   href="http://dupontregistry.com"><img src="/NashvilleK9/images/partners/dupont.png" alt="" height="100" align="middle" /></a>
+					<a   href="http://dupontregistry.com"><img src="/images/partners/dupont.png" alt="" height="100" align="middle" /></a>
 				</div> 
 				<div class="section-partners">
-					<a   href="http://defendersupply.com"><img src="/NashvilleK9/images/partners/defender.jpg" alt="" height="100" align="middle" /></a>
+					<a   href="http://defendersupply.com"><img src="/images/partners/defender.jpg" alt="" height="100" align="middle" /></a>
 				</div>
 				<div class="section-partners">
-					<a   href="http://parkerspaws.net/"><img src="/NashvilleK9/images/partners/parkers-paws.jpg" alt="" height="100" align="middle" /></a>
+					<a   href="http://parkerspaws.net/"><img src="/images/partners/parkers-paws.jpg" alt="" height="100" align="middle" /></a>
 				</div> 
 				<div class="section-partners">
-					<a   href="http://belmontanimalhospital.com/"><img src="/NashvilleK9/images/partners/Belmontahlogo.jpg" alt="" height="100" align="middle" /></a>
+					<a   href="http://belmontanimalhospital.com/"><img src="/images/partners/Belmontahlogo.jpg" alt="" height="100" align="middle" /></a>
 				</div> 
 				<div class="section-partners">
-					<a   href="http://Misskittysnashville.com/"><img src="/NashvilleK9/images/partners/misskitty.png" alt="" height="100" align="middle" /></a>
+					<a   href="http://Misskittysnashville.com/"><img src="/images/partners/misskitty.png" alt="" height="100" align="middle" /></a>
 				</div> 
 					      
 

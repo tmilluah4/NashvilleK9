@@ -24,7 +24,7 @@
 				<div class="col-md-9"    > 
 				
 					<div class="image-wrap-right" >
-					  <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Erica-Protection-Dogs.jpg"  />
+					  <img  src="/images/dog_training_overview/testimonials/Erica-Protection-Dogs.jpg"  />
 					</div>					
 					<div class="page-sub-title" >
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Erica R. Nashville, TN
@@ -40,7 +40,7 @@
 </br></br>
 					
 					<div class="image-wrap-right">
-					  <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Jess-Search-and-Rescue.jpg"/>
+					  <img  src="/images/dog_training_overview/testimonials/Jess-Search-and-Rescue.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Jessica B., Nashville, TN
@@ -56,7 +56,7 @@
 </br></br> 
 
 					<div class="image-wrap-right">
-					 <img  src="/NashvilleK9/images/dog_training_overview/testimonials/Jackie-Protection-Dogs.png"/>
+					 <img  src="/images/dog_training_overview/testimonials/Jackie-Protection-Dogs.png"/>
 					</div>
 					<div class="page-sub-title" >
 						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Jackie C., Nashville, TN
@@ -72,7 +72,7 @@
 </br></br> 
 
 					<div class="image-wrap-right">
-						<img  src="/Nashvillek9/images/dog_training_overview/testimonials/Paisley-Nashville-Dog-Training.jpg"/>
+						<img  src="/images/dog_training_overview/testimonials/Paisley-Nashville-Dog-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Kati P., Nashville, TN
@@ -87,7 +87,7 @@
 </br></br> 
 
 					<div class="image-wrap-right">
-						<img  src="/Nashvillek9/images/dog_training_overview/testimonials/Drew-German-Shephard-Obedience.png"/>
+						<img  src="/images/dog_training_overview/testimonials/Drew-German-Shephard-Obedience.png"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Drew M., Brentwood, TN
@@ -102,7 +102,7 @@
 </br></br> 
 
 					<div class="image-wrap-right">
-						<img  src="/Nashvillek9/images/dog_training_overview/testimonials/Sam-Basic-Obedience-Training.jpg"/>
+						<img  src="/images/dog_training_overview/testimonials/Sam-Basic-Obedience-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Sam E. Nashville, TN
@@ -117,7 +117,7 @@
 </br></br> 
 
 					<div class="image-wrap-right">
-						<img  src="/Nashvillek9/images/dog_training_overview/testimonials/MikeL-Hunting-Dogs-Minnesota.jpg"/>
+						<img  src="/images/dog_training_overview/testimonials/MikeL-Hunting-Dogs-Minnesota.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Mike L. Minneapolis, MN 
@@ -132,7 +132,7 @@
 </br></br>   
 
 					<div class="image-wrap-right">
-						<img  src="/Nashvillek9/images/dog_training_overview/testimonials/Mike-Doberman-Pinscher-Obedience-Nashville.jpg"/>
+						<img  src="/images/dog_training_overview/testimonials/Mike-Doberman-Pinscher-Obedience-Nashville.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Mike S. Nashville, TN
@@ -147,7 +147,7 @@
 </br></br> 
 
 					<div class="image-wrap-right">
-						<img  src="/Nashvillek9/images/dog_training_overview/testimonials/Deborah-Pomeranian-Obedience-Training.jpg"/>
+						<img  src="/images/dog_training_overview/testimonials/Deborah-Pomeranian-Obedience-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Deborah F., Nashville, TN
@@ -163,7 +163,7 @@
 
 
 					<div class="image-wrap-right">
-						 <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Alex-Pit-Bull-Obedience.jpg"/>
+						 <img  src="/images/dog_training_overview/testimonials/Alex-Pit-Bull-Obedience.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Alex J. Nashville, TN 
@@ -178,7 +178,7 @@
 				
 </br></br> 
 					<div class="image-wrap-right">
-						<img  src="/Nashvillek9/images/dog_training_overview/testimonials/KochCedar-Rottweiler-Obedience-Training.jpg"/>
+						<img  src="/images/dog_training_overview/testimonials/KochCedar-Rottweiler-Obedience-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
 						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Renee Koch and Tim, with Cedar – Nashville, TN 
@@ -192,7 +192,7 @@
 
 </br></br> 
 				<div class="image-wrap-right">
-					 <img  src="/Nashvillek9/images/dog_training_overview/testimonials/Crystal-Doberman-Pinscher-Obedience-Phoenix.jpg"/>
+					 <img  src="/images/dog_training_overview/testimonials/Crystal-Doberman-Pinscher-Obedience-Phoenix.jpg"/>
 				</div>
 				<div class="page-sub-title" >
 					<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>  Crystal H. Phoenix, AZ
@@ -206,7 +206,7 @@
 
 </br></br> 
 				<div class="image-wrap-right">
-					<img  src="/Nashvillek9/images/dog_training_overview/testimonials/Julie-California-Protection-Dogs.png"/>
+					<img  src="/images/dog_training_overview/testimonials/Julie-California-Protection-Dogs.png"/>
 				</div>
 				
 				<div class="page-sub-title" >
@@ -222,7 +222,7 @@
 </br></br> 
 
 				<div class="image-wrap-right">
-					 <img  src="/Nashvillek9//images/dog_training_overview/testimonials/malakouti.jpg"/>
+					 <img  src="/images/dog_training_overview/testimonials/malakouti.jpg"/>
 				</div>
 				<div class="page-sub-title" >
 					<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Malakouti family
