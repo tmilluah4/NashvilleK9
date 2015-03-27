@@ -26,7 +26,7 @@
 						</div>
 							
 						<div class="page-section-title" >
-							 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>PET FIRST AID
+							  PET FIRST AID
 						</div> 
 						
 						<div class="section-with-header">  

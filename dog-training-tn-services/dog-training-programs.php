@@ -23,15 +23,16 @@
 				</div>
 				<div class="col-md-9">
 				
-					<div class="image-wrap-right ">
-					  <img width="350px" src="/images/dog_training_services/dog_training_programs/dog-training-programs-1.jpg"/>
-					</div>	
+					
 					
 					<div class="page-section-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>K-9 Training Programs
+						 K-9 Training Programs
 					</div> 	
 				 
 					<div class="section-with-header"  >  
+					<div class="image-wrap-right ">
+					  <img width="350px" src="/images/dog_training_services/dog_training_programs/dog-training-programs-1.jpg"/>
+					</div>	
 						<p>
 						  Our dog trainers have extensive experience with rescues, strays, and other dogs who may have faced challenges early in life. We are one of Tennessee’s premier facilities for obedience training and behavior problem management. We offer on-leash and off-leash training programs to fit your lifestyle and canine companion. Puppies and senior dogs alike are welcome.
 						  Our dog behavior management programs address problems such as housetraining, aggression, shyness, hyperactivity, and more. Our programs are designed to help you communicate effectively with your pet and integrate him or her into your family’s daily routine. They also address basic obedience commands such as sit, down, stay, come, and heel, and how to use these commands to your advantage whether at home or on a walk.
@@ -66,7 +67,7 @@
 				   </br>
 					 
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Train The Trainer
+						 Train The Trainer
 					</div> 	
 					<div class="section-with-header"> 
 						<div class="image-wrap-right">
@@ -82,7 +83,7 @@
 					
 					
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Two week Board and Train
+						 Two week Board and Train
 					</div> 
 					 
 					 
@@ -116,7 +117,7 @@
 					
 					 
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Four Week Board & Train
+						 Four Week Board & Train
 					</div> 
 					
 					<div class="section-with-header">  					 
@@ -153,7 +154,7 @@
 					
 					
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Competition or Trial Training
+						 Competition or Trial Training
 					</div> 
 					
 				   <div class="section-with-header" style="height:260px">  

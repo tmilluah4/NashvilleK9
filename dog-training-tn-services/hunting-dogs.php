@@ -26,7 +26,7 @@
 					</div>
 					
 					<div class="page-section-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" style="padding-right:10px"></span>Basic Retriever Training 
+						  Basic Retriever Training 
 					</div> 			
 					
 					<div class="section-with-header">   
@@ -41,7 +41,7 @@
 					
 				
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark red" aria-hidden="true" style="padding-right:10px"></span>Intermediate Retriever Training (Seasoned-UKC), (Senior-AKC) 
+						  Intermediate Retriever Training (Seasoned-UKC), (Senior-AKC) 
 					</div> 	
 					
 					<div class="section-with-header">   
@@ -53,7 +53,7 @@
 					</br>
   
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark red" aria-hidden="true" style="padding-right:10px"></span>Advanced Retriever Training (Finished-UKC), (Master-AKC), (QAA)
+						 Advanced Retriever Training (Finished-UKC), (Master-AKC), (QAA)
 					</div>
 					<div class="section-with-header">
 						<p>

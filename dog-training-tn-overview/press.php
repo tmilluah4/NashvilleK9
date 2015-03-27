@@ -21,7 +21,7 @@
 				 </div>
 				 <div class="col-md-9"    >  
 					<div class="page-section-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Nashville k-9 in the news
+						 Nashville k-9 in the news
 					</div>  
 					<div class="section-with-header">
 						<p>CHECK  OUT OUR FOX NEWS VIDEO (Pet First Aid 1) : <a href="http://www.youtube.com/watch?v=1yMnuBBiMS0" rel="shadowbox[sbpost-156];player=swf;width=640;height=385;" target="_blank">Fox News Clip</a></p>

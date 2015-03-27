@@ -44,16 +44,22 @@
 					        $name!="Timeline Photos"
 					    ){			
 					        $show_pictures_link = "photos.php?album_id={$id}&album_name={$name}";
-							 
-					        echo "<div class='imgLiquid'  style='-moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000;display: inline-block; margin: 10px;width:206px; height:206px'>"; 
+							   echo "<div class='gallery'>"; 
+									echo "<div class='imgLiquid'  style='margin: 2px;width:236px; height:236px'>"; 
 					            	echo "<a href='{$show_pictures_link}'  >";
 					                	echo "<img class='photo-thumb'  src='https://graph.facebook.com/{$cover_photo}/picture' alt='{$description}'>";
-					            	echo "</a>";  
-					        echo "</div>";
+					            	echo "</a>";   
+									echo "</div>";
+									  echo "<div  >"; 
+											 echo "<span   >{$name}</span>";
+										echo "</div>";
+							   echo "</div>"; 
 					    }
 					}
 				?>
 			</div>
 		</div> 		
-	</body>
+	<?php include('partials/footer.html');?> 	
+   
+</body>
 </html>

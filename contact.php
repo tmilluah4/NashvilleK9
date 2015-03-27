@@ -92,18 +92,9 @@
 						<div class="row">
 							Nashville K-9 Main Office: </br>(615) 438-2602
 						</div></br>
-						<div class="row">
-							Nashville K-9 Sales:  </br>(615) 438-2602
-						</div></br>
-						<div class="row">
-							Nashville K-9 Training: </br> (615) 499-8161
-						</div></br>
-						<div class="row">
-							U.S. Military, Customs, DEA, DHS Orders: </br>(615) 499-8161
-						</div></br>
-						<div class="row">
-							Tennessee Sheriff or Police Orders: </br>  (615) 499-8161
-						</div></br>
+					 
+					 
+					 
 						<div class="row">
 							Davidson Co. K-9 Emergency Assistance: </br> (615) 943-4743
 						</div></br>
@@ -111,10 +102,10 @@
 							Overton Co. K-9 Emergency Assistance: </br> (931) 783-3653
 						</div>
 				</div>
-			<div>
+		 
         </div>
     </div>	
-	
+	 </div>	
  	
 	<?php include('partials/footer.html');?> 	
    

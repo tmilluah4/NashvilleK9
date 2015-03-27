@@ -27,7 +27,7 @@
 					  <img  src="/images/dog_training_overview/testimonials/Erica-Protection-Dogs.jpg"  />
 					</div>					
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Erica R. Nashville, TN
+						 Erica R. Nashville, TN
 					</div>  					
 					<div class="section-with-header"> 
 						<p>
@@ -43,7 +43,7 @@
 					  <img  src="/images/dog_training_overview/testimonials/Jess-Search-and-Rescue.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Jessica B., Nashville, TN
+						 Jessica B., Nashville, TN
 					</div>  
 					<div class="section-with-header">  
 					      <p>
@@ -59,7 +59,7 @@
 					 <img  src="/images/dog_training_overview/testimonials/Jackie-Protection-Dogs.png"/>
 					</div>
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Jackie C., Nashville, TN
+						 Jackie C., Nashville, TN
 					</div>  
 					 
 					<div class="section-with-header">   
@@ -75,7 +75,7 @@
 						<img  src="/images/dog_training_overview/testimonials/Paisley-Nashville-Dog-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Kati P., Nashville, TN
+						 Kati P., Nashville, TN
 					</div>  
 					<div class="section-with-header">   
 						<p>
@@ -90,7 +90,7 @@
 						<img  src="/images/dog_training_overview/testimonials/Drew-German-Shephard-Obedience.png"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Drew M., Brentwood, TN
+						 Drew M., Brentwood, TN
 					</div>   
 					<div class="section-with-header">   
 						<p>
@@ -105,7 +105,7 @@
 						<img  src="/images/dog_training_overview/testimonials/Sam-Basic-Obedience-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Sam E. Nashville, TN
+						 Sam E. Nashville, TN
 					</div>  
 						 
 					<div class="section-with-header">   
@@ -120,7 +120,7 @@
 						<img  src="/images/dog_training_overview/testimonials/MikeL-Hunting-Dogs-Minnesota.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Mike L. Minneapolis, MN 
+						 Mike L. Minneapolis, MN 
 					</div>  
 				 
 					<div class="section-with-header">   
@@ -135,7 +135,7 @@
 						<img  src="/images/dog_training_overview/testimonials/Mike-Doberman-Pinscher-Obedience-Nashville.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Mike S. Nashville, TN
+						 Mike S. Nashville, TN
 					</div>  
 					
 					<div class="section-with-header">   
@@ -150,7 +150,7 @@
 						<img  src="/images/dog_training_overview/testimonials/Deborah-Pomeranian-Obedience-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Deborah F., Nashville, TN
+						 Deborah F., Nashville, TN
 					</div>  
 			 
 					<div class="section-with-header">   
@@ -166,7 +166,7 @@
 						 <img  src="/images/dog_training_overview/testimonials/Alex-Pit-Bull-Obedience.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Alex J. Nashville, TN 
+						 Alex J. Nashville, TN 
 					</div>   
 					<div class="section-with-header">   
 						<p>
@@ -181,7 +181,7 @@
 						<img  src="/images/dog_training_overview/testimonials/KochCedar-Rottweiler-Obedience-Training.jpg"/>
 					</div>
 					<div class="page-sub-title" >
-						<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Renee Koch and Tim, with Cedar – Nashville, TN 
+						 Renee Koch and Tim, with Cedar – Nashville, TN 
 					</div>  
 				 
 				  <div class="section-with-header">   
@@ -195,7 +195,7 @@
 					 <img  src="/images/dog_training_overview/testimonials/Crystal-Doberman-Pinscher-Obedience-Phoenix.jpg"/>
 				</div>
 				<div class="page-sub-title" >
-					<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>  Crystal H. Phoenix, AZ
+					  Crystal H. Phoenix, AZ
 				</div>   
 				<div class="section-with-header">   
 					<p>
@@ -210,7 +210,7 @@
 				</div>
 				
 				<div class="page-sub-title" >
-					<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Julie K. California
+					 Julie K. California
 				</div>  
 			  
 				<div class="section-with-header">  
@@ -225,7 +225,7 @@
 					 <img  src="/images/dog_training_overview/testimonials/malakouti.jpg"/>
 				</div>
 				<div class="page-sub-title" >
-					<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span> Malakouti family
+					 Malakouti family
 				</div>  
 			  
 				<div class="section-with-header">  

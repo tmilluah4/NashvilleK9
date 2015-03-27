@@ -26,7 +26,7 @@
 						  <img  width="270px" src="/images/dog_training_overview/facility/nashville-dog-training-facility-2.jpg"/>
 					</div>
 					<div class="page-section-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Our Facility
+						 Our Facility
 					</div>  
 				 
 					<div class="section-with-header"> 

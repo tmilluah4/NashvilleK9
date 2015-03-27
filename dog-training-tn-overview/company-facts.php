@@ -23,7 +23,7 @@
 				<div class="col-md-9"    > 
 				
 					<div class="page-section-title-no-pic " >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>our biography
+						 our biography
 					</div> 
 	 
 					<div class="section-with-header" > 	 
@@ -64,7 +64,7 @@
 					</br>
 					 
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Crossed Trained With:
+						 Crossed Trained With:
 					</div> 
 					
 					<div class="section-with-header">   					  
@@ -84,7 +84,7 @@
 					</br>
 					 
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Affiliations:
+						 Affiliations:
 					</div> 
 					<div class="section-with-header">    
 					         <ul class="overview-list-items">
@@ -103,7 +103,7 @@
 					</br>
 					 
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Demonstrations/Classes/Seminars:
+						 Demonstrations/Classes/Seminars:
 					</div> 
 					
 					<div class="section-with-header">    
@@ -175,7 +175,7 @@
 						</br>
 						
 						<div class="page-sub-title" >
-							<span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>Deployed:Search & Recovery:
+							Deployed:Search & Recovery:
 						</div> 
 					 
 						<div class="section-with-header">     

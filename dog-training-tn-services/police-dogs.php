@@ -27,7 +27,7 @@
 						  <img width="300px" src="/images/police-dogs.png"/>
 					</div>
 					<div class="page-section-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Our Police K-9 Program covers: 
+						  Our Police K-9 Program covers: 
 					</div>   
 					<div class="section-with-header">  
 						<ul class="overview-list-items"  >
@@ -48,7 +48,7 @@
 					
 					 
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Dual Purpose K-9 (Narcotics or Explosives): 
+						 Dual Purpose K-9 (Narcotics or Explosives): 
 					</div> 
 					<div class="section-with-header">  
 						<p>
@@ -60,7 +60,7 @@
 					
 					 
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>S.W.A.T Purpose K-9 (Apprehension Only): 
+						 S.W.A.T Purpose K-9 (Apprehension Only): 
 					</div> 
 					<div class="section-with-header">  
 						<div class="image-wrap-right"  >
@@ -88,7 +88,7 @@
 					</br>
 					
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span>Patrol K-9 (Patrol & Trailing):
+						 Patrol K-9 (Patrol & Trailing):
 					</div> 
 					 
 					
@@ -101,7 +101,7 @@
 					</br> 
 					
 					<div class="page-sub-title" >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true"  ></span> Detection Dogs (With or Without Trailing):
+						  Detection Dogs (With or Without Trailing):
 					</div>  
 					<div class="section-with-header">    
 							

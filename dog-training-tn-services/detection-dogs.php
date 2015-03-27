@@ -26,7 +26,7 @@
 					  <img  width="360"   src="/images/dog_training_services/executive_protection_dogs/personal-protection-2.jpg"/>
 					</div>
 					<div class="page-section-title" >
-							 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>DETECTION DOGS
+							 DETECTION DOGS
 					</div> 	
 				  <div class="section-with-header">
 						<p>
