@@ -54,7 +54,7 @@ body{font-family: 'Open Sans', sans-serif;background:transparent;}
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------- TITLES  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
-.page-section-title {  color:#17233c; display:block; margin-left:-10px;background:#fff;    text-transform:uppercase; font-size:15px;  }
+.page-section-title {  color:#17233c; display:inline-block; background:#fff; margin-left:-3px;background:#fff; padding-right:10px;margin-bottom:-10px; padding-bottom:10px; letter-spacing: .2em;   text-transform:uppercase; font-size:15px;  }
 .mtt-section-title {  color:#17233c; display:inline-block; margin-left:20px;  border-bottom:0px solid #ccc;  text-transform:uppercase; font-size:15px;  }
 
 .page-section-title span { padding-left:5px;padding-right:5px;color:#fff;}
@@ -64,7 +64,7 @@ body{font-family: 'Open Sans', sans-serif;background:transparent;}
 color:#000;  margin-left:20px;margin-bottom:-10px;  background:#fff; border-bottom:1px solid #AD1A1E;margin-bottom:40px; margin-top:-10px;border-right:0px solid #AD1A1E; border-radius: 0px;  padding:0px 20px 15px 15px;display:inline-block; text-transform:uppercase; font-size:20px;} 
 .video-section-title span { color:#AD1A1E;}
 .page-sub-title {  
-    color:#000; margin-left:0px;  background:#fff;  border-bottom:0px solid #AD1A1E; margin-top:5px; margin-bottom:-5px;text-transform:uppercase; font-size:14px; padding:0px 20px 0px 15px;display:inline-block; box-shadow: 0px  0px 0px #333; font-size:14px;  }
+    color:#000; margin-left:20px;  background:#fff;  border-bottom:0px solid #AD1A1E; margin-top:20px; margin-bottom:5px;text-transform:uppercase; font-size:14px; padding:0px 20px 0px 15px;display:inline-block; box-shadow: 0px  0px 0px #333; font-size:14px;  }
 .page-sub-title  span { color:#666;}
 .page-dog-title { color:#000; margin-left:-5px; background:#fff; margin-top:-1px;border-right:0px solid #ccc;border-top:0px solid #ccc; border-left:0px solid #ccc;border-radius: 0px 0px; padding:5px 10px;
 border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     display:inline-block; box-shadow: 0px  0px 0px #333; font-size:13px;  }
@@ -77,8 +77,8 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
  /*----------------------------------- SECTIONS  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
 .section{-webkit-box-shadow: 0px 0px 0px #000;background:#fff; border-radius:3px; box-shadow: 0px  0px 0px #333; margin-bottom:10px;   padding:45px 40px; display:inline-block;width:100%;  }
-.section-with-header{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; margin-left:30px;padding:20px; margin-top:-10px; }
-.sub-section{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; padding:20px;margin-left:30px;margin-right:10px;margin-top:0px; }
+.section-with-header{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff;border:1px solid #ccc; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; margin-left:30px;padding:20px; margin-top:-10px; }
+.sub-section{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; border:1px solid #ccc; padding:20px;margin-left:30px;margin-right:10px;margin-top:0px; }
 .section-sub-header{ -webkit-box-shadow: 0px 0px 5px #000; border-radius:0px; box-shadow: 0px  0px 5px #333; margin-bottom:10px; margin:-20px 0px 0px 40px; padding:65px 40px 35px 40px;  }
 .section-dog-header{cursor: pointer;margin-left:60px; cursor: hand; -webkit-box-shadow: 0px 0px 0px #000;background:#fff; border-radius:0px; box-shadow: 0px  0px 0px #333; margin-bottom:10px;  padding: 10px;   }
 .section-dog-header:hover{ -webkit-box-shadow: 0px 0px 2px #000;  border-radius:0px; box-shadow: 0px  0px 2px #333; margin-bottom:10px;margin-left:60px;   padding: 10px;  }
@@ -129,7 +129,7 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
     -webkit-box-shadow: 0 0 0px #000;
     box-shadow: 0 0 0px #000;padding: 6px 0px;margin-bottom:10px; }
 
-.programs-title { margin-left:1px;margin-top:10px;width:75%;text-align:center;margin-bottom:-50px; position:absolute;font-size:12px;opacity:.8;	z-index:9999999;background:whitesmoke; padding:5px 0px; color:#000}
+.programs-title { margin-right:-3px;margin-left:-1px;margin-top:10px;width:75%;text-align:center;margin-bottom:-50px; position:absolute;font-size:12px;opacity:.8;	z-index:9999999;background:#000; padding:5px 0px; color:#fff}
 .title-header-text img{margin-left:-54px;height:35px;	margin-top:-10px;	position:absolute;	z-index:9999999;	}
 .title-header-text{ 	color:#000;	margin-left: 8px;	margin-top:-30px;	position:absolute;	z-index:9999999;	}
 .title-header{border-radius: 0px;background:#fff;  margin-left:-50px; -moz-box-shadow: 0 0 5px #000; -webkit-box-shadow: 1 1 5px #000; box-shadow: 1 1 5px #000;	 	height:30px;display:inline-block; opacity:.9; width:173px;	padding:5px 10px 5px 10px;	position:relative;z-index:999;} 
@@ -210,7 +210,7 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
     
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #555;
+    color: #AD1A1E;
     background:whitesmoke;
 }
 

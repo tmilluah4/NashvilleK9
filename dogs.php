@@ -14,172 +14,180 @@ jQuery(document).ready(function($){
 </script>
 
 </head>
-<body   >
-
+<body>
+ 
     <div class="container"  style="  " >
 
         <div class="row">
             <div class="col-sm-1"> </div>
             <div class="col-sm-10">
                 <?php include('partials/header.html');?>
+					 
+					 
                 <div class="row main-row"  >
-
-                    <div class="col-xs-11 col-sm-11">
-
-        <a href="/dogs/argo.php">
-            <div class="section-dog-header">
-<div class="page-dog-price" >SOLD</div>
-                <div class="page-dog-title" >Argo Avodar, BH, IPO I, Level I Personal Protection Dog</div>
-                                 </br></br>
-                <div class="dog-images">
-                <?php
-                    $antrax = "http://graph.facebook.com/10152268881640596/photos?fields=source";
-                    $json = file_get_contents($antrax);
-                    $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
-                    $photo_count = 7;
-        
-                    for($x=1; $x<$photo_count; $x++){
-                        $source = $obj['data'][$x]['source'];
-            
-                        echo "<div class='imgLiquid' style=' -moz-box-shadow:0px 0px 2px #666; -webkit-box-shadow: 0px 0px 2px #666; box-shadow:0px 0px 2px #666; display: inline-block; margin-right: 5px;width:120px; height:120px'>";
-                        echo "<img   src='{$source}'   alt=''>";
-                        echo "</div>";
-                    }
-                    ?>
-                </div>
-            </div>
-        </a>
-
-</br>
-
-
-
-<a href="/dogs/ammo.php">
-<div class="section-dog-header">
-<div class="page-dog-price" >SOLD</div>
-<div class="page-dog-title" >Ammo, Police Dual Purpose</div>
-<div class="page-dog-info" > <i> </i></div>
-
-</br></br>
-<div class="dog-images">
-<?php
-   $antrax = "http://graph.facebook.com/10154237525855596/photos?fields=source";
-    $json = file_get_contents($antrax);
-    $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
-    $photo_count = 7;
-    
-    for($x=1; $x<$photo_count; $x++){
-        $source = $obj['data'][$x]['source'];
-        
-        echo "<div class='imgLiquid' style=' -moz-box-shadow:0px 0px 2px #666; -webkit-box-shadow: 0px 0px 2px #666; box-shadow:0px 0px 2px #666; display: inline-block; margin-right: 5px;width:120px; height:120px'>";
-        echo "<img   src='{$source}'   alt=''>";
-        echo "</div>";
-    }
-    ?>
-</div>
-</div>
-</a>
-
-
-
-
-
- </br>
-
-
-<a href="/dogs/antrax.php">
-<div class="section-dog-header">
-<div class="page-dog-price" >SOLD</div>
-<div class="page-dog-title" >Antrax</div>
-<div class="page-dog-info" > <i> </i></div>
-
-</br></br>
-<div class="dog-images">
-<?php
-     $antrax = "http://graph.facebook.com/10154986213510596/photos?fields=source";
-    $json = file_get_contents($antrax);
-    $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
-    $photo_count = 7;
-    
-    for($x=1; $x<$photo_count; $x++){
-        $source = $obj['data'][$x]['source'];
-        
-        echo "<div class='imgLiquid' style=' -moz-box-shadow:0px 0px 2px #666; -webkit-box-shadow: 0px 0px 2px #666; box-shadow:0px 0px 2px #666; display: inline-block; margin-right: 5px;width:120px; height:120px'>";
-        echo "<img   src='{$source}'   alt=''>";
-        echo "</div>";
-    }
-    ?>
-</div>
-</div>
-</a>
-
-
-
-
-</br>
-
-
-<a href="/dogs/antrax.php">
-<div class="section-dog-header">
-<div class="page-dog-price" >SOLD</div>
-<div class="page-dog-title" >Hurricane</div>
-<div class="page-dog-info" > <i> </i></div>
-
-</br></br>
-<div class="dog-images">
-<?php
-    $antrax = "http://graph.facebook.com/10154540915460596/photos?fields=source";
-    $json = file_get_contents($antrax);
-    $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
-    $photo_count = 7;
-    
-    for($x=1; $x<$photo_count; $x++){
-        $source = $obj['data'][$x]['source'];
-        
-        echo "<div class='imgLiquid' style=' -moz-box-shadow:0px 0px 2px #666; -webkit-box-shadow: 0px 0px 2px #666; box-shadow:0px 0px 2px #666; display: inline-block; margin-right: 5px;width:120px; height:120px'>";
-        echo "<img   src='{$source}'   alt=''>";
-        echo "</div>";
-    }
-    ?>
-</div>
-</div>
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</div>
-
-
-<div class="clearfix visible-xs-block"></div>
-
-
-
-
-</div>
-</div>
-
-<div class="clearfix visible-xs-block"></div>
-
-<div class="col-sm-1"> </div>
-
-</div>
-</div>
-
-</div>
-
+						   <div class="col-xs-1 col-sm-1" > </div> 
+                     <div class="col-xs-5 col-sm-5" >  
+								
+							   <div class="dog dog-first">
+								<div class="caption">Argo </div>  
+									<div class="dog-image">
+										<img  src='http://graph.facebook.com/10152268881715596/picture'   alt=''/> 
+									</div>
+									<div class="mask">
+											<h2>BH, IPO I, Level I Personal Protection Dog</h2>
+											<ul class="dog-list">
+											  <li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
+											  <li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
+											  <li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
+											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
+											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
+											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
+											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
+											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
+											  <li class="child"><span class="text">Interchampion Candidate</span></li>
+											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
+											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
+											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
+											</ul>         
+										  <a href="/dogs/argo.html" class="info">Read More</a>
+									</div>
+								</div> 
+								
+							</div>		 
+								 
+						
+                    <div class="col-xs-5 col-sm-5" >  
+								
+							   <div class="dog dog-first">
+								<div class="caption">Ammo </div>  
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10154237525855596/photos?fields=source";
+										   $json = file_get_contents($antrax);
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											echo "<img   src='{$source}'   alt=''>";  
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>BH, IPO I, Level I Personal Protection Dog</h2>
+											<ul class="dog-list">
+											  <li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
+											  <li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
+											  <li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
+											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
+											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
+											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
+											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
+											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
+											  <li class="child"><span class="text">Interchampion Candidate</span></li>
+											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
+											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
+											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
+											</ul>         
+										  <a href="/dogs/argo.html" class="info">Read More</a>
+									</div>
+								</div> 
+								
+							</div>		 
+							<div class="col-xs-1 col-sm-1" > </div>  					 
+							
+					</div> 
+					
+					
+               <div class="row "  >
+						   <div class="col-xs-1 col-sm-1" > </div> 
+                     <div class="col-xs-5 col-sm-5" >  
+								
+							   <div class="dog dog-first">
+								<div class="caption"> Antrax</div>  
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10154986213510596/photos?fields=source";
+										   $json = file_get_contents($antrax);
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											echo "<img   src='{$source}'   alt=''>";  
+										 ?>
+									</div>
+									<div class="mask">
+										  <h2>BH, IPO I, Level I Personal Protection Dog</h2>
+											<ul class="dog-list">
+											  <li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
+											  <li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
+											  <li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
+											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
+											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
+											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
+											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
+											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
+											  <li class="child"><span class="text">Interchampion Candidate</span></li>
+											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
+											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
+											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
+											</ul>         
+										  <a href="/dogs/argo.html" class="info">Read More</a>
+									</div>
+								</div> 
+								
+							</div>		 
+								 
+						
+                    <div class="col-xs-5 col-sm-5" >  
+								
+							  <div class="dog dog-first">
+								<div class="caption">Hurricane</div>  
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10154540915460596/photos?fields=source";
+										   $json = file_get_contents($antrax);
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											echo "<img   src='{$source}'   alt=''>";  
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>BH, IPO I, Level I Personal Protection Dog</h2>
+											<ul class="dog-list">
+											  <li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
+											  <li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
+											  <li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
+											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
+											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
+											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
+											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
+											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
+											  <li class="child"><span class="text">Interchampion Candidate</span></li>
+											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
+											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
+											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
+											</ul>         
+										  <a href="/dogs/argo.html" class="info">Read More</a>
+									</div>
+								</div> 
+								
+							</div>		 
+							<div class="col-xs-1 col-sm-1" > </div>  					 
+							
+					</div> 					
+					
+					
+					
+					
+					
+				</div> 
+				<div class="clearfix visible-xs-block"></div>
+				<div class="col-sm-1"> </div>
+			</div>
+	</div> 
 
 <?php include('partials/footer.html');?>
 
