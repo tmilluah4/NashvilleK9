@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
 											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
 
 											</ul>         
-										  <a href="/dogs/argo.html" class="info">Read More</a>
+										  <a href="dogs/argo.php" class="info">Read More</a>
 									</div>
 								</div> 
 								

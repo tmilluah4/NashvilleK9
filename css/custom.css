@@ -108,10 +108,18 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------- GALLERY  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
-.gallery {border:1px solid #ccc; background:#fff; display: inline-block; margin:10px; height:280px;padding:10px; border-radius:0px;-moz-box-shadow:0px 0px 0px #000; -webkit-box-shadow: 0px 0px 0px #000; box-shadow:0px 0px 0px #000; }
-.gallery:hover{border:1px solid #fff; background:whitesmoke;  display: inline-block; margin:10px; height:280px; border-radius:0px;-moz-box-shadow:0px 0px 2px #000; -webkit-box-shadow: 0px 0px 2px #000; box-shadow:0px 0px 2px #000; }
-.gallery div { background:#fff;height:25px;margin:5px -1px;padding-left:10px; border-left:0px solid #ccc; border-right:0px solid #ccc; border-bottom:0px solid #ccc;color:#333;border-radius:0px;}
-.gallery:hover div{  background:whitesmoke; height:25px;margin:5px -1px;padding-left:10px; cursor:pointer;  } 
+.gallery {border:1px solid #ccc; background:#EAEAEA; display: inline-block; margin:10px; height:280px;padding:10px; border-radius:0px;-moz-box-shadow:0px 0px 0px #000; -webkit-box-shadow: 0px 0px 0px #000; box-shadow:0px 0px 0px #000;  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease; }
+.gallery:hover{border:1px solid #fff; background:#E7E7E4;  display: inline-block; margin:10px; height:280px; border-radius:0px;-moz-box-shadow:0px 0px 2px #000; -webkit-box-shadow: 0px 0px 2px #000; box-shadow:0px 0px 2px #000; }
+.gallery div { background:#E7E7E4;height:25px;margin:5px -1px;padding-left:10px; border-left:0px solid #ccc; border-right:0px solid #ccc; border-bottom:0px solid #ccc;color:#333;border-radius:0px;   -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;}
+.gallery:hover div{  background:#E7E7E4; height:25px;margin:5px -1px;padding-left:10px; cursor:pointer;  } 
 
 
 
@@ -129,7 +137,7 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
     -webkit-box-shadow: 0 0 0px #000;
     box-shadow: 0 0 0px #000;padding: 6px 0px;margin-bottom:10px; }
 
-.programs-title { margin-right:-3px;margin-left:-1px;margin-top:10px;width:75%;text-align:center;margin-bottom:-50px; position:absolute;font-size:12px;opacity:.8;	z-index:9999999;background:#000; padding:5px 0px; color:#fff}
+.programs-title { margin-right:-3px;margin-left:-1px;margin-top:10px;width:75%;text-align:center;margin-bottom:-50px; position:absolute;font-size:12px;opacity:.8;	z-index:9999999;background:#333; padding:5px 0px; color:#fff}
 .title-header-text img{margin-left:-54px;height:35px;	margin-top:-10px;	position:absolute;	z-index:9999999;	}
 .title-header-text{ 	color:#000;	margin-left: 8px;	margin-top:-30px;	position:absolute;	z-index:9999999;	}
 .title-header{border-radius: 0px;background:#fff;  margin-left:-50px; -moz-box-shadow: 0 0 5px #000; -webkit-box-shadow: 1 1 5px #000; box-shadow: 1 1 5px #000;	 	height:30px;display:inline-block; opacity:.9; width:173px;	padding:5px 10px 5px 10px;	position:relative;z-index:999;} 
@@ -137,17 +145,28 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------- VIDEO PAGE  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
-.video-box {position: relative; z-index: 1; }
-.video-background{-moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #333; box-shadow: 0 0 10px #333; } 
-.playOverlay{position: absolute; z-index:0; margin-top:30px;margin-left:80px;opacity:.8}
-.playOverlay:hover{position: absolute;  margin-top:30px;margin-left:80px; z-index: 0;opacity:1}
+.video-box {position: relative; z-index: 1;  margin-left:-15px; margin-top:30px;}
+.video-background{ height:150px; width:250px;border:1px solid #ccc} 
+.playOverlay{position: absolute; z-index:0; margin-top:10px;margin-left:35px;opacity:.6}
+.playOverlay:hover{position: absolute;  margin-top:10px;margin-left:35px; z-index: 0;opacity:1}
 .watch-video-play{display:inline-block;  margin:10px 5px;padding:5px 5px 5px 3px;    }
 .watch-video-play a{padding-left:0px;  }
 .watch-video-play span { } 
 .image-wrap-right-video img{ display:block;border:3px solid #666; float:right;   } 
 .image-wrap-left-video img{ display:block; float:left; border:3px solid #666;    } 
-
-
+.vide-box a img {}
+ .bw {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.bw:hover {
+ 
+  box-shadow: 0px  0px 6px #333;
+} 
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------- DOG PAGE  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
@@ -199,18 +218,18 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
 .navbar-default .navbar-nav  {   border-radius:0px;  }
 .navbar-default .navbar-nav li   {background:#E7E7E4;margin-right:3px;border:0px solid #ddd
 }
-.navbar-default .navbar-nav li:hover   {  background:#fff;  }
+.navbar-default .navbar-nav li:hover   {  background:#E7E7E4;  }
 .navbar-default .navbar-nav li a {color: #000; font-size:13px;padding:10px}
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:focus {  color: #AD1A1E;
     }
 .navbar-default .navbar-nav  .active > a:hover,
 .navbar-default .navbar-nav  .active > a:focus {  color: #000;  font-size:13px;
     
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #AD1A1E;
+    color: #000;
     background:#E7E7E4;
 }
 
