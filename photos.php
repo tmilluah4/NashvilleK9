@@ -17,9 +17,16 @@
 		</script>
 </head>
 <body>
-    <?php include('partials/header.html');?> 
-		<div class="main">
-			<div class="container">
+<div class="container"  style="   " >
+<div class="row">
+<div class="col-sm-1"> </div>
+<div class="col-sm-10">
+<?php include('partials/header.html');?>
+<div class="row main-row" style="margin-left:20px">
+
+
+
+
 				<?php 
 					$json_link = "http://graph.facebook.com/{$album_id}/photos?fields=source";
 					$json = file_get_contents($json_link);

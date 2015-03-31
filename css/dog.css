@@ -1,9 +1,9 @@
   
 .dog-image  img {
   float: left;
-  width:350px;
+  width:250px;
   display:block;
-  height: 350px;
+  height: 250px;
 	margin-top:-25px;
   -webkit-box-reflect:
     below
@@ -32,8 +32,8 @@ text-transform:uppercase;
 .dog-image {
 
   display:inline-block;
-  width: 350px;
-  height: 350px;         
+  width: 250px;
+  height: 250px;
   padding: 50px 0 50px 0; 
   z-index: 1;
 }
@@ -49,8 +49,8 @@ text-transform:uppercase;
  
  
 .dog {
-    max-width:350px;
-	 height:450px;
+    max-width:250px;
+	 height:350px;
        margin: 10px 0px ;
          border:0px solid rgba(0, 0, 0, 0.6);
     overflow: hidden;

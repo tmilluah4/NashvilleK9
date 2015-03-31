@@ -46,16 +46,16 @@ body{font-family: 'Open Sans', sans-serif;background:transparent;}
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------- FOOTER  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
-.foot{border-top:1px solid #333; padding:20px 0px;}
+.foot{border-top:0px solid #333; padding:20px 0px;}
 .footlink   a{  color: #465C85;}
 .footlink a:hover { color:rgb(90,108,9);font-weight: bold;}
-.footer{  opacity:1; border:0px; margin-bottom:-60px;  margin-top:00px; z-index:-1}
+.footer{  opacity:1; border:0px; margin-bottom:-60px;  margin-top:0px; z-index:-1}
 
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------- TITLES  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
 .page-section-title {  color:#17233c; display:inline-block; background:#fff; margin-left:-3px;background:#fff; padding-right:10px;margin-bottom:-10px; padding-bottom:10px; letter-spacing: .2em;   text-transform:uppercase; font-size:15px;  }
-.mtt-section-title {  color:#17233c; display:inline-block; margin-left:20px;  border-bottom:0px solid #ccc;  text-transform:uppercase; font-size:15px;  }
+.mtt-section-title {  color:#17233c; display:inline-block; margin-left:20px;  border-bottom:0px solid #ccc;letter-spacing: .2em;   text-transform:uppercase; font-size:15px;  }
 
 .page-section-title span { padding-left:5px;padding-right:5px;color:#fff;}
 .page-section-title-no-pic {  color:#000;  margin-left:20px; background:#fff; border-bottom:0px solid #ccc; margin-top:-10px;border-right:0px solid #ccc;margin-bottom:-8px; border-radius: 0px;  padding:0px 25px 15px 15px;display:inline-block; text-transform:uppercase; font-size:20px; }  
@@ -77,8 +77,8 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
  /*----------------------------------- SECTIONS  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
 .section{-webkit-box-shadow: 0px 0px 0px #000;background:#fff; border-radius:3px; box-shadow: 0px  0px 0px #333; margin-bottom:10px;   padding:45px 40px; display:inline-block;width:100%;  }
-.section-with-header{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff;border:1px solid #ccc; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; margin-left:30px;padding:20px; margin-top:-10px; }
-.sub-section{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; border:1px solid #ccc; padding:20px;margin-left:30px;margin-right:10px;margin-top:0px; }
+.section-with-header{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff;border:0px solid #ccc; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; margin-left:30px;padding:20px; margin-top:-10px; }
+.sub-section{ -webkit-box-shadow: 0px 0px 0px #000;background:#fff; line-height: 2em;font-size:13px;border-radius:0px; box-shadow: 0px  0px 0px #000; border:0px solid #ccc; padding:20px;margin-left:30px;margin-right:10px;margin-top:0px; }
 .section-sub-header{ -webkit-box-shadow: 0px 0px 5px #000; border-radius:0px; box-shadow: 0px  0px 5px #333; margin-bottom:10px; margin:-20px 0px 0px 40px; padding:65px 40px 35px 40px;  }
 .section-dog-header{cursor: pointer;margin-left:60px; cursor: hand; -webkit-box-shadow: 0px 0px 0px #000;background:#fff; border-radius:0px; box-shadow: 0px  0px 0px #333; margin-bottom:10px;  padding: 10px;   }
 .section-dog-header:hover{ -webkit-box-shadow: 0px 0px 2px #000;  border-radius:0px; box-shadow: 0px  0px 2px #333; margin-bottom:10px;margin-left:60px;   padding: 10px;  }
@@ -197,7 +197,7 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
 
 
 .navbar-default .navbar-nav  {   border-radius:0px;  }
-.navbar-default .navbar-nav li   {background:whitesmoke;margin-right:3px;border:0px solid #ddd
+.navbar-default .navbar-nav li   {background:#E7E7E4;margin-right:3px;border:0px solid #ddd
 }
 .navbar-default .navbar-nav li:hover   {  background:#fff;  }
 .navbar-default .navbar-nav li a {color: #000; font-size:13px;padding:10px}
@@ -211,7 +211,7 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #AD1A1E;
-    background:whitesmoke;
+    background:#E7E7E4;
 }
 
 /*#9D9487;AD1A1E*/

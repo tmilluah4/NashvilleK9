@@ -25,8 +25,8 @@ jQuery(document).ready(function($){
 					 
 					 
                 <div class="row main-row"  >
-						   <div class="col-xs-1 col-sm-1" > </div> 
-                     <div class="col-xs-5 col-sm-5" >  
+
+                     <div class="col-xs-4 col-sm-4" >
 								
 							   <div class="dog dog-first">
 								<div class="caption">Argo </div>  
@@ -42,14 +42,7 @@ jQuery(document).ready(function($){
 											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
 											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
 											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
-											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
-											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
-											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
-											  <li class="child"><span class="text">Interchampion Candidate</span></li>
-											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
-											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
-											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
-											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
+
 											</ul>         
 										  <a href="/dogs/argo.html" class="info">Read More</a>
 									</div>
@@ -58,7 +51,7 @@ jQuery(document).ready(function($){
 							</div>		 
 								 
 						
-                    <div class="col-xs-5 col-sm-5" >  
+                    <div class="col-xs-4 col-sm-4" >
 								
 							   <div class="dog dog-first">
 								<div class="caption">Ammo </div>  
@@ -80,69 +73,54 @@ jQuery(document).ready(function($){
 											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
 											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
 											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
-											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
-											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
-											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
-											  <li class="child"><span class="text">Interchampion Candidate</span></li>
-											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
-											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
-											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
-											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
-											</ul>         
+											 											</ul>
 										  <a href="/dogs/argo.html" class="info">Read More</a>
 									</div>
 								</div> 
 								
 							</div>		 
-							<div class="col-xs-1 col-sm-1" > </div>  					 
-							
-					</div> 
-					
-					
+<div class="col-xs-4 col-sm-4" >
+
+<div class="dog dog-first">
+<div class="caption"> Antrax</div>
+<div class="dog-image">
+<?php
+    $antrax = "http://graph.facebook.com/10154986213510596/photos?fields=source";
+    $json = file_get_contents($antrax);
+    $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
+    $source = $obj['data'][0]['source'];
+    echo "<img   src='{$source}'   alt=''>";
+    ?>
+</div>
+<div class="mask">
+<h2>BH, IPO I, Level I Personal Protection Dog</h2>
+<ul class="dog-list">
+<li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
+<li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
+<li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
+<li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
+<li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
+<li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
+
+</ul>
+<a href="/dogs/argo.html" class="info">Read More</a>
+</div>
+</div>
+
+</div>
+
+					</div>
+
+
                <div class="row "  >
-						   <div class="col-xs-1 col-sm-1" > </div> 
-                     <div class="col-xs-5 col-sm-5" >  
-								
-							   <div class="dog dog-first">
-								<div class="caption"> Antrax</div>  
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10154986213510596/photos?fields=source";
-										   $json = file_get_contents($antrax);
-										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											echo "<img   src='{$source}'   alt=''>";  
-										 ?>
-									</div>
-									<div class="mask">
-										  <h2>BH, IPO I, Level I Personal Protection Dog</h2>
-											<ul class="dog-list">
-											  <li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
-											  <li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
-											  <li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
-											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
-											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
-											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
-											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
-											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
-											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
-											  <li class="child"><span class="text">Interchampion Candidate</span></li>
-											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
-											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
-											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
-											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
-											</ul>         
-										  <a href="/dogs/argo.html" class="info">Read More</a>
-									</div>
-								</div> 
-								
-							</div>		 
-								 
-						
-                    <div class="col-xs-5 col-sm-5" >  
-								
+						   <div class="col-xs-1 col-sm-1" > </div>
+
+
+
+                    <div class="col-xs-5 col-sm-5" >
+
 							  <div class="dog dog-first">
-								<div class="caption">Hurricane</div>  
+								<div class="caption">Hurricane</div>
 									<div class="dog-image">
 										<?php
 											$antrax = "http://graph.facebook.com/10154540915460596/photos?fields=source";
@@ -161,15 +139,7 @@ jQuery(document).ready(function($){
 											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
 											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
 											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
-											  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
-											  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
-											  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
-											  <li class="child"><span class="text">Interchampion Candidate</span></li>
-											  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
-											  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
-											  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
-											  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
-											</ul>         
+											  											</ul>         
 										  <a href="/dogs/argo.html" class="info">Read More</a>
 									</div>
 								</div> 

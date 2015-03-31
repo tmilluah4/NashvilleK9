@@ -25,13 +25,15 @@
 		{  document.getElementById('contactli').className='active'; }
 		window.onload = setActive;
 	</script>
-    <?php include('partials/header.html');?> 	
-     
-    <div class="main">
-        <div class="container">
-	
-           <div class="row">
-				<div class="col-md-4" class="side-column" >
+<div class="container"  style="   " >
+<div class="row">
+<div class="col-sm-1"> </div>
+<div class="col-sm-10">
+<?php include('partials/header.html');?>
+<div class="row main-row" style="margin-left:40px">
+
+
+ 				<div class="col-md-3" class="side-column" >
 					<div class="row" class="side-column-contact" > 
 					  
 						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
@@ -43,25 +45,16 @@
 						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
 		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-john.jpg">
 				         </div>
-						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-jessica.jpg">
-				         </div>
-						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-nick.jpg">
-				         </div>
-					 	 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-sandy.jpg">
-				         </div>
-					 </div> 
+						 					 </div>
 				</div>
 			 
-				<div class="col-md-4"    >
-					<div class="page-section-title-no-pic " >
-						 <span class="glyphicon glyphicon-bookmark  red" aria-hidden="true" ></span>contact us
+				<div class="col-md-5"    >
+					<div class="page-section-title "  >
+						  contact us
 					</div> 
-				 
-				<div class="section-sub-header"> 
-				
+
+				<div class="sub-section">
+				 </br>
 					<h3 style="color:#FF6633;"><?php echo $_GET[msg];?></h3>
 					  <hr>
 	<div style="margin-left:-15px;  margin-top:-60px">
@@ -70,6 +63,10 @@
 							<div class="input-group input-group-lg ">
 							  <input type="text" name="name" id="name" value=""  class="form-control contact" placeholder="Name">
 							</div>
+</br>
+<div class="input-group input-group-lg ">
+<input type="text" name="name" id="name" value=""  class="form-control contact" placeholder="Phone">
+</div>
 						</br>
 							<div class="input-group input-group-lg ">
 							  <input type="text" name="email" id="email" value=""  class="form-control contact" placeholder="Email">
