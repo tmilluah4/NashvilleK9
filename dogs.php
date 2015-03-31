@@ -117,7 +117,7 @@ jQuery(document).ready(function($){
 
 
 
-                    <div class="col-xs-5 col-sm-5" >
+                    <div class="col-xs-4 col-sm-4" >
 
 							  <div class="dog dog-first">
 								<div class="caption">Hurricane</div>

@@ -1,10 +1,10 @@
   
 .dog-image  img {
-  float: left;
+   
   width:250px;
   display:block;
-  height: 250px;
-	margin-top:-25px;
+  height: 270px;
+	margin-top:-45px;
   -webkit-box-reflect:
     below
     0
@@ -37,7 +37,7 @@ text-transform:uppercase;
 .dog-image {
 
   display:inline-block;
-  width: 250px;
+  width: 200px;
   height: 250px;
   padding: 50px 0 50px 0; 
   z-index: 1;
@@ -54,14 +54,14 @@ text-transform:uppercase;
  
  
 .dog {
-    max-width:250px;
-	 height:350px;
+     max-width:250px;
+	 height:390px;
        margin: 10px 0px ;
          border:0px solid rgba(0, 0, 0, 0.6);
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center;
 
@@ -143,6 +143,8 @@ text-transform:uppercase;
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
+   margin-left:25px;
+   width:225px;
  margin-top:25px;
    background-color: rgba(0,0,0, 0.7);
        border: 1px dashed rgba(126,100,49,1);

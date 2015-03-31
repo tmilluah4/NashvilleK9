@@ -16,8 +16,7 @@
 	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->    
 
-	   
-	    <script src="email/validation.js" type="text/javascript"></script>
+
 </head>
 <body> 
  <script type="text/javascript">  
@@ -54,37 +53,21 @@
 					</div> 
 
 				<div class="sub-section">
-				 </br>
-					<h3 style="color:#FF6633;"><?php echo $_GET[msg];?></h3>
-					  <hr>
-	<div style="margin-left:-15px;  margin-top:-60px">
-					<form name="enq" method="post" action="email/" onsubmit="return validation();">
-						<fieldset>
-							<div class="input-group input-group-lg ">
-							  <input type="text" name="name" id="name" value=""  class="form-control contact" placeholder="Name">
-							</div>
-</br>
-<div class="input-group input-group-lg ">
-<input type="text" name="name" id="name" value=""  class="form-control contact" placeholder="Phone">
-</div>
-						</br>
-							<div class="input-group input-group-lg ">
-							  <input type="text" name="email" id="email" value=""  class="form-control contact" placeholder="Email">
-							</div>	</br>
-							<div class="input-group input-group-lg ">
-								<textarea rows="11" name="message" style="height:200px" id="message" class="form-control contact" placeholder="Comments"></textarea>
-							</div> 	</br>
-							<div class="actions">
-							    <input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-info pull    -right" style="width:270px; background:#465C85" title="Click here to submit your message!" />
-							</div>	 
-						</fieldset>
-				  	</form>  				 
-				    <!--End Contact form -->
+
+<form action="/mail.php" method="POST">
+<p>Name</p> <input type="text" name="name">
+<p>Email</p> <input type="text" name="email">
+<p>Phone</p> <input type="text" name="phone">
+<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<input type="submit" value="Send"><input type="reset" value="Clear">
+</form>
+
+
 				 </div>
 					</br>
-					</div>
+
 				</div>
-				<div class="col-md-2"    ></div>	
+				<div class="col-md-1"    ></div>	
 				<div class="col-md-4" style="padding-left:40px">
 						<div class="row">
 							Nashville K-9 Main Office: </br>(615) 438-2602
