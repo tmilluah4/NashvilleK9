@@ -16,7 +16,7 @@
 	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->    
 
-
+	    >
 </head>
 <body> 
  <script type="text/javascript">  
@@ -52,22 +52,21 @@
 						  contact us
 					</div> 
 
-				<div class="sub-section">
-
-<form action="/mail.php" method="POST">
-<p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Phone</p> <input type="text" name="phone">
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-<input type="submit" value="Send"><input type="reset" value="Clear">
-</form>
-
-
-				 </div>
+<form class="contact" action="mailer.php" method="post">
+<p>Name:</p> <!-- Can choose to customize form.html inputs starting here as needed, but be sure to reference any changes in mailer.php post fields-->
+<input type="text" name="name" />
+<p>E-mail:</p>
+<input type="text" name="email" />
+<p>Subject:</p>
+<input type="text" name="subject" />
+<p>Message:</p>
+<textarea name="message" syle="width: 45%; text-align: center;">Please leave a short message here</textarea></p>
+<input class="send" type="submit" value="Send"> <!-- Send button-->
+</form></center>				 </div>
 					</br>
-
+					</div>
 				</div>
-				<div class="col-md-1"    ></div>	
+				<div class="col-md-2"    ></div>	
 				<div class="col-md-4" style="padding-left:40px">
 						<div class="row">
 							Nashville K-9 Main Office: </br>(615) 438-2602
