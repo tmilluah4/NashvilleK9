@@ -11,13 +11,7 @@
 <div class="col-sm-10">
 <?php include('../partials/header.html');?>
 <div class="row main-row">
-<div class="col-sm-4">
-<div class="image-random">
-<script type="text/javascript">
-showImage();
-</script>
-</div>
-</br>
+<div class="col-sm-4"> 
 <?php include('../partials/services-sidebar.html');?>
 </div>
 

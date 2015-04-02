@@ -108,18 +108,25 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
  /*----------------------------------------------------------------------------------*/
  /*----------------------------------- GALLERY  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
-.gallery {border:1px solid #ccc; background:#EAEAEA; display: inline-block; margin:10px; height:280px;padding:10px; border-radius:0px;-moz-box-shadow:0px 0px 0px #000; -webkit-box-shadow: 0px 0px 0px #000; box-shadow:0px 0px 0px #000;  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease; }
-.gallery:hover{border:1px solid #fff; background:#E7E7E4;  display: inline-block; margin:10px; height:280px; border-radius:0px;-moz-box-shadow:0px 0px 2px #000; -webkit-box-shadow: 0px 0px 2px #000; box-shadow:0px 0px 2px #000; }
-.gallery div { background:#E7E7E4;height:25px;margin:5px -1px;padding-left:10px; border-left:0px solid #ccc; border-right:0px solid #ccc; border-bottom:0px solid #ccc;color:#333;border-radius:0px;   -webkit-transition: all 1s ease;
+.gallery {border:0px solid #ccc; display: inline-block; margin:40px 10px; height:280px;padding:10px; border-radius:0px;-moz-box-shadow:0px 0px 0px #000; -webkit-box-shadow: 0px 0px 0px #000; box-shadow:0px 0px 0px #000;  
+  -webkit-box-reflect:
+    below
+    0
+    -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(1, rgba(255, 255, 255, .5)),
+      color-stop(.8, rgba(255, 255, 255, 0))
+    );
+  }
+.gallery:hover{border:0px solid #fff;    display: inline-block; margin:10px; height:300px; border-radius:0px;-moz-box-shadow:0px 0px 2px #000; -webkit-box-shadow: 0px 0px 2px #000; box-shadow:0px 0px 2px #000; }
+.gallery div {  height:25px;margin:5px -1px;padding-left:10px; border-left:0px solid #ccc; border-right:0px solid #ccc; border-bottom:0px solid #ccc;color:#333;border-radius:0px;   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;}
-.gallery:hover div{  background:#E7E7E4; height:25px;margin:5px -1px;padding-left:10px; cursor:pointer;  } 
+.gallery:hover div{    height:25px;margin:5px -1px;padding-left:10px; cursor:pointer;  } 
 
 
 
@@ -150,6 +157,7 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
 .playOverlay{position: absolute; z-index:0; margin-top:10px;margin-left:35px;opacity:.6}
 .playOverlay:hover{position: absolute;  margin-top:10px;margin-left:35px; z-index: 0;opacity:1}
 .watch-video-play{display:inline-block;  margin:10px 5px;padding:5px 5px 5px 3px;    }
+.watch-video-play-dog{display:inline-block;  margin:10px 5px;padding:5px 5px 5px 3px; color:black;   }
 .watch-video-play a{padding-left:0px;  }
 .watch-video-play span { } 
 .image-wrap-right-video img{ display:block;border:3px solid #666; float:right;   } 
@@ -171,16 +179,18 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
  /*----------------------------------- DOG PAGE  --------------------------------------*/
  /*----------------------------------------------------------------------------------*/
 .dog-list-items{ list-style-type:square; margin-top:0px; margin-bottom:10px;background:#fff;padding:20px;} 
-.page-dog-price { background:#ccc;padding:5px 10px; color:#fff; border-radius: 0px 0px 0px 0px;   text-transform:uppercase; font-size:14px;    display:inline-block; box-shadow: 0px  0px 0px #333; font-size:13px;  border:0px solid #ccc;margin-left:15px;  }
+.page-dog-price { background:#ccc;padding:5px 10px; color:#fff; border-radius: 0px 0px 0px 0px;   text-transform:uppercase; font-size:14px;    display:inline-block; box-shadow: 0px  0px 0px #333; font-size:12px;  border:0px solid #ccc;margin-left:15px;  }
 .page-dog-info {  color:#666; float:center; background:white; padding:0px 5px;  margin-top:0px; font-size:12px; margin-left: 60px;  display:inline-block;    } 
 .dog-single-left-price {  background:#666; color:white; padding:5px 5px; margin:2px 0px 0px 0px;   }
 .dog-single-right-price {  background:#465C85; color:white; padding:5px 5px; margin:2px 0px 0px 0px;   }
 .dog-single-left {  background:#666; color:white; padding:5px 5px; margin:2px 0px 0px 0px;   } 
 .dog-single-right {  background:#333;color:white; padding:5px 5px; margin:2px 0px;   }
+.dog-single-right-video {  background:#ddd;color:white; padding:5px 10px; margin:2px 0px;   }
+.dog-single-right-video span{  margin-right:10px;  }
 .section-dog-header-single{  -webkit-box-shadow: 0px 0px 5px #000;background:#fff; border-radius:0px; box-shadow: 0px  0px 5px #333; margin-bottom:10px; margin:-20px 15px 0px 15px; padding:45px 0px 10px 40px;  }
 .dogdisplay{display: inline-block; margin-right: 10px;width:200px; height:200px}
-
-
+.main-dog-div {margin-left:20px;}
+.dog-gallery-row {margin-top:20px;}
 .overview-list-items{ list-style-type:square; margin-top:10px; margin-bottom:10px;background:#fff;} 
 .meet-the-team-head{ font-weight:bold;  margin-bottom:20px;  margin-left:-20px;  }
 .right-testimonials { height:200px;display:block;}
