@@ -1,7 +1,7 @@
 <?php
     // use actual sendgrid username and password in this section
     $url = 'https://api.sendgrid.com/';
-    $user = 'app35109358@heroku.com'; // place SG username here
+    $user = 'app35497125@heroku.com'; // place SG username here
     $pass = 'Liam4444'; // place SG password here
     
     // grabs HTML form's post data; if you customize the form.html parameters then you will need to reference their new new names here
@@ -50,7 +50,7 @@
     curl_close($session);
     
     // Redirect to thank you page upon successfull completion, will want to build one if you don't alreday have one available
-    header('Location: thanks.html'); // feel free to use whatever title you wish for thank you landing page, but will need to reference that file name in place of the present 'thanks.html'
+    header('Location: Thanks.html'); // feel free to use whatever title you wish for thank you landing page, but will need to reference that file name in place of the present 'thanks.html'
     exit();
     
     // print everything out
