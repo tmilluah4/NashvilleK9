@@ -56,7 +56,7 @@
 									<p>Subject:</p>
 									<input type="text" name="subject" />
 									<p>Message:</p>
-									<textarea name="notecontent" rows="15" cols="30" syle="width: 55%;  text-align: center;"> </textarea></p>
+									<textarea name="notecontent" rows="12" cols="30" syle="width: 55%;  text-align: center;"> </textarea></p>
 									<input class="send" type="submit" value="Send"> <!-- Send button-->
 								</form>
 							 </div>

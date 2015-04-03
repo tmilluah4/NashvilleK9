@@ -39,8 +39,8 @@
 	$message->addTo('rtoddmiller3@gmail.com')->
 	          setFrom('rtoddmiller3@gmail.com')->
 	          setSubject('Contact Form Submission')->
-	          setText('Name:   $name  \n  Email:  $email \n  Subject: $subject \n Message:  $notecontent ')->
-	           setHtml("Name:{$name }</br> Phone: {$phone}</br> Email:  {$email}</br>  Message:    {$notecontent}");
+	          setText('Name:   $name \r\n  Email:  $email \r\n  Subject: $subject \r\n Message:  $notecontent ')->
+	           setHtml("Name:{$name}\r\n Phone: {$phone}\r\n Email:  {$email}\r\n  Message:    {$notecontent}");
 	$response = $sendgrid->send($message);
 	?>
 		<div class="container"  >
