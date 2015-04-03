@@ -20,6 +20,34 @@
 </head>
 <body> 
   
+
+	<?php
+
+		require 'vendor/autoload.php';
+
+		$sendgrid = new SendGrid('app35497125@heroku.com', '62osfefm');
+
+		$message = new SendGrid\Email();
+
+		$name = $_POST['name'];
+		$phone = $_POST['phone'];
+	    $email = $_POST['email'];
+	    $subject = $_POST['subject'];
+		$notecontent = $_POST['notecontent'];
+	  print_r( $name );  
+	print_r( $phone );
+	print_r( $email );
+	print_r( $subject );
+	print_r( $notecontent );
+
+
+	$message->addTo('rtoddmiller3@gmail.com')->
+	          setFrom('rtoddmiller3@gmail.com')->
+	          setSubject('Contact Form Submission')->
+	          setText('Name:   $name  \n  Email:  $email \n  Subject: $subject \n Message:  $notecontent ')->
+	           setHtml('Name:{$name }\r  Phone: {$phone}\r Email:  {$email} \r  Message:    {$notecontent}');
+	$response = $sendgrid->send($message);
+	?>
 		<div class="container"  >
 			<div class="row">
 				<div class="col-sm-1"> </div>
@@ -43,22 +71,10 @@
 			 
 							<div class="col-md-3"    >
 								<div class="page-section-title "  >
-						  			contact us
+						  			Thank you for contacting us!  We will get back with you shortly.
 								</div> 
 							 
-								<form class="contact" action="confirmation.php" method="post">
-									<p>Name:</p>  
-									<input type="text" name="name" />
-									<p>Phone:</p>
-									<input type="text" name="phone" />
-									<p>E-mail:</p>
-									<input type="text" name="email" />
-									<p>Subject:</p>
-									<input type="text" name="subject" />
-									<p>Message:</p>
-									<textarea name="notecontent" syle="width: 55%; height: 300px; text-align: center;"> </textarea></p>
-									<input class="send" type="submit" value="Send"> <!-- Send button-->
-								</form>
+							 
 							 </div>
 							 <div class="col-md-4" style="padding-left:40px">
 									<div class="row">
