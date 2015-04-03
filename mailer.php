@@ -22,5 +22,5 @@ $response = $sendgrid->send($email);
 var_dump($response);
 
  
-    
-    ?>
+
+ 

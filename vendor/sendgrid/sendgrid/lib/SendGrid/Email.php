@@ -13,8 +13,6 @@ class Email {
          $subject,
          $text,
          $html,
-         $date,
-         $content,
          $headers,
          $smtpapi,
          $attachments;
@@ -146,15 +144,6 @@ class Email {
   public function getSubject() {
     return $this->subject;
   }
-  
-  public function setDate($date) {
-    $this->date = $date;
-    return $this;
-  }
-  
-  public function getDate() {
-    return $this->date;
-  }
 
   public function setText($text) {
     $this->text = $text;
@@ -173,21 +162,6 @@ class Email {
   public function getHtml() {
     return $this->html;
   }
-  
-  public function setSendAt($timestamp) {
-    $this->smtpapi->setSendAt($timestamp);
-    return $this;
-  }
-  
-  public function setSendEachAt(array $timestamps) {
-    $this->smtpapi->setSendEachAt($timestamps);
-    return $this;
-  }
-  
-  public function addSendEachAt($timestamp) {
-    $this->smtpapi->addSendEachAt($timestamp);
-    return $this;
-  }
 
   public function setAttachments(array $files) {
     $this->attachments = array();
@@ -203,13 +177,13 @@ class Email {
     return $this;
   }
 
-  public function setAttachment($file, $custom_filename=null, $cid=null) {
-    $this->attachments = array($this->_getAttachmentInfo($file, $custom_filename, $cid));
+  public function setAttachment($file, $custom_filename=null) {
+    $this->attachments = array($this->_getAttachmentInfo($file, $custom_filename));
     return $this;
   }
 
-  public function addAttachment($file, $custom_filename=null, $cid=null) {
-    $this->attachments[] = $this->_getAttachmentInfo($file, $custom_filename, $cid);
+  public function addAttachment($file, $custom_filename=null) {
+    $this->attachments[] = $this->_getAttachmentInfo($file, $custom_filename);
     return $this;
   }
 
@@ -222,14 +196,11 @@ class Email {
     return $this;
   }
 
-  private function _getAttachmentInfo($file, $custom_filename=null, $cid=null) {
+  private function _getAttachmentInfo($file, $custom_filename=null) {
     $info                       = pathinfo($file);
     $info['file']               = $file;
     if (!is_null($custom_filename)) {
       $info['custom_filename']  = $custom_filename;
-    }
-    if ($cid !== null) {
-      $info['cid'] = $cid;
     }
 
     return $info;
@@ -360,7 +331,6 @@ class Email {
     if ($this->getBccs())         { $web['bcc']         = $this->getBccs(); }
     if ($this->getFromName())     { $web['fromname']    = $this->getFromName(); }
     if ($this->getReplyTo())      { $web['replyto']     = $this->getReplyTo(); }
-    if ($this->getDate())         { $web['date']        = $this->getDate(); }
     if ($this->smtpapi->to && (count($this->smtpapi->to) > 0))  { $web['to'] = ""; }
 
     $web = $this->updateMissingTo($web);
@@ -380,10 +350,6 @@ class Email {
         }
         if (array_key_exists('custom_filename', $f)) {
           $full_filename  = $f['custom_filename'];
-        }
-        
-        if (array_key_exists('cid', $f)) {
-          $web['content['.$full_filename.']'] = $f['cid'];
         }
 
         $contents   = '@' . $file; 

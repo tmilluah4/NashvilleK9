@@ -16,75 +16,66 @@
 	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->    
 
-	    >
+ 
 </head>
 <body> 
- <script type="text/javascript">  
-		function setActive()
-		{  document.getElementById('contactli').className='active'; }
-		window.onload = setActive;
-	</script>
-<div class="container"  style="   " >
-<div class="row">
-<div class="col-sm-1"> </div>
-<div class="col-sm-10">
-<?php include('partials/header.html');?>
-<div class="row main-row" style="margin-left:40px">
-
-
- 				<div class="col-md-3" class="side-column" >
-					<div class="row" class="side-column-contact" > 
+  
+		<div class="container"  >
+			<div class="row">
+				<div class="col-sm-1"> </div>
+				<div class="col-sm-10">
+						<?php include('partials/header.html');?>
+						<div class="row main-row" style="margin-left:40px"> 
+ 							<div class="col-md-3" class="side-column" >
+								<div class="row" class="side-column-contact" > 
 					  
-						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-ali.jpg">
-				         </div>
-						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-damon.jpg">
-				         </div>
-						 <div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
-		                 	<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-john.jpg">
-				         </div>
-						 					 </div>
-				</div>
+						 				<div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
+		                 					<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-ali.jpg">
+				         				</div>
+						 				<div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
+		                 					<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-damon.jpg">
+				         				</div>
+						 				<div class='imgLiquid'  style=' -moz-box-shadow:0px 0px 4px #000; -webkit-box-shadow: 0px 0px 4px #000; box-shadow:0px 0px 4px #000; display: inline-block; margin-right: 10px;width:180px; height:180px'>
+		                 					<img src="/images/dog_training_overview/meet_the_team/nashville-dog-trainer-john.jpg">
+				         				</div>
+						 		</div>
+							</div>
 			 
-				<div class="col-md-5"    >
-					<div class="page-section-title "  >
-						  contact us
-					</div> 
+							<div class="col-md-3"    >
+								<div class="page-section-title "  >
+						  			contact us
+								</div> 
 
-<form class="contact" action="mailer.php" method="post">
-<p>Name:</p> <!-- Can choose to customize form.html inputs starting here as needed, but be sure to reference any changes in mailer.php post fields-->
-<input type="text" name="name" />
-<p>E-mail:</p>
-<input type="text" name="email" />
-<p>Subject:</p>
-<input type="text" name="subject" />
-<p>Message:</p>
-<textarea name="message" syle="width: 45%; text-align: center;">Please leave a short message here</textarea></p>
-<input class="send" type="submit" value="Send"> <!-- Send button-->
-</form></center>				 </div>
-					</br>
+								<form class="contact" action="mailer.php" method="post">
+									<p>Name:</p>  
+									<input type="text" name="name" />
+									<p>E-mail:</p>
+									<input type="text" name="email" />
+									<p>Subject:</p>
+									<input type="text" name="subject" />
+									<p>Message:</p>
+									<textarea name="message" syle="width: 45%; text-align: center;">Please leave a short message here</textarea></p>
+									<input class="send" type="submit" value="Send"> <!-- Send button-->
+								</form>
+							 </div>
+							 <div class="col-md-4" style="padding-left:40px">
+									<div class="row">
+										Nashville K-9 Main Office: </br>(615) 438-2602
+									</div></br> 
+									<div class="row">
+										Davidson Co. K-9 Emergency Assistance: </br> (615) 943-4743
+									</div></br>
+									<div class="row">
+										Overton Co. K-9 Emergency Assistance: </br> (931) 783-3653
+									</div>
+							 </div>
+							 </br>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-2"    ></div>	
-				<div class="col-md-4" style="padding-left:40px">
-						<div class="row">
-							Nashville K-9 Main Office: </br>(615) 438-2602
-						</div></br>
-					 
-					 
-					 
-						<div class="row">
-							Davidson Co. K-9 Emergency Assistance: </br> (615) 943-4743
-						</div></br>
-						<div class="row">
-							Overton Co. K-9 Emergency Assistance: </br> (931) 783-3653
-						</div>
-				</div>
-		 
-        </div>
-    </div>	
-	 </div>	
+				<div class="col-sm-1"> </div> 	 
+    		</div>	
+	 	</div>	
  	
 	<?php include('partials/footer.html');?> 	
    
