@@ -45,16 +45,36 @@
 								<div class="page-section-title "  >
 						  			contact us
 								</div> 
+								<?php
+									require 'vendor/autoload.php';
 
+									$sendgrid = new SendGrid('app35497125@heroku.com', '62osfefm');
+
+									$message = new SendGrid\Email();
+
+									$name = $_POST['name'];
+								    $email = $_POST['email'];
+								    $subject = $_POST['subject'];
+								    $message = $_POST['message'];
+
+									$message->addTo('rtoddmiller3@gmail.com')->
+								          setFrom('rtoddmiller3@gmail.com')->
+								          setSubject('Contact Form Submission - Nashville K-9')->
+								          setText('Name: $name\n  Email: $email\n  Subject: $subject\n  $message')->
+								          setHtml('<strong>Name: $name\n</br>  Email: $email\n</br>  Subject: $subject\n</br>  $message</strong>');
+									$response = $sendgrid->send($message);
+								?>
 								<form class="contact" action="mailer.php" method="post">
 									<p>Name:</p>  
 									<input type="text" name="name" />
+										<p>Phone:</p>
+										<input type="text" name="phone" />
 									<p>E-mail:</p>
 									<input type="text" name="email" />
 									<p>Subject:</p>
 									<input type="text" name="subject" />
 									<p>Message:</p>
-									<textarea name="message" syle="width: 45%; text-align: center;">Please leave a short message here</textarea></p>
+									<textarea name="notecontent" syle="width: 55%; height: 300px; text-align: center;"> </textarea></p>
 									<input class="send" type="submit" value="Send"> <!-- Send button-->
 								</form>
 							 </div>
