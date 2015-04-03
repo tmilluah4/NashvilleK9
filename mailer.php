@@ -1,10 +1,11 @@
 <?php
+ print_r( $_POST );  
 	require 'vendor/autoload.php';
   
 	$sendgrid = new SendGrid('app35497125@heroku.com', '62osfefm');
 
 	$message = new SendGrid\Email();
-
+ print_r( $_POST ); 
 	$name = $_POST['name'];
     $email = $_POST['email'];
     $subject = $_POST['subject'];
