@@ -46,17 +46,17 @@
 						  			contact us
 								</div> 
 							 
-								<form class="contact" action="confirmation.php" method="post">
+								<form class="contact" action="confirmation.php" method="post"></br>
 									<p>Name:</p>  
 									<input type="text" name="name" />
-									<p>Phone:</p>
+									<p style="margin-top:10px">Phone:</p>
 									<input type="text" name="phone" />
-									<p>E-mail:</p>
+									<p style="margin-top:10px">E-mail:</p>
 									<input type="text" name="email" />
-									<p>Subject:</p>
+									<p style="margin-top:10px">Subject:</p>
 									<input type="text" name="subject" />
-									<p>Message:</p>
-									<textarea name="notecontent" rows="12" cols="30" syle="width: 55%;  text-align: center;"> </textarea></p>
+									<p style="margin-top:10px">Message:</p>
+									<textarea name="notecontent" rows="10" cols="30" syle="width: 55%;  text-align: center;"> </textarea></p>
 									<input class="send" type="submit" value="Send"> <!-- Send button-->
 								</form>
 							 </div>
