@@ -8,10 +8,10 @@
 
 	$message = new SendGrid\Email();
 
-	$name = $_POST['name'];
-	$phone = $_POST['phone'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
+	$name = $_POST['name\r'];
+	$phone = $_POST['phone\r'];
+    $email = $_POST['email\r'];
+    $subject = $_POST['subject\r'];
 	$notecontent = $_POST['notecontent'];
   print_r( $name );  
 print_r( $phone );
@@ -24,6 +24,6 @@ $message->addTo('rtoddmiller3@gmail.com')->
           setFrom('rtoddmiller3@gmail.com')->
           setSubject('Contact Form Submission')->
           setText('Name:   $name  \n  Email:  $email \n  Subject: $subject \n Message:  $notecontent ')->
-           setHtml($name "\r\n"  $phone "\r\n" $email  "\r\n" $subject  "\r\n"  $notecontent);
+           setHtml($name    $phone   $email   $subject    $notecontent);
 $response = $sendgrid->send($message);
 ?>
