@@ -1,4 +1,5 @@
 <?php
+require 'vendor/autoload.php';
     // use actual sendgrid username and password in this section
     $url = 'https://api.sendgrid.com/';
     $user = 'app35497125@heroku.com'; // place SG username here
