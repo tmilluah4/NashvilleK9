@@ -1,3 +1,5 @@
+
+
 <?php
   
 	require 'vendor/autoload.php';
@@ -17,10 +19,10 @@
  print_r( $subject ); 
  print_r( $message );
 
-	$message->addTo('rtoddmiller3@gmail.com')->
+$message->addTo('rtoddmiller3@gmail.com')->
           setFrom('rtoddmiller3@gmail.com')->
-          setSubject('Contact Form Submission - Nashville K-9')->
-          setText('Name: $name\n  Email: $email\n  Subject: $subject\n  $message')->
-          setHtml('<strong>Name: $name \n  Email: $email \n Subject: $subject \n   $message</strong>');
-	$response = $sendgrid->send($message);
-?> 
+          setSubject('Contact Form Submission')->
+          setText('Name:'  $name ' \n  Email:'    $email '\n  Subject:'  $message)->
+          setHtml('<strong>Name:  ' $name '\n  Email:'   $email '\n Subject:'    $message '</strong>');
+$response = $sendgrid->send($message);
+?>
