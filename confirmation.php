@@ -33,19 +33,14 @@
 		$phone = $_POST['phone'];
 	    $email = $_POST['email'];
 	    $subject = $_POST['subject'];
-		$notecontent = $_POST['notecontent'];
-	  print_r( $name );  
-	print_r( $phone );
-	print_r( $email );
-	print_r( $subject );
-	print_r( $notecontent );
+		$notecontent = $_POST['notecontent']; 
 
 
 	$message->addTo('rtoddmiller3@gmail.com')->
 	          setFrom('rtoddmiller3@gmail.com')->
 	          setSubject('Contact Form Submission')->
 	          setText('Name:   $name  \n  Email:  $email \n  Subject: $subject \n Message:  $notecontent ')->
-	           setHtml("Name:{$name }\r  Phone: {$phone}\r Email:  {$email} \r  Message:    {$notecontent}");
+	           setHtml("Name:{$name }</br> Phone: {$phone}</br> Email:  {$email}</br>  Message:    {$notecontent}");
 	$response = $sendgrid->send($message);
 	?>
 		<div class="container"  >
