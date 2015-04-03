@@ -34,7 +34,7 @@ margin-top:-20px;
   height: 320px;
   padding: 50px 0 50px 0; 
   z-index: 1;
-   -webkit-box-reflect:
+  /* -webkit-box-reflect:
     below
     0
     -webkit-gradient(
@@ -44,7 +44,7 @@ margin-top:-20px;
       color-stop(1, rgba(255, 255, 255, .5)),
       color-stop(.8, rgba(255, 255, 255, 0))
     );
-	
+	*/
 }
  
  .dog-list{
@@ -59,7 +59,7 @@ margin-top:-20px;
  
 .dog {
     width: 275px;
-	 height:410px;
+	 height:350px;
        margin: 10px 0px ;
          border:0px solid rgba(0, 0, 0, 0.6);
     overflow: hidden;

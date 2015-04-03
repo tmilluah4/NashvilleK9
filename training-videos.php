@@ -39,11 +39,11 @@
 						</br>
 						<ul  class="list-group" style="cursor: pointer;">
 							<li id="content1" class="list-group-item switcher active"> WHY WE ARE BETTER! </li>
-							<li id="content2" class="list-group-item switcher"> ARE CLIENTS ARE SAYING</li>
+							<li id="content2" class="list-group-item switcher"> OUR CLIENTS ARE SAYING</li>
 							<li id="content3" class="list-group-item switcher"> SOME OF OUR DOGS</li>
 							<li id="content4" class="list-group-item switcher"> DOG OBEDIENCE</li>
-							<li id="content5" class="list-group-item switcher">4 WEEK BOARD AND TRAIN</li>
-							<li id="content6" class="list-group-item switcher">DOG PROTECTION </li>
+							<li id="content5" class="list-group-item switcher">FOUR WEEK BOARD AND TRAIN</li>
+							<li id="content6" class="list-group-item switcher">EXECUTIVE PROTECTION </li>
 							<li id="content7" class="list-group-item switcher">SEARCH AND RESCUE </li>
 							<li id="content8" class="list-group-item switcher">DOG AGILITY</li>
 							<li id="content9" class="list-group-item switcher">DEMONSTRATIONS</li>

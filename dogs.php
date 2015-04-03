@@ -48,61 +48,35 @@
 						 
 								</br>
 								</br>
-							<div style="margin-left: 40px">
-							   <div class="dog dog-first">
-									<div class="caption">Ammo</div>  
-									<div class="dog-image">  
-										<?php
-											$dog = "http://graph.facebook.com/10154237525855596/photos?fields=source";
-										   $json = file_get_contents($dog);
-										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][4]['source'];  
+								<div style="margin-left: 40px">
+									<div class="dog dog-first">
+									<div class="caption">Argo Avodar</div>  
+										<div class="dog-image">
+									 <?php
+											$antrax = "http://graph.facebook.com/10152268881640596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
 										 ?>
-									</div>
-									<div class="mask">
-										 <h2>Police Dual Purpose</h2>
+										</div>
+										<div class="mask">
+											<h2>BH, IPO I, Level I Personal Protection Dog </h2>
 											<ul class="dog-list">
-											   
-												<li class="parent"><span class="text">Breed: Belgian Malinois Shepherd </span></li>
-												<li class="parent"><span class="text">Date of Birth: 1/15/2013</span></li>
-												<li class="parent"><span class="text">Ammo is a Malinois with a TON of energy and drive. He'll hunt all day long for anything, he loves to play, 	and he's starting to have a huge ego (which is great). We've used Ammo as our demonstration dog. He knows almost every command out there and would make a super dog for any police dept. </span>
-												</li>
-											</ul>
-										  <a href="/dogs/ammo.php" class="info">More on Ammo</a>
+											  <li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
+											  <li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
+											  <li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
+											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
+											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
+											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li> 
+											</ul>         
+										  <a href="dogs/argo.php" class="info">More on Argo</a>
 									</div>
 								</div>  
-						 	
-							 
-								<div class="dog dog-first">
-									<div class="caption"> Anna vom Westcowdenhaus</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10150926419215596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>  </h2>
-											<ul class="dog-list">
-											   <li class="parent"><span class="text">Breed: German Shepherd  </span></li>
-												  <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD  </span></li>
-												  <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI </span></li>
-												  <li class="parent"><span class="text">Date of Birth: October 2, 2010 </span></li>
-											</ul>         
-											<a href="/dogs/anna.php" class="info">More on Anna</a>
-									</div>
-								</div> 
-						 				 
-							
-							 
+								
+								
 								<div class="dog dog-first">
 									<div class="caption"> Antrax von Hegpeter</div>
 									<div class="dog-image">
@@ -129,172 +103,35 @@
 										<a href="/dogs/antrax.php" class="info">More on Antrax</a>
 									</div>
 								</div> 
-						 
- 
-              
-								<div class="dog dog-first">
-									<div class="caption">Argo Avodar</div>  
-										<div class="dog-image">
-									 <?php
-											$antrax = "http://graph.facebook.com/10152268881640596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
+							 
+							
+							   <div class="dog dog-first">
+									<div class="caption">Ammo</div>  
+									<div class="dog-image">  
+										<?php
+											$dog = "http://graph.facebook.com/10154237525855596/photos?fields=source";
+										   $json = file_get_contents($dog);
+										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][4]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
 										 ?>
-										</div>
-										<div class="mask">
-											<h2>BH, IPO I, Level I Personal Protection Dog </h2>
+									</div>
+									<div class="mask">
+										 <h2>Police Dual Purpose</h2>
 											<ul class="dog-list">
-											  <li class="parent"><span class="text">Breed: Doberman Pinscher  </span></li>
-											  <li class="parent"><span class="text">Date of Birth: March 7, 2010 </span></li>
-											  <li class="parent"><span class="text">Sire: Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2  </span></li>
-											  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
-											  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
-											  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li> 
-											</ul>         
-										  <a href="dogs/argo.php" class="info">More on Argo</a>
+											   
+												<li class="parent"><span class="text">Breed: Belgian Malinois Shepherd </span></li>
+												<li class="parent"><span class="text">Date of Birth: 1/15/2013</span></li>
+												<li class="parent"><span class="text">Ammo is a Malinois with a TON of energy and drive. He'll hunt all day long for anything, he loves to play, 	and he's starting to have a huge ego (which is great). We've used Ammo as our demonstration dog. He knows almost every command out there and would make a super dog for any police dept. </span>
+												</li>
+											</ul>
+										  <a href="/dogs/ammo.php" class="info">More on Ammo</a>
 									</div>
 								</div>  
-							 
-									 
-						 
-							  <div class="dog dog-first">
-									<div class="caption">Asko Vom Brockelstein</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152269234030596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>BH, SCH III, AD, KKL1</h2>
-											<ul class="dog-list">
-												<li class="parent"><span class="text">Former DCRS K-9 SAR dog, East DDR German Shepherd  </span></li>
-												  <li class="parent"><span class="text">Asko was famous for working the Fairview/Franklin TN Tornadoes 2008 and captured on video by Nashville NBC station WSMV.</span></li>
-												  <li class="parent"><span class="text">Asko has relocated to Oregon to finish out his happy life. </span></li>
-											</ul>         
-										  <a href="/dogs/asko.php" class="info">More on Asko</a>
-									</div>
-								</div> 
-					 
-								<div class="dog dog-first">
-									<div class="caption"> Bessi von der Alten Schmiede</div>
-									<div class="dog-image">
-								<?php
-											$antrax = "http://graph.facebook.com/10152270725645596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>BH, SCH III, IPO III, AD, FH1, KKL1</h2>
-											<ul class="dog-list">
-												 <li class="parent"><span class="text">German Shepherd, Hips, Eyes, and Elbows Certified, DNA tests conducted</span></li>
-													<li class="parent"><span class="text"> Two of Bessi’s pups have competed in the Bundessieger </span></li>
-													<li class="parent"><span class="text"> Super obedience and high drives     </span></li>
-													<li class="parent"><span class="text"> High 90′s in each, 5 times completing SCH III </span></li>
-													<li class="parent"><span class="text"> Very Social with people and other dogs  </span></li>
-													<li class="parent"><span class="text"> Explosive bites with fast recharge   </span></li>
-											</ul>         
-											<a href="/dogs/bessi.php" class="info">More on Bessi</a>
-									</div>
-								</div> 
-							 
- 
-						
-							  <div class="dog dog-first">
-									<div class="caption"> Cairo</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268933945596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>Personal Protection Dog, CGC, DD, WDE, CAL2, PSA PDC</h2>
-											<ul class="dog-list">
-													<li class="parent"><span class="text">Doberman Pinscher</span></li>
-													<li class="parent"><span class="text"> Date of Birth: June 25, 2008 </span></li>
-													<li class="parent"><span class="text">Titled name "Jaburi Cairo"    </span></li>
-													<li class="parent"><span class="text"> Protection Sport Association PDC Certificate</span></li>
-											</ul>         
-											<a href="/dogs/cairo.php" class="info">More on Cairo</a>
-									</div>
-								</div> 
-						 
-								<div class="dog dog-first">
-									<div class="caption"> Carlo Van Neerland</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268958910596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>"; 
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>PSA PDC</h2>
-											<ul class="dog-list">
-												 <li class="parent"><span class="text">Only Dutch Malinois with KNPV-PH1 Sire and Dam in the U.S.</span></li>
-												<li class="parent"><span class="text">Pedigree dates back to 1913</span></li>
-												<li class="parent"><span class="text">bloedlijnen.nl</span></li>
-												<li class="parent"><span class="text">Available for Stud Only</span></li>
-											</ul>         
-										  <a href="/dogs/carlo.php" class="info">More on Carlo</a>
-									</div>
-								</div> 
-						 
-								<div class="dog dog-first">
-									<div class="caption">  Cowboy de Atlawor</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268924825596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>Explosives Detection</h2>
-											<ul class="dog-list">
-												<li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
-												<li class="parent"><span class="text">Born 9/06</span></li>
-												<li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
-												<li class="parent"><span class="text">Started on Explosives</span></li>
-												<li class="parent"><span class="text">Very crazy hunt drive; will search forever</span></li>
-												<li class="parent"><span class="text">Super social, loves children and other dogs</span></li>
-												<li class="parent"><span class="text">Very clear head, stable nerves</span></li>
-											</ul>         
-											<a href="/dogs/cowboy.php" class="info">More on Cowboy</a>
-									</div>
-								</div> 
-						 
-						
-					 
-							  <div class="dog dog-first">
+						 	
+							 <div class="dog dog-first">
 									<div class="caption">Duke</div>
 									<div class="dog-image">
 										<?php
@@ -322,7 +159,7 @@
 									</div>
 								</div> 
 						 
-								<div class="dog dog-first">
+						 	<div class="dog dog-first">
 									<div class="caption">Hurricane</div>
 									<div class="dog-image">
 										<?php
@@ -343,61 +180,34 @@
 											<a href="/dogs/hurricane.php" class="info">More on Hurricane</a>
 									</div>
 								</div> 
-						 
-								<div class="dog dog-first">
-									<div class="caption"> Jack </div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268929180596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2> (Atlas vom Neville), CGC, Narcotics Detection </h2>
-											<ul class="dog-list">
-												<li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
-												<li class="parent"><span class="text">Born 12/05</span></li>
-												<li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
-												<li class="parent"><span class="text">Started on Narcotics Detection and Started on Cadaver</span></li>
-												<li class="parent"><span class="text">Very Social with people; Cannot be in home with a small dog/small pet</span></li>
-												<li class="parent"><span class="text">High Toy and Hunt Drive, loves searching</span></li>
-											</ul>         
-											<a href="/dogs/jack.php" class="info">More on Jack</a>
-									</div>
-								</div> 
-							 
-							  <div class="dog dog-first">
-								<div class="caption"> Ken vom Glockeneck</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152269125175596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>BH, SCH III, AD, KKL1</h2>
-											<ul class="dog-list">
-												 <li class="parent"><span class="text">German Shepherd – Hips, Eyes, and Elbows Certified, DNA Tests Conducted </span></li>
-												  <li class="parent"><span class="text">He is extremely agile, quick, responsive, fast recharge time, and hits hard with full force.</span></li>
-												  <li class="parent"><span class="text">Excellent grips, long hunt drive, and explosive fight drive. </span></li>
-												  <li class="parent"><span class="text">High 90’s in protection </span></li>
-												  <li class="parent"><span class="text">Very aggressive to outsiders.  </span></li>
-											</ul>         
-											<a href="/dogs/ken.php" class="info">More on Ken</a>
-									</div>
-								</div> 
 								
-								<div class="dog dog-first">
+								
+								  <div class="dog dog-first">
+									<div class="caption"> Cairo</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152268933945596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>Personal Protection Dog, CGC, DD, WDE, CAL2, PSA PDC</h2>
+											<ul class="dog-list">
+													<li class="parent"><span class="text">Doberman Pinscher</span></li>
+													<li class="parent"><span class="text"> Date of Birth: June 25, 2008 </span></li>
+													<li class="parent"><span class="text">Titled name "Jaburi Cairo"    </span></li>
+													<li class="parent"><span class="text"> Protection Sport Association PDC Certificate</span></li>
+											</ul>         
+											<a href="/dogs/cairo.php" class="info">More on Cairo</a>
+									</div>
+								</div> 
+						 
+						 	<div class="dog dog-first">
 								<div class="caption"> Knox</div>
 									<div class="dog-image">
 										<?php
@@ -422,61 +232,9 @@
 											<a href="/dogs/ken.php" class="info">More on Knox</a>
 									</div>
 								</div> 
-							 
-								<div class="dog dog-first">
-								<div class="caption"> Maxine vom Smaragdwald</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152269217300596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>BH, SCH III, AD</h2>
-											<ul class="dog-list">
-											  <li class="parent"><span class="text">She is extremely agile, high bites, and hits hard with excellent grips.</span></li>
-											  <li class="parent"><span class="text">She excels in tracking obedience, and loves to show her courage in protection. </span></li>
-											  <li class="parent"><span class="text">High Schutzhund scores (high 90’s in all), clear head, and very social.</span></li>
-											  <li class="parent"><span class="text">Very aggressive to outsiders.    </span></li>
-											</ul>         
-											<a href="/dogs/maxine.php" class="info">More on Maxine</a>
-									</div>
-								</div> 
-							 
-								<div class="dog dog-first">
-									<div class="caption"> Micah Vom Hemyarihaus</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268904915596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>Nashville K-9 Demonstration Dog</h2>
-											<ul class="dog-list">
-												<li class="parent"><span class="text">Micah has presented 74 K-9 Demonstrations</span></li>
-												<li class="parent"><span class="text">These Demonstrations have been for Schutzhund, Police K-9, and Family Protection</span></li>
-												<li class="parent"><span class="text">He is social with Children, Adults, and other Dogs</span></li>
-												<li class="parent"><span class="text">Born 08/04/2000</span></li>
-												<li class="parent"><span class="text">Rest in Peace, April 28, 2012</span></li>  
-											</ul>         
-											<a href="/dogs/micah.php" class="info">More on Micah</a>
-									</div>
-								</div> 
 						 
- 
 						 
-							  <div class="dog dog-first">
+						  <div class="dog dog-first">
 									<div class="caption"> Peik vom Dichterviertel</div>
 									<div class="dog-image">
 										<?php
@@ -502,7 +260,35 @@
 									</div>
 								</div> 
 						 
-								<div class="dog dog-first">
+						 	<div class="dog dog-first">
+									<div class="caption">Scout vom Geistwasser </div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152749003450596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>Service Dog for Parkinson’s Disease</h2>
+											<ul class="dog-list">
+												<li class="parent"><span class="text">Breed: German Shepherd</span></li>
+												<li class="parent"><span class="text">Date of Birth: May 26, 2011 </span></li>
+												<li class="child"><span class="text">Sire: H-Cayos av Xazziam, SCHIII, IPOIII, MH</span></li>
+												<li class="child"><span class="text">Dam: Irmhild von der Staatsmacht, SCHIII</span></li>
+												<li class="child"><span class="text"> Scout’s job is to accompany his owner daily. He provides a crutch in case of a fall, breaking the “Parkinson’s Freeze” with a nudge, retrieving objects, and an extremely high level of obedience among many other things.
+													</span>
+												</li>
+											</ul>         
+											<a href="/dogs/scout.php" class="info">More on Scout</a>
+									</div>
+								</div> 
+						 
+						 	<div class="dog dog-first">
 									<div class="caption"> Pito</div>
 									<div class="dog-image">
 										<?php
@@ -528,6 +314,299 @@
 									</div>
 								</div> 
 						 
+						 
+						 		<div class="dog dog-first">
+									<div class="caption"> Micah Vom Hemyarihaus</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152268904915596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>Nashville K-9 Demonstration Dog</h2>
+											<ul class="dog-list">
+												<li class="parent"><span class="text">Micah has presented 74 K-9 Demonstrations</span></li>
+												<li class="parent"><span class="text">These Demonstrations have been for Schutzhund, Police K-9, and Family Protection</span></li>
+												<li class="parent"><span class="text">He is social with Children, Adults, and other Dogs</span></li>
+												<li class="parent"><span class="text">Born 08/04/2000</span></li>
+												<li class="parent"><span class="text">Rest in Peace, April 28, 2012</span></li>  
+											</ul>         
+											<a href="/dogs/micah.php" class="info">More on Micah</a>
+									</div>
+								</div> 
+								
+								
+								  <div class="dog dog-first">
+								<div class="caption"> Ken vom Glockeneck</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152269125175596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>BH, SCH III, AD, KKL1</h2>
+											<ul class="dog-list">
+												 <li class="parent"><span class="text">German Shepherd – Hips, Eyes, and Elbows Certified, DNA Tests Conducted </span></li>
+												  <li class="parent"><span class="text">He is extremely agile, quick, responsive, fast recharge time, and hits hard with full force.</span></li>
+												  <li class="parent"><span class="text">Excellent grips, long hunt drive, and explosive fight drive. </span></li>
+												  <li class="parent"><span class="text">High 90’s in protection </span></li>
+												  <li class="parent"><span class="text">Very aggressive to outsiders.  </span></li>
+											</ul>         
+											<a href="/dogs/ken.php" class="info">More on Ken</a>
+									</div>
+								</div> 
+								
+								
+								<div class="dog dog-first">
+									<div class="caption"> Bessi von der Alten Schmiede</div>
+									<div class="dog-image">
+								<?php
+											$antrax = "http://graph.facebook.com/10152270725645596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>BH, SCH III, IPO III, AD, FH1, KKL1</h2>
+											<ul class="dog-list">
+												 <li class="parent"><span class="text">German Shepherd, Hips, Eyes, and Elbows Certified, DNA tests conducted</span></li>
+													<li class="parent"><span class="text"> Two of Bessi’s pups have competed in the Bundessieger </span></li>
+													<li class="parent"><span class="text"> Super obedience and high drives     </span></li>
+													<li class="parent"><span class="text"> High 90′s in each, 5 times completing SCH III </span></li>
+													<li class="parent"><span class="text"> Very Social with people and other dogs  </span></li>
+													<li class="parent"><span class="text"> Explosive bites with fast recharge   </span></li>
+											</ul>         
+											<a href="/dogs/bessi.php" class="info">More on Bessi</a>
+									</div>
+								</div> 
+						 
+						 	<div class="dog dog-first">
+								<div class="caption"> Maxine vom Smaragdwald</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152269217300596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>BH, SCH III, AD</h2>
+											<ul class="dog-list">
+											  <li class="parent"><span class="text">She is extremely agile, high bites, and hits hard with excellent grips.</span></li>
+											  <li class="parent"><span class="text">She excels in tracking obedience, and loves to show her courage in protection. </span></li>
+											  <li class="parent"><span class="text">High Schutzhund scores (high 90’s in all), clear head, and very social.</span></li>
+											  <li class="parent"><span class="text">Very aggressive to outsiders.    </span></li>
+											</ul>         
+											<a href="/dogs/maxine.php" class="info">More on Maxine</a>
+									</div>
+								</div> 
+						 
+						 
+						 <div class="dog dog-first">
+									<div class="caption">  Cowboy de Atlawor</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152268924825596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>Explosives Detection</h2>
+											<ul class="dog-list">
+												<li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
+												<li class="parent"><span class="text">Born 9/06</span></li>
+												<li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
+												<li class="parent"><span class="text">Started on Explosives</span></li>
+												<li class="parent"><span class="text">Very crazy hunt drive; will search forever</span></li>
+												<li class="parent"><span class="text">Super social, loves children and other dogs</span></li>
+												<li class="parent"><span class="text">Very clear head, stable nerves</span></li>
+											</ul>         
+											<a href="/dogs/cowboy.php" class="info">More on Cowboy</a>
+									</div>
+								</div> 
+								
+								<div class="dog dog-first">
+									<div class="caption"> Tango ot Vitosha </div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152268952110596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>CGC, BN,  Personal Protection Dog (available for stud)</h2>
+											<ul class="dog-list">
+											  <li class="parent"><span class="text">Breed: Belgian Malinois</span></li>
+												<li class="parent"><span class="text"> Date of Birth: September 5, 2007 </span></li>
+												<li class="parent"><span class="text">Sire: Falcon Regulus, SCHIII, IPOIII    </span></li>
+												<li class="parent"><span class="text"> Dam:Wiitanen's Lola</span></li>
+												<li class="parent"><span class="text"> Very fast, clear headed, and civil biter. Very athletic, agile, and intense. An excellent candidate for stud.</span></li> 
+											</ul>         
+											<a href="/dogs/tango.php" class="info">More on Tango</a>
+									</div>
+								</div> 
+								
+									<div class="dog dog-first">
+									<div class="caption"> Jack </div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152268929180596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2> (Atlas vom Neville), CGC, Narcotics Detection </h2>
+											<ul class="dog-list">
+												<li class="parent"><span class="text">Belgian Malinios Shepherd</span></li>
+												<li class="parent"><span class="text">Born 12/05</span></li>
+												<li class="parent"><span class="text">Super obedience, Ready for a BH</span></li>
+												<li class="parent"><span class="text">Started on Narcotics Detection and Started on Cadaver</span></li>
+												<li class="parent"><span class="text">Very Social with people; Cannot be in home with a small dog/small pet</span></li>
+												<li class="parent"><span class="text">High Toy and Hunt Drive, loves searching</span></li>
+											</ul>         
+											<a href="/dogs/jack.php" class="info">More on Jack</a>
+									</div>
+								</div> 
+						 
+						 
+						   <div class="dog dog-first">
+									<div class="caption">Asko Vom Brockelstein</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152269234030596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>BH, SCH III, AD, KKL1</h2>
+											<ul class="dog-list">
+												<li class="parent"><span class="text">Former DCRS K-9 SAR dog, East DDR German Shepherd  </span></li>
+												  <li class="parent"><span class="text">Asko was famous for working the Fairview/Franklin TN Tornadoes 2008 and captured on video by Nashville NBC station WSMV.</span></li>
+												  <li class="parent"><span class="text">Asko has relocated to Oregon to finish out his happy life. </span></li>
+											</ul>         
+										  <a href="/dogs/asko.php" class="info">More on Asko</a>
+									</div>
+								</div> 
+					 
+						 	<div class="dog dog-first">
+									<div class="caption"> Carlo Van Neerland</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152268958910596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>"; 
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>PSA PDC</h2>
+											<ul class="dog-list">
+												 <li class="parent"><span class="text">Only Dutch Malinois with KNPV-PH1 Sire and Dam in the U.S.</span></li>
+												<li class="parent"><span class="text">Pedigree dates back to 1913</span></li>
+												<li class="parent"><span class="text">bloedlijnen.nl</span></li>
+												<li class="parent"><span class="text">Available for Stud Only</span></li>
+											</ul>         
+										  <a href="/dogs/carlo.php" class="info">More on Carlo</a>
+									</div>
+								</div> 
+						 
+								<div class="dog dog-first">
+									<div class="caption"> Anna vom Westcowdenhaus</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10150926419215596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>  </h2>
+											<ul class="dog-list">
+											   <li class="parent"><span class="text">Breed: German Shepherd  </span></li>
+												  <li class="parent"><span class="text">Sire: Ken vom Glockeneck, KKL1, BH, SCHIII, AD  </span></li>
+												  <li class="parent"><span class="text">Dam: Bessi von der Alten Schmiede, KKL1, BH, SCHIII, IPOIII, AD, FHI </span></li>
+												  <li class="parent"><span class="text">Date of Birth: October 2, 2010 </span></li>
+											</ul>         
+											<a href="/dogs/anna.php" class="info">More on Anna</a>
+									</div>
+								</div>  
+									 
+						 
+							
+								
+							 
+ 
+						
+							
+							
+						 
+								
+						 
+						
+					 
+							  
+							
+						 
+							
+							 
+							
+							
+							 
+							
+							 
+						
+						 
+ 
+						 
+							 
+							
 							<!--	<div class="dog dog-first">
 									<div class="caption"> Rocky vom Westcowdenhaus</div>
 									<div class="dog-image">
@@ -582,59 +661,9 @@
 									</div>
 								</div> 
 						 
-								<div class="dog dog-first">
-									<div class="caption">Scout vom Geistwasser </div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152749003450596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>Service Dog for Parkinson’s Disease</h2>
-											<ul class="dog-list">
-												<li class="parent"><span class="text">Breed: German Shepherd</span></li>
-												<li class="parent"><span class="text">Date of Birth: May 26, 2011 </span></li>
-												<li class="child"><span class="text">Sire: H-Cayos av Xazziam, SCHIII, IPOIII, MH</span></li>
-												<li class="child"><span class="text">Dam: Irmhild von der Staatsmacht, SCHIII</span></li>
-												<li class="child"><span class="text"> Scout’s job is to accompany his owner daily. He provides a crutch in case of a fall, breaking the “Parkinson’s Freeze” with a nudge, retrieving objects, and an extremely high level of obedience among many other things.
-													</span>
-												</li>
-											</ul>         
-											<a href="/dogs/scout.php" class="info">More on Scout</a>
-									</div>
-								</div> 
+							
 						 
-								<div class="dog dog-first">
-									<div class="caption"> Tango ot Vitosha </div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268952110596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>";
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>CGC, BN,  Personal Protection Dog (available for stud)</h2>
-											<ul class="dog-list">
-											  <li class="parent"><span class="text">Breed: Belgian Malinois</span></li>
-												<li class="parent"><span class="text"> Date of Birth: September 5, 2007 </span></li>
-												<li class="parent"><span class="text">Sire: Falcon Regulus, SCHIII, IPOIII    </span></li>
-												<li class="parent"><span class="text"> Dam:Wiitanen's Lola</span></li>
-												<li class="parent"><span class="text"> Very fast, clear headed, and civil biter. Very athletic, agile, and intense. An excellent candidate for stud.</span></li> 
-											</ul>         
-											<a href="/dogs/tango.php" class="info">More on Tango</a>
-									</div>
-								</div> 
+								
 							 
 							  <div class="dog dog-first">
 									<div class="caption"> Uno vom Westcowdenhaus</div>

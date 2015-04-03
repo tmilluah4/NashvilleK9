@@ -18,7 +18,7 @@
 					<div class="col-sm-1"> </div>
 					<div class="col-sm-10">
 						 <?php include('partials/header.html');?>
-						 <div class="row " style="margin-left:40px"> 
+						 <div class="row " style="margin-left:20px"> 
 							<?php
 								 $fb_page_id = "283654260595";
 								 $json_link = "http://graph.facebook.com/283654260595/albums?fields=id,name,description,link,cover_photo,count";
@@ -43,10 +43,10 @@
 										  ){
 												$show_pictures_link = "photos.php?album_id={$id}&album_name={$name}";
 												echo "<div class='gallery'>";
-													echo "<div  >";
-														echo "<span style='text-transform:uppercase; font-size: 12px'  >{$name}</span>";
+													echo "<div style='text-align:center' >";
+														echo "<span style='text-transform:uppercase; font-size: 14px; text-align:center'  >{$name}</span>";
 													echo "</div>";
-													echo "<div class='imgLiquid'  style='margin: 2px;width:236px; height:236px'>";
+													echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 														echo "<a href='{$show_pictures_link}'  >";
 															echo "<img class='photo-thumb'  src='https://graph.facebook.com/{$cover_photo}/picture' alt='{$description}'>";
 														echo "</a>";

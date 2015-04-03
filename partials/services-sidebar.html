@@ -1,22 +1,22 @@
  <script type="text/javascript">  
-	function setActive()
-	{
-		 aObj1 =   document.getElementById('overview-sidebar').getElementsByTagName('a'); 
+	function setActive()	{
+	
+		 ssa =   document.getElementById('services-sidebar').getElementsByTagName('a'); 
 		 document.getElementById('servicesli').className='active';
-		 for(i=0;i<aObj1.length;i++)
-		 { 
-			  if(document.location.href.indexOf(aObj1[i] )>=0){
-					aObj1[i].className='list-group-item active';
+		 for(i=0;i<ssa.length;i++) { 
+			  if(document.location.href.indexOf(ssa[i] )>=0){
+					ssa[i].className='list-group-item active';
 			  }
 		 }
 	}
 	window.onload = setActive;
 </script>
- 	<div class="image-random">
-		<img src="/images/dog_training_services/dog-training-services.png">
-	</div>
- </br> </br>
-	<div class="list-group" id="overview-sidebar" >
+ 
+	<div class="image-random">
+		<img src="/images/dog_training_services/services.jpg"/>				 
+	</div>			
+	</br>
+	<div class="list-group" id="services-sidebar" >
 	  <a href="services.php" class="list-group-item">   K-9 SERVICES </a> 
 	  <a href="dog-training-programs.php" class="list-group-item">  DOG TRAINING PROGRAMS</a>
 	  <a href="executive-protection-dogs.php" class="list-group-item"> EXECUTIVE PROTECTION DOGS</a>

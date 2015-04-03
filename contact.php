@@ -41,23 +41,24 @@
 						 		</div>
 							</div>
 			 
-							<div class="col-md-3"    >
+							<div class="col-md-4"    >
 								<div class="page-section-title "  >
 						  			contact us
 								</div> 
 							 
 								<form class="contact" action="confirmation.php" method="post"></br>
 									<p>Name:</p>  
-									<input type="text" name="name" />
+									<input type="text" name="name" style="height:30px; width: 240px" />
 									<p style="margin-top:10px">Phone:</p>
-									<input type="text" name="phone" />
+									<input type="text" name="phone" style="height:30px; width: 240px" />
 									<p style="margin-top:10px">E-mail:</p>
-									<input type="text" name="email" />
+									<input type="text" name="email" style="height:30px; width: 240px"/>
 									<p style="margin-top:10px">Subject:</p>
-									<input type="text" name="subject" />
+									<input type="text" name="subject" style="height:30px; width: 240px"/>
 									<p style="margin-top:10px">Message:</p>
-									<textarea name="notecontent" rows="10" cols="30" syle="width: 55%;  text-align: center;"> </textarea></p>
-									<input class="send" type="submit" value="Send"> <!-- Send button-->
+									<textarea name="notecontent" rows="7" cols="30" syle="width: 55%;  text-align: center;"> </textarea></p>
+									<!-- <input class="send" type="submit" value="Send"> Send button-->
+									<button type="submit" class="btn btn-success" style="width: 240px" value="Send">Submit</button>
 								</form>
 							 </div>
 							 <div class="col-md-4" style="padding-left:40px">
