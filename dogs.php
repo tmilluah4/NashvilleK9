@@ -112,7 +112,7 @@
 											$dog = "http://graph.facebook.com/10154237525855596/photos?fields=source";
 										   $json = file_get_contents($dog);
 										   $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][4]['source'];  
+											$source = $obj['data'][5]['source'];  
 											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
 											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
 											 echo "</div>";
