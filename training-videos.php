@@ -37,7 +37,7 @@
 							</script>
 						</div>
 						</br>
-						<ul  class="list-group" style="cursor: pointer; margin-left: 70px; margin-top:-20px">
+						<ul  class="list-group" style="cursor: pointer; margin-left: 70px; margin-top:-50px">
 							<li id="content1" class="list-group-item switcher active"> WHY WE ARE BETTER! </li>
 							<li id="content2" class="list-group-item switcher"> WHAT OUR CLIENTS ARE SAYING</li>
 							<li id="content3" class="list-group-item switcher"> SOME OF OUR DOGS</li>
