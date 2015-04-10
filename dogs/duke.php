@@ -58,8 +58,8 @@
 									<div class="col-md-9 dog-single-right-video"  > 
 										<span class="watch-video-play-dog" >		
 											<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
-											 <a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/34436397?fs=1&amp;autoplay=1">
-													Argo
+											 <a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/117877219?fs=1&amp;autoplay=1">
+													Duke
 											 </a>
 										</span> 
 									</div>

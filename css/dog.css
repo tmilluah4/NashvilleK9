@@ -51,6 +51,7 @@ margin-top:-20px;
  background:none;
  color:#fff;
  margin-left:-3px;
+padding-right:5px;
  list-style-type: square;
  text-align:left;
  font-size: 13px;
@@ -94,7 +95,7 @@ margin-top:-20px;
     font-size: 13px;
     padding: 10px;
     background: #4E4F54;
-    margin: 5px 0px 5px 0px
+    margin: 1px 0px 5px 0px
 }
 .dog p {
     
@@ -103,13 +104,14 @@ margin-top:-20px;
     font-size: 12px;
     position: relative;
     color: #fff;
-    padding: 10px 20px 0px;
+    padding: 5px 10px 0px;
     
 }
 .dog a.info {
     display: inline-block;
 	 float:right;
 	 margin-top:0px;
+	margin-bottom: 5px;
 	 margin-right:15px;
     text-decoration: none;
     padding: 5px 14px;

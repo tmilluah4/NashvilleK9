@@ -49,17 +49,7 @@
 									<div class="col-md-3 dog-single-left">Sire</div>
 									<div class="col-md-9 dog-single-right"> Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2 </div>
 								</div>  
-								<div class="row">  
-									<div class="col-md-3 dog-single-left">Videos</div>
-									<div class="col-md-9 dog-single-right-video"  > 
-										<span class="watch-video-play-dog" >		
-											<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
-											 <a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/34436397?fs=1&amp;autoplay=1">
-													Argo
-											 </a>
-										</span> 
-									</div>
-								</div> 							
+							 					
 								 
 							</div>
 							<div class="col-md-6">

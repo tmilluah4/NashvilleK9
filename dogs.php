@@ -44,6 +44,12 @@
 									Personal Protection Dog Uno			a.10152269021445596.929760.283654260595&type=3
 									Personal Protection Dog, Ziva			a.10152270839460596.930041.283654260595&type=3 
 									Personal Protection Dog, Rocky 
+									Antrax https://vimeo.com/117875523
+									Hurricane https://vimeo.com/110069505
+									Ammo https://vimeo.com/89443751
+									Duke  https://vimeo.com/117877219
+									Pito https://vimeo.com/117875524
+									Knox https://vimeo.com/76661706
 								-->
 						 
 								</br>
@@ -124,9 +130,9 @@
 											   
 												<li class="parent"><span class="text">Breed: Belgian Malinois Shepherd </span></li>
 												<li class="parent"><span class="text">Date of Birth: 1/15/2013</span></li>
-												<li class="parent"><span class="text">Ammo is a Malinois with a TON of energy and drive. He'll hunt all day long for anything, he loves to play, 	and he's starting to have a huge ego (which is great). We've used Ammo as our demonstration dog. He knows almost every command out there and would make a super dog for any police dept. </span>
-												</li>
+											 
 											</ul>
+												<p>Ammo is a Malinois with a TON of energy and drive. He'll hunt all day long for anything, he loves to play, 	and he's starting to have a huge ego (which is great). We've used Ammo as our demonstration dog. He knows almost every command out there and would make a super dog for any police dept. </p>
 										  <a href="/dogs/ammo.php" class="info">More on Ammo</a>
 									</div>
 								</div>  
@@ -152,9 +158,10 @@
 												 <li class="parent"><span class="text">Sire: Pelle (Dhr. B. Huijis, Baarlo)</span></li>
 												 <li class="parent"><span class="text">Dam: Pip (Dhr. J.R. Kelley, USA)</span></li>
 												 
-												 <li class="parent"><span class="text">Duke is a fast and quick Dutch Shepherd. A lovable, social, and friendly dominant male, he possesses the athleticism and speed to strike through decoy or helper. This is an extremely high drive dog in all facets: high hunt, high prey, high toy, and high food.  </span></li>
+											 
 	  
-											</ul>         
+											</ul>  
+											<p>       Duke is a fast and quick Dutch Shepherd. A lovable, social, and friendly dominant male, he possesses the athleticism and speed to strike through decoy or helper. This is an extremely high drive dog in all facets: high hunt, high prey, high toy, and high food. </p>
 											<a href="/dogs/duke.php" class="info">More on Duke</a>
 									</div>
 								</div> 
@@ -174,9 +181,7 @@
 									</div>
 									<div class="mask">
 										 <h2>BH, IPO I, Level I Personal Protection Dog</h2>
-											<ul class="dog-list">
-											  
-											</ul>         
+											<p>Hurricane is a powerhouse. A lovable, social, and friendly dominant male, he possesses the athleticism and raw power to crush any challenge. Hurricane  comes from a top pedigree, shows courage and agility where others falter, and is very clear headed. Hurricane is available for stud. </p>        
 											<a href="/dogs/hurricane.php" class="info">More on Hurricane</a>
 									</div>
 								</div> 
@@ -221,15 +226,13 @@
 										 ?>
 									</div>
 									<div class="mask">
-										 <h2>BH, SCH III, AD, KKL1</h2>
+										 <h2>Police K-9</h2>
 											<ul class="dog-list">
-												 <li class="parent"><span class="text">German Shepherd – Hips, Eyes, and Elbows Certified, DNA Tests Conducted </span></li>
-												  <li class="parent"><span class="text">He is extremely agile, quick, responsive, fast recharge time, and hits hard with full force.</span></li>
-												  <li class="parent"><span class="text">Excellent grips, long hunt drive, and explosive fight drive. </span></li>
-												  <li class="parent"><span class="text">High 90’s in protection </span></li>
-												  <li class="parent"><span class="text">Very aggressive to outsiders.  </span></li>
+												<li class="parent"><span class="text">Certifications: IPWDA, NNDDA </span></li>
+      <li class="parent"><span class="text">Knox is a fully certified police dog. He can also be placed in a single dog home as a family protection dog. He's very clean, has a short coat, super athletic, and extremely obedient. His intensity is full force while working, but calm inside the home. Knox has also been raised with children.  For Police departments, we will provide a handler course through certification.
+ </span></li>
 											</ul>         
-											<a href="/dogs/ken.php" class="info">More on Knox</a>
+											<a href="/dogs/knox.php" class="info">More on Knox</a>
 									</div>
 								</div> 
 						 
@@ -254,8 +257,9 @@
 												<li class="parent"><span class="text">Sire: Frisko von der Altstadener Mühle, VPG III, IPO III, FH I, 2 x LGA, 3 x FCI  </span></li>
 												<li class="parent"><span class="text">Dam: Manou vom Oberhausener-Kreuz, SCHIII </span></li>
 												<li class="parent"><span class="text">JDate of Birth: 11/18/2007       </span></li>
-												<li class="parent"><span class="text">Very intense, great protection, great obedience, very hard grips, will REALLY bite (not just sport). Extremely athletic, good stature, and powerful. “Ike” [Piek] is available for scrutinized stud to approved females. Breeders: we will not “mass” breed Ike for his bloodlines. You will have to come with paperwork, health records, and a serious offer to breed with this dog.  </span></li>
+											 
 											</ul>         
+											
 											<a href="/dogs/peik.php" class="info">More on Peik</a>
 									</div>
 								</div> 
@@ -280,10 +284,10 @@
 												<li class="parent"><span class="text">Date of Birth: May 26, 2011 </span></li>
 												<li class="child"><span class="text">Sire: H-Cayos av Xazziam, SCHIII, IPOIII, MH</span></li>
 												<li class="child"><span class="text">Dam: Irmhild von der Staatsmacht, SCHIII</span></li>
-												<li class="child"><span class="text"> Scout’s job is to accompany his owner daily. He provides a crutch in case of a fall, breaking the “Parkinson’s Freeze” with a nudge, retrieving objects, and an extremely high level of obedience among many other things.
-													</span>
-												</li>
-											</ul>         
+												 
+											 
+											</ul>    
+											
 											<a href="/dogs/scout.php" class="info">More on Scout</a>
 									</div>
 								</div> 
@@ -653,9 +657,7 @@
 												<li class="parent"><span class="text">Narcotics Certification Complete</span></li> 
 												<li class="parent"><span class="text">Dam: Xena van Neerland,Rayl, KNPV</span></li>
 												<li class="parent"><span class="text">Sire: Joey haus Janssen,Rayl, KNPV</span></li>
-												<li class="parent"><span class="text">Roxy is a Wilderness Search and Rescue Dog for the Davidson County Rescue Squad. She has also trained on water and land cadaver. She's a certified Police Narcotics dog and S.W.A.T. K-9 certified as well. 'Very ball crazy, excellent hunt drives, very protective
-												  but also capable of being a light switch. Extremely nimble, quick, and has high stamina, with full grips. Obedience to perfection, calm and steady nerves, nothing phases her. She’s a working dog on rubble piles that are very unstable, and her manueverability is impeccable. Very, very high drives, excellent focus and coordination. She can catch a ball launched in the air 30ft without it even bouncing. Great hips, solid dentals, good health. For Disaster Rescue, she has great directionals, very strong victim hunt drives, and listens well. Demonstrations are available. Please see all four videos of Roxy working.
-												  </span></li>
+											
 											</ul>         
 											<a href="/dogs/roxy.php" class="info">More on Roxy</a>
 									</div>

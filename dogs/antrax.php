@@ -53,7 +53,17 @@
 									<div class="col-md-3 dog-single-left">Sire</div>
 									<div class="col-md-9 dog-single-right"> Tarnoki-Felvigyazo Quando, IPO III </div>
 								</div>  
-								 					
+								<div class="row">  
+									<div class="col-md-3 dog-single-left">Videos</div>
+									<div class="col-md-9 dog-single-right-video"  > 
+										<span class="watch-video-play-dog" >		
+											<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+											 <a  class="various  fancybox.iframe"  title="" href="https://vimeo.com/117875523">
+													Antrax
+											 </a>
+										</span> 
+									</div>
+								</div> 				 					
 								 
 							</div>
 							<div class="col-md-6">

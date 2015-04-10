@@ -39,24 +39,34 @@
 								</div>
 								<div class="row">  
 									<div class="col-md-3 dog-single-left">Breed</div>
-									<div class="col-md-9 dog-single-right"> Doberman Pinscher  </div> 
+									<div class="col-md-9 dog-single-right"> Belgian Malinois  </div> 
 								</div>
-								<div class="row">  
-									<div class="col-md-3 dog-single-left">Date of Birth</div>
-									<div class="col-md-9 dog-single-right"> March 7, 2010   </div> 
-								</div>
+							 
 								<div class="row">  
 									<div class="col-md-3 dog-single-left">Sire</div>
-									<div class="col-md-9 dog-single-right"> Dixon Gumby, ZM, ZVV1, SchH1, IPO3, FPr2 </div>
+									<div class="col-md-9 dog-single-right"> Joey haus Janssen,Rayl, KNPV </div>
+								</div>  
+								<div class="row">  
+									<div class="col-md-3 dog-single-left">Dam</div>
+									<div class="col-md-9 dog-single-right"> Xena van Neerland,Rayl, KNPV </div>
 								</div>  
 								<div class="row">  
 									<div class="col-md-3 dog-single-left">Videos</div>
 									<div class="col-md-9 dog-single-right-video"  > 
 										<span class="watch-video-play-dog" >		
 											<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
-											 <a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/34436397?fs=1&amp;autoplay=1">
-													Argo
-											 </a>
+											 
+											
+											
+											 <a class="various  fancybox.iframe" style="margin-right:10px"  title="" href="http://player.vimeo.com/video/12879062?fs=1&amp;autoplay=1">
+          Roxy - 1
+        </a><span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+        <a class="various  fancybox.iframe" style="margin-right:10px"  title="" href="http://player.vimeo.com/video/12879021?fs=1&amp;autoplay=1">
+         Roxy -  2
+        </a><span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+        <a class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/35486063?fs=1&amp;autoplay=1">
+        Roxy -  3
+        </a>
 										</span> 
 									</div>
 								</div> 							
@@ -64,18 +74,14 @@
 							</div>
 							<div class="col-md-6">
 								<ul class="dog-list-items"> 
-								  <li class="child"><span class="text">JCH CZ, CH CZ, CR Grand Champion  </span></li>
-								  <li class="child"><span class="text">2009 National Champion, 2x Regional winner  </span></li>
-								  <li class="child"><span class="text">DKKO/O, ECG-Negative </span></li>
-								  <li class="child"><span class="text">The most successful working Doberman MSDK 2008</span></li>
-								  <li class="child"><span class="text">2008 7x BOB – breed champion</span></li>
-								  <li class="child"><span class="text">Candidate for the Polish and Slovak championships</span></li>
-								  <li class="child"><span class="text">Interchampion Candidate</span></li>
-								  <li class="parent"><span class="text">Dam: Lorraine Halit Pasa, IPO 3, ZZO, ZM, ZOP, ZPU1, BH, ZTP SG 1</span></li>
-								  <li class="child"><span class="text">Many times CAC, R. CAC, JCH CZ</span></li>
-								  <li class="child"><span class="text">DKKO/O, ECG-Negative</span></li>
-								  <li class="child"><span class="text">Club Winner 2008, 2009</span></li>
+									<li class="parent"><span class="text">S.W.A.T. Certification Complete</span></li>
+												<li class="parent"><span class="text">Narcotics Certification Complete</span></li> 
+											 
+												 
+								  	<li class="parent"><span class="text">Roxy is a Wilderness Search and Rescue Dog for the Davidson County Rescue Squad. She has also trained on water and land cadaver. She's a certified Police Narcotics dog and S.W.A.T. K-9 certified as well. 'Very ball crazy, excellent hunt drives, very protective but also capable of being a light switch. Extremely nimble, quick, and has high stamina, with full grips. Obedience to perfection, calm and steady nerves, nothing phases her. She’s a working dog on rubble piles that are very unstable, and her manueverability is impeccable. Very, very high drives, excellent focus and coordination. She can catch a ball launched in the air 30ft without it even bouncing. Great hips, solid dentals, good health. For Disaster Rescue, she has great directionals, very strong victim hunt drives, and listens well. Demonstrations are available. Please see all four videos of Roxy working.
+												  </span></li>
 								</ul>
+								
 							</div> 
 						</div>
 					</div>	

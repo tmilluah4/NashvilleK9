@@ -45,7 +45,17 @@
 									<div class="col-md-3 dog-single-left">Date of Birth</div>
 									<div class="col-md-9 dog-single-right"> 1/15/2013   </div> 
 								</div>
-							 
+							 	<div class="row">  
+									<div class="col-md-3 dog-single-left">Videos</div>
+									<div class="col-md-9 dog-single-right-video"  > 
+										<span class="watch-video-play-dog" >		
+											<span class="glyphicon glyphicon-film " aria-hidden="true"  ></span> 
+											 <a  class="various  fancybox.iframe"  title="" href="http://player.vimeo.com/video/89443751?fs=1&amp;autoplay=1">
+													Ammo
+											 </a>
+										</span> 
+									</div>
+								</div> 			
 							 			
 								 
 							</div>

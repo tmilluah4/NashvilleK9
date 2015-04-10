@@ -173,10 +173,10 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
 .dog-list-items{ list-style-type:square; margin-top:0px; margin-bottom:10px;background:#fff;padding:20px;} 
 .page-dog-price { background:#ccc;padding:5px 10px; color:#fff; border-radius: 0px 0px 0px 0px;   text-transform:uppercase; font-size:14px;    display:inline-block; box-shadow: 0px  0px 0px #333; font-size:12px;  border:0px solid #ccc;margin-left:15px;  }
 .page-dog-info {  color:#666; float:center; background:white; padding:0px 5px;  margin-top:0px; font-size:12px; margin-left: 60px;  display:inline-block;    } 
-.dog-single-left-price {  background:#666; color:white; padding:5px 5px; margin:2px 0px 0px 0px;   }
-.dog-single-right-price {  background:#465C85; color:white; padding:5px 5px; margin:2px 0px 0px 0px;   }
-.dog-single-left {  background:#666; color:white; padding:5px 5px; margin:2px 0px 0px 0px;   } 
-.dog-single-right {  background:#333;color:white; padding:5px 5px; margin:2px 0px;   }
+.dog-single-left-price {  background:#666; color:white; padding:5px 10px; margin:2px 0px 0px 0px;   }
+.dog-single-right-price {  background:#465C85; color:white; padding:5px 10px; margin:2px 0px 0px 0px;   }
+.dog-single-left {  background:#666; color:white; padding:5px 10px; margin:2px 0px 0px 0px;   } 
+.dog-single-right {  background:#333;color:white; padding:5px 10px; margin:2px 0px;   }
 .dog-single-right-video {  background:#ddd;color:white; padding:5px 10px; margin:2px 0px;   }
 .dog-single-right-video span{  margin-right:10px;  }
 .section-dog-header-single{  -webkit-box-shadow: 0px 0px 5px #000;background:#fff; border-radius:0px; box-shadow: 0px  0px 5px #333; margin-bottom:10px; margin:-20px 15px 0px 15px; padding:45px 0px 10px 40px;  }
