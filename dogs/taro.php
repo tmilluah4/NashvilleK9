@@ -26,7 +26,7 @@
 					<div class="row main-row" > 					 
 						<div class="col-xs-12 col-sm-12" >    
 							<div class="page-section-title"   > 
-								Cairo: Personal Protection Dog 
+								Taro: Certified Police dog in narcotics
 							</div>
 						</div>
 					</div>
@@ -39,21 +39,20 @@
 								</div>
 								<div class="row">  
 									<div class="col-md-3 dog-single-left">Breed</div>
-									<div class="col-md-9 dog-single-right"> Doberman Pinscher  </div> 
+									<div class="col-md-9 dog-single-right"> Dutch Malinois  </div> 
 								</div>
-								<div class="row">  
-									<div class="col-md-3 dog-single-left">Date of Birth</div>
-									<div class="col-md-9 dog-single-right"> June 25, 2008   </div> 
-								</div>
-							 
-							 					
+							 				
 								 
 							</div>
 							<div class="col-md-6">
 								<ul class="dog-list-items"> 
-								 
-      <li class="parent"><span class="text">Titled name "Jaburi Cairo"    </span></li>
-      <li class="parent"><span class="text"> Protection Sport Association PDC Certificate</span></li>
+								  
+      <li class="parent"><span class="text">Full Obedience  </span></li>
+      <li class="child"><span class="text">Nice, Clear head </span></li>
+      <li class="child"><span class="text">X-rays on hips </span></li>
+      <li class="child"><span class="text">Will serve as a good dual purpose Narcotics dog or great personal protection dog </span></li>
+      <li class="child"><span class="text">For Police Departments, we will provide a handler class included in the price</span></li>
+
 								</ul>
 							</div> 
 						</div>
@@ -61,7 +60,7 @@
 					<div class="row dog-gallery-row">
 						<div class="col-md-12"> 
 							<?php 
-								$dog = "http://graph.facebook.com/10152268933945596/photos?fields=source";
+								$dog = "http://graph.facebook.com/10152541427840596/photos?fields=source";
 								$json = file_get_contents($dog);
 								$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
 								$photo_count = count($obj['data']); 

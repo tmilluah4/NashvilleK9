@@ -40,6 +40,8 @@
 									Police K-9 Pito    						a.10152268955075596.929746.283654260595&type=3
 									Police K-9 Roxy							a.10152268868050596.929726.283654260595&type=3 
 									Scout- Service Dog for Parkinson's  a.10152749003450596.1073741850.283654260595&type=3 
+									Taro - 	10152541427840596.955750.283654260595&type=3
+									Tank - 10152541427840596
 									Personal Protection Dog Tango			a.10152268952110596.929745.283654260595&type=3  
 									Personal Protection Dog Uno			a.10152269021445596.929760.283654260595&type=3
 									Personal Protection Dog, Ziva			a.10152270839460596.930041.283654260595&type=3 
@@ -291,6 +293,38 @@
 											<a href="/dogs/scout.php" class="info">More on Scout</a>
 									</div>
 								</div> 
+							
+									<div class="dog dog-first">
+									<div class="caption"> Taro</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152541427840596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>";
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>Certified Police Dog</h2>
+											<ul class="dog-list">
+												<li class="parent"><span class="text">Certified Police dog in narcotics</span></li>
+      <li class="parent"><span class="text">Full Obedience  </span></li>
+      <li class="child"><span class="text">Nice, Clear head </span></li>
+      <li class="child"><span class="text">X-rays on hips </span></li>
+      <li class="child"><span class="text">Will serve as a good dual purpose Narcotics dog or great personal protection dog </span></li>
+      <li class="child"><span class="text">For Police Departments, we will provide a handler class included in the price</span></li>
+
+											</ul>         
+										 <a href="/dogs/taro.php" class="info">More on Taro</a>
+									</div>
+								</div> 
+						 
+								
+								
+								
 						 
 						 	<div class="dog dog-first">
 									<div class="caption"> Pito</div>

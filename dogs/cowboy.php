@@ -39,7 +39,7 @@
 								</div>
 								<div class="row">  
 									<div class="col-md-3 dog-single-left">Breed</div>
-									<div class="col-md-9 dog-single-right"> Belgian Malinios Shepherd </div> 
+									<div class="col-md-9 dog-single-right"> Belgian Malinois Shepherd </div> 
 								</div>
 							 
 							 					
