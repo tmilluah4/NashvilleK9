@@ -36,9 +36,9 @@ body{font-family: 'Open Sans', sans-serif;background:transparent;}
 .logo{ background-image: url("../images/logo2.png"); width:180px; height:105px; border:0px solid #333; margin-top:-50px; box-shadow: 0px  0px 0px #000;  }
 .tagline{font-weight:bold;font-size:13px; margin-top:0px;  }
 .top-header {height:80px;  }
- .bw:hover {
+ .bw2:hover {
  
-  box-shadow: 0px  0px 6px #333;
+  box-shadow: 0px  0px 2px #333;
 } 
 .social-icons img{  border-radius:0px;margin-top:15px;	width:32px;height:32px; box-shadow: 0px  0px 0px #333}
 .contact-info a{color:white; }
