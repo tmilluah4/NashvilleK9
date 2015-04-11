@@ -36,9 +36,9 @@ body{font-family: 'Open Sans', sans-serif;background:transparent;}
 .logo{ background-image: url("../images/logo2.png"); width:180px; height:105px; border:0px solid #333; margin-top:-50px; box-shadow: 0px  0px 0px #000;  }
 .tagline{font-weight:bold;font-size:13px; margin-top:0px;  }
 .top-header {height:80px;  }
- .bw2:hover {
+ .bw:hover {
  
-  box-shadow: 0px  0px 3px #333;
+  box-shadow: 0px  0px 6px #333;
 } 
 .social-icons img{  border-radius:0px;margin-top:15px;	width:32px;height:32px; box-shadow: 0px  0px 0px #333}
 .contact-info a{color:white; }
@@ -152,7 +152,7 @@ border-bottom:0px solid #ccc;   margin-bottom:0px;text-transform:uppercase;     
 .playOverlay{position: absolute; z-index:0; margin-top:10px;margin-left:35px;opacity:.6}
 .playOverlay:hover{position: absolute;  margin-top:10px;margin-left:35px; z-index: 0;opacity:1}
 .watch-video-play{display:inline-block;  margin:10px 5px;padding:5px 5px 5px 3px;    }
-.watch-video-play-dog{display:inline-block;  margin:10px 5px;padding:5px 5px 5px 3px; color:black;   }
+.watch-video-play-dog{display:inline-block;  margin:0px 5px;padding:5px 5px 5px 3px; color:black;   }
 .watch-video-play a{padding-left:0px;  }
 .watch-video-play span { } 
 .image-wrap-right-video img{ display:block;border:3px solid #666; float:right;   } 
