@@ -266,6 +266,34 @@
 									</div>
 								</div> 
 						 
+							  <div class="dog dog-first">
+									<div class="caption"> Roxy vom Neerland</div>
+									<div class="dog-image">
+										<?php
+											$antrax = "http://graph.facebook.com/10152268868050596/photos?fields=source";
+											$json = file_get_contents($antrax);
+											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
+											$source = $obj['data'][0]['source'];  
+											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
+											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
+											 echo "</div>"; 
+										 ?>
+									</div>
+									<div class="mask">
+										 <h2>Certified Police Dog</h2>
+											<ul class="dog-list">
+												<li class="parent"><span class="text">S.W.A.T. Certification Complete</span></li>
+												<li class="parent"><span class="text">Narcotics Certification Complete</span></li> 
+												<li class="parent"><span class="text">Dam: Xena van Neerland,Rayl, KNPV</span></li>
+												<li class="parent"><span class="text">Sire: Joey haus Janssen,Rayl, KNPV</span></li>
+											
+											</ul>         
+											<a href="/dogs/roxy.php" class="info">More on Roxy</a>
+									</div>
+								</div> 
+						 
+						
+						
 						 	<div class="dog dog-first">
 									<div class="caption">Scout vom Geistwasser </div>
 									<div class="dog-image">
@@ -671,32 +699,7 @@
 								</div> -->
 												
 						 
-							  <div class="dog dog-first">
-									<div class="caption"> Roxy vom Neerland</div>
-									<div class="dog-image">
-										<?php
-											$antrax = "http://graph.facebook.com/10152268868050596/photos?fields=source";
-											$json = file_get_contents($antrax);
-											$obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING); 
-											$source = $obj['data'][0]['source'];  
-											 echo "<div class='imgLiquid'  style='margin: 2px;width:275px; height:275px'>";
-											 echo "<img  class='photo-thumb' src='{$source}'   alt=''>";  
-											 echo "</div>"; 
-										 ?>
-									</div>
-									<div class="mask">
-										 <h2>Certified Police Dog</h2>
-											<ul class="dog-list">
-												<li class="parent"><span class="text">S.W.A.T. Certification Complete</span></li>
-												<li class="parent"><span class="text">Narcotics Certification Complete</span></li> 
-												<li class="parent"><span class="text">Dam: Xena van Neerland,Rayl, KNPV</span></li>
-												<li class="parent"><span class="text">Sire: Joey haus Janssen,Rayl, KNPV</span></li>
-											
-											</ul>         
-											<a href="/dogs/roxy.php" class="info">More on Roxy</a>
-									</div>
-								</div> 
-						 
+						
 							
 						 
 								
